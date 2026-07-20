@@ -28,6 +28,8 @@ export default function Navbar() {
                             <Link to={settingData.instagram} target='_blank' className='btn'><i className='bi bi-instagram text-light'></i></Link>
                             <Link to={settingData.facebook} target='_blank' className='btn'><i className='bi bi-facebook text-light'></i></Link>
                             <Link to={settingData.linkedln} target='_blank' className='btn'><i className='bi bi-linkedin text-light'></i></Link>
+                            <Link to={settingData.twitter} target='_blank' className='btn'><i className='bi bi-twitter text-light'></i></Link>
+                            <Link to={settingData.youtube} target='_blank' className='btn'><i className='bi bi-youtube text-light'></i></Link>
                         </div>
                     </div>
                 </div>

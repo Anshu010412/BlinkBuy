@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function Service() {
+    let [settingData, setSettingData] = useState({
+            phone: import.meta.env.VITE_APP_PHONE,
+        })
   return (
     <>
       <div className="container-fluid py-5">
@@ -20,7 +24,7 @@ export default function Service() {
                             <i className="fa fa-phone fa-2x text-white"></i>
                         </div>
                         <div className="px-3">
-                            <h3>{import.meta.env.VITE_APP_PHONE}</h3>
+                            <Link className='d-block text-dark fs-3' to={`tel:${settingData.phone}`}target='_blank'>{settingData.phone}</Link>
                             <span>Call us direct 24/7 for get a free consultation</span>
                         </div>
                     </div>

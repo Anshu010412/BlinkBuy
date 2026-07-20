@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 export default function NewsLetter() {
+    let [settingData, setSettingData] = useState({
+            siteName: import.meta.env.VITE_APP_SITE_NAME,
+        })
   return (
     <>
      <div className="container-fluid bg-primary newsletter p-0">
         <div className="container p-0">
             <div className="row g-0 align-items-center">
                 <div className="col-md-5 ps-lg-0 text-start wow fadeIn" data-wow-delay="0.2s">
-                    <img className="img-fluid w-100" src="img/newsletter.jpg" alt=""/>
+                    <img className="img-fluid w-100" src="images/product5.jpg" alt=""/>
                 </div>
                 <div className="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div className="p-5">
@@ -19,7 +22,7 @@ export default function NewsLetter() {
                             <button type="button" className="btn shadow-none position-absolute top-0 end-0 mt-2 me-2"><i
                                     className="fa fa-paper-plane text-primary fs-4"></i></button>
                         </div>
-                        <p className="mb-0">Diam sed sed dolor stet amet eirmod</p>
+                        <p className="mb-0 text-dark">Join the {settingData.siteName} community and enjoy early access to the latest collections, exclusive discounts, and members-only offers. Stay updated with trending products, seasonal sales, and limited-time deals curated just for you. Receive personalized shopping recommendations, exciting launch announcements, and special rewards delivered straight to your inbox, making every shopping experience smarter, easier, and more rewarding.</p>
                     </div>
                 </div>
             </div>
