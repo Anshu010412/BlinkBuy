@@ -13,6 +13,9 @@ import ContactPage from "./Pages/ContactPage";
 import RefundPolicy from "./Policy/RefundPolicy";
 import DataPolicy from "./Policy/DataPolicy";
 import PrivacyPolicy from "./Policy/PrivacyPolicy";
+import AdminHomePage from "./Pages/Admin/AdminHomePage";
+import AdminMaincategoryPage from "./Pages/Admin/Maincategory/AdminMaincategoryPage";
+import AdminCreateMaincategoryPage from "./Pages/Admin/Maincategory/AdminCreateMaincategoryPage";
 
 export default function App() {
   return (
@@ -32,6 +35,11 @@ export default function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/data-policy" element={<DataPolicy />} />
         <Route path="/refund-policy" element={<RefundPolicy />} />
+
+        {/* Admin Routes */}
+        <Route path="/admin" element={<AdminHomePage />} />
+        <Route path="/admin/maincategory" element={<AdminMaincategoryPage />} />
+        <Route path="/admin/maincategory/create" element={<AdminCreateMaincategoryPage />} />
 
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />

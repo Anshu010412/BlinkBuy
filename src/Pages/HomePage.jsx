@@ -8,7 +8,7 @@ import 'swiper/css/effect-cube';
 import 'swiper/css/pagination';
 
 // import required modules
-import { Autoplay,EffectCube } from 'swiper/modules';
+import { Autoplay, EffectCube } from 'swiper/modules';
 
 import About from '../Components/About'
 import Feature from '../Components/Feature'
@@ -22,18 +22,18 @@ export default function HomePage() {
     const sliderOption = {
         effect: 'cube',
         grabCursor: true,
-        loop:true,
+        loop: true,
         cubeEffect: {
             shadow: true,
             slideShadows: true,
             shadowOffset: 20,
             shadowScale: 0.94,
         },
-        autoplay:{
-          delay: 2500,
-          disableOnInteraction: false,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
         },
-        modules: [Autoplay,EffectCube],
+        modules: [Autoplay, EffectCube],
         className: "mySwiper"
     }
     return (
@@ -50,28 +50,36 @@ export default function HomePage() {
                             <div className="header-carousel animated fadeIn">
                                 <Swiper {...sliderOption}>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product10.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product10.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product2.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product2.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product3.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product3.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product1.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product1.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product9.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product9.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product6.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product6.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product7.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product7.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                     <SwiperSlide>
-                                        <img className="img-fluid" src="/images/product8.jpg" alt="" />
+                                        <img className="img-fluid" src="/images/product8.webp" alt="" draggable="false"
+                                        />
                                     </SwiperSlide>
                                 </Swiper>
                             </div>
