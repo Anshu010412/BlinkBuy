@@ -30,6 +30,10 @@ import AdminProductPage from "./Pages/Admin/Product/AdminProductPage";
 import AdminCreateProductPage from "./Pages/Admin/Product/AdminCreateProductPage";
 import AdminUpdateProductPage from "./Pages/Admin/Product/AdminUpdateProductPage";
 
+import AdminFeaturesPage from "./Pages/Admin/Features/AdminFeaturesPage.jsx";
+import AdminCreateFeaturesPage from "./Pages/Admin/Features/AdminCreateFeaturesPage.jsx";
+import AdminUpdateFeaturesPage from "./Pages/Admin/Features/AdminUpdateFeaturesPage.jsx";
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -66,6 +70,11 @@ export default function App() {
         <Route path="/admin/product" element={<AdminProductPage />} />
         <Route path="/admin/product/create" element={<AdminCreateProductPage />} />
         <Route path="/admin/product/update/:id" element={<AdminUpdateProductPage />} />
+
+        <Route path="/admin/features" element={<AdminFeaturesPage />} />
+        <Route path="/admin/features/create" element={<AdminCreateFeaturesPage />} />
+        <Route path="/admin/features/update/:id" element={<AdminUpdateFeaturesPage />} />
+
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />
       </Routes>

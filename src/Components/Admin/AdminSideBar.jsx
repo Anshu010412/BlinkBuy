@@ -25,7 +25,7 @@ export default function AdminSideBar() {
                     <i className='bi bi-list-check fs-5'></i>
                     <span className='float-end'>Product</span>
                 </Link>
-                <Link to="/admin/feature" className="list-group-item list-group-item-action active mb-1">
+                <Link to="/admin/features" className="list-group-item list-group-item-action active mb-1">
                     <i className='bi bi-check-circle fs-5'></i>
                     <span className='float-end'>Features</span>
                 </Link>
