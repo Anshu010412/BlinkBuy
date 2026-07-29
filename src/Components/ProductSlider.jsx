@@ -40,7 +40,7 @@ export default function ProductSlider() {
                                 <SwiperSlide>
                                     <div className="wow fadeIn" data-wow-delay="0.2s">
                                         <div className="project-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src="/images/product1.jpg" alt="" />
+                                            <img className="img-fluid w-100" src="/images/product1.webp" alt="" />
                                             <a className="project-overlay text-decoration-none" href="#!">
                                                 <h4 className="text-white">Kitchen</h4>
                                                 <small className="text-white">72 Projects</small>
@@ -51,7 +51,7 @@ export default function ProductSlider() {
                                 <SwiperSlide>
                                     <div className="wow fadeIn" data-wow-delay="0.3s">
                                         <div className="project-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src="/images/product8.jpg" alt="" />
+                                            <img className="img-fluid w-100" src="/images/product8.webp" alt="" />
                                             <a className="project-overlay text-decoration-none" href="#!">
                                                 <h4 className="text-white">Bathroom</h4>
                                                 <small className="text-white">67 Projects</small>
@@ -62,7 +62,7 @@ export default function ProductSlider() {
                                 <SwiperSlide>
                                     <div className="wow fadeIn" data-wow-delay="0.4s">
                                         <div className="project-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src="/images/product7.jpg" alt="" />
+                                            <img className="img-fluid w-100" src="/images/product7.webp" alt="" />
                                             <a className="project-overlay text-decoration-none" href="#!">
                                                 <h4 className="text-white">Bedroom</h4>
                                                 <small className="text-white">53 Projects</small>
@@ -73,7 +73,7 @@ export default function ProductSlider() {
                                 <SwiperSlide>
                                     <div className="wow fadeIn" data-wow-delay="0.5s">
                                         <div className="project-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src="/images/product4.jpg" alt="" />
+                                            <img className="img-fluid w-100" src="/images/product4.webp" alt="" />
                                             <a className="project-overlay text-decoration-none" href="#!">
                                                 <h4 className="text-white">Living Room</h4>
                                                 <small className="text-white">33 Projects</small>
@@ -84,7 +84,7 @@ export default function ProductSlider() {
                                 <SwiperSlide>
                                     <div className="wow fadeIn" data-wow-delay="0.6s">
                                         <div className="project-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src="/images/product5.jpg" alt="" />
+                                            <img className="img-fluid w-100" src="/images/product5.webp" alt="" />
                                             <a className="project-overlay text-decoration-none" href="#!">
                                                 <h4 className="text-white">Furniture</h4>
                                                 <small className="text-white">87 Projects</small>
@@ -95,7 +95,7 @@ export default function ProductSlider() {
                                 <SwiperSlide>
                                     <div className="wow fadeIn" data-wow-delay="0.7s">
                                         <div className="project-item position-relative overflow-hidden">
-                                            <img className="img-fluid w-100" src="/images/product6.jpg" alt="" />
+                                            <img className="img-fluid w-100" src="/images/product6.webp" alt="" />
                                             <a className="project-overlay text-decoration-none" href="#!">
                                                 <h4 className="text-white">Rennovation</h4>
                                                 <small className="text-white">69 Projects</small>

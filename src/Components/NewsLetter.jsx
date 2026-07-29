@@ -10,7 +10,7 @@ export default function NewsLetter() {
         <div className="container p-0">
             <div className="row g-0 align-items-center">
                 <div className="col-md-5 ps-lg-0 text-start wow fadeIn" data-wow-delay="0.2s">
-                    <img className="img-fluid w-100" src="images/product5.jpg" alt=""/>
+                    <img className="img-fluid w-100" src="images/product5.webp" alt=""/>
                 </div>
                 <div className="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
                     <div className="p-5">

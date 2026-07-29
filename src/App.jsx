@@ -16,6 +16,7 @@ import PrivacyPolicy from "./Policy/PrivacyPolicy";
 import AdminHomePage from "./Pages/Admin/AdminHomePage";
 import AdminMaincategoryPage from "./Pages/Admin/Maincategory/AdminMaincategoryPage";
 import AdminCreateMaincategoryPage from "./Pages/Admin/Maincategory/AdminCreateMaincategoryPage";
+import AdminUpdateMaincategoryPage from "./Pages/Admin/Maincategory/AdminUpdateMaincategoryPage";
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/admin" element={<AdminHomePage />} />
         <Route path="/admin/maincategory" element={<AdminMaincategoryPage />} />
         <Route path="/admin/maincategory/create" element={<AdminCreateMaincategoryPage />} />
+        <Route path="/admin/maincategory/update/:id" element={<AdminUpdateMaincategoryPage />} />
 
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />

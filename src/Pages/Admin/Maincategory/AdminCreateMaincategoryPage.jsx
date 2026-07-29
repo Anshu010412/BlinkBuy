@@ -1,8 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import AdminSideBar from '../../../Components/Admin/AdminSideBar'
 import { Link, useNavigate } from 'react-router-dom'
-import ImageValidator from '../../../Components/Validators/ImageValidator'
-import TextValidator from '../../../Components/Validators/TextValidator'
+import ImageValidator from '../../../Validators/ImageValidator'
+import TextValidator from '../../../Validators/TextValidator'
+
+import { useDispatch, useSelector } from 'react-redux'
+import { createMainCategory, getMainCategory } from '../../../Redux/ActionCreators/MainCategoryActionCreator'
+
 
 export default function AdminCreateMaincategoryPage() {
   let [data, setData] = useState({
@@ -18,7 +22,10 @@ export default function AdminCreateMaincategoryPage() {
 
   let [show, setShow] = useState(false)
   let navigate = useNavigate()
-  let [productStateData, setProductStateData] = useState([])
+
+  let MainCategoryStateData = useSelector(state => state.MainCategoryStateData)
+  let dispatch = useDispatch()
+
 
   function getInputData(e) {
     let name = e.target.name
@@ -27,51 +34,29 @@ export default function AdminCreateMaincategoryPage() {
     setErrorMessage({ ...errorMessage, [name]: name === "image" ? ImageValidator(e) : TextValidator(e) })
   }
 
-  async function postData(e) {
+  function postData(e) {
     e.preventDefault();
     let error = Object.values(errorMessage).find(x => x != "")
     if (error) {
       setShow(true)
     }
     else {
-      let item = productStateData.find(x => x.name.toLowerCase() === data.name.toLowerCase())
+      let item = MainCategoryStateData.find(x => x.name.toLowerCase() === data.name.toLowerCase())
       if (item) {
         setErrorMessage({ ...errorMessage, name: "Maincategory with this name is already Exists" })
         setShow(true)
         return
       }
-      let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/maincategory`, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ ...data })
-      })
-      response = await response.json()
-      if (response) {
-        navigate('/admin/maincategory')
-      }
-      else {
-        alert("Internal Server Error")
-      }
+      dispatch(createMainCategory({...data}))
+      navigate('/admin/maincategory')
     }
   }
 
   useEffect(() => {
-    (async () => {
-      let response = await fetch(
-        `${import.meta.env.VITE_APP_BACKEND_SERVER}/maincategory`,
-        {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-      response = await response.json();
-      setProductStateData(response);
+    (() => {
+      dispatch(getMainCategory())
     })();
-  }, []);
+  }, [MainCategoryStateData.length]);
 
   return (
     <>
@@ -113,7 +98,7 @@ export default function AdminCreateMaincategoryPage() {
                   </select>
                 </div>
                 <div className="col-12 mb-3">
-                  <button className='btn btn-primary text-light w-100'>Submit</button>
+                  <button className='btn btn-primary text-light w-100'>Create</button>
                 </div>
               </div>
             </form>

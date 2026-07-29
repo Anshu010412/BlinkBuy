@@ -3,8 +3,17 @@ import Swal from 'sweetalert2'
 import AdminSideBar from '../../../Components/Admin/AdminSideBar'
 import { Link } from 'react-router-dom'
 
+import { getMainCategory, deleteMainCategory } from '../../../Redux/ActionCreators/MainCategoryActionCreator'
+import { useDispatch, useSelector } from 'react-redux'
+
+import DataTable from 'datatables.net-dt';
+import "datatables.net-dt/css/dataTables.dataTables.min.css"
+
 export default function AdminMaincategoryPage() {
   let [data, setData] = useState([])
+
+  let MainCategoryStateData = useSelector(state => state.MainCategoryStateData)
+  let dispatch = useDispatch()
 
   function deleteRecord(id) {
     Swal.fire({
@@ -15,11 +24,11 @@ export default function AdminMaincategoryPage() {
       confirmButtonColor: "#3085d6",
       cancelButtonColor: "#d33",
       confirmButtonText: "Yes, delete it!"
-    }).then(async (result) => {
+    }).then((result) => {
       if (result.isConfirmed) {
-        let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/maincategory/${id}`, {
-          method: "DELETE"
-        })
+
+        dispatch(deleteMainCategory({ id: id }))
+
         setData(data = data.filter(x => x.id !== id))
         Swal.fire({
           title: "Deleted!",
@@ -31,20 +40,18 @@ export default function AdminMaincategoryPage() {
   }
 
   useEffect(() => {
-    (async () => {
-      let response = await fetch(
-        `${import.meta.env.VITE_APP_BACKEND_SERVER}/maincategory`,
-        {
-          method: "GET",
-          headers: {
-            "Content-Type": "application/json",
-          },
-        }
-      );
-      response = await response.json();
-      setData(response);
+    let time = (() => {
+      dispatch(getMainCategory())
+      if (MainCategoryStateData.length) {
+        setData(MainCategoryStateData);
+        let time = setTimeout(() => {
+          new DataTable('#myTable')
+        }, 500);
+        return time
+      }
     })();
-  }, []);
+    return () => clearTimeout(time)
+  }, [MainCategoryStateData.length]);
 
   return (
     <>
@@ -60,7 +67,7 @@ export default function AdminMaincategoryPage() {
               </Link>
             </h5>
             <div className="table-responsive">
-              <table className='table table-bordered text-center'>
+              <table className='table table-bordered text-center' id='myTable'>
                 <thead>
                   <tr>
                     <th>Id</th>
@@ -82,7 +89,7 @@ export default function AdminMaincategoryPage() {
                         </Link>
                       </td>
                       <td>{item.status ? "Active" : "InActive"}</td>
-                      <td><Link to={`/admin/maincategory/${item.id}`} className='btn btn-primary'><i className='bi bi-pencil-square'></i></Link></td>
+                      <td><Link to={`/admin/maincategory/update/${item.id}`} className='btn btn-primary'><i className='bi bi-pencil-square'></i></Link></td>
                       <td><button onClick={() => deleteRecord(item.id)} className='btn btn-danger'><i className='bi bi-trash'></i></button></td>
                     </tr>
                   })}
