@@ -4,7 +4,7 @@ export async function createRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}`, {
             method: "POST",
             headers: {
-                "content-type": "application.json"
+                "Content-type": "application.json"
             },
             body: JSON.stringify(payload)
         })
@@ -38,7 +38,7 @@ export async function getRecord(collection) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}`, {
             method: "GET",
             headers: {
-                "content-type": "application.json"
+                "Content-type": "application.json"
             }
         })
         response = await response.json()
@@ -55,7 +55,7 @@ export async function updateRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}/${payload.id}`, {
             method: "PUT",
             headers: {
-                "content-type": "application.json"
+                "Content-type": "application.json"
             },
             body: JSON.stringify(payload)
         })
@@ -73,7 +73,7 @@ export async function updateMultipartRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}/${payload.get("id")}`, {
             method: "PUT",
             headers: {
-                "content-type": "application.json"
+                "Content-type": "application.json"
             },
             body: payload
         })
@@ -91,7 +91,7 @@ export async function deleteRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}/${payload.id}`, {
             method: "DELETE",
             headers: {
-                "content-type": "application.json"
+                "Content-type": "application.json"
             }
         })
         response = await response.json()
