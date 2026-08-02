@@ -34,6 +34,13 @@ import AdminFeaturesPage from "./Pages/Admin/Features/AdminFeaturesPage.jsx";
 import AdminCreateFeaturesPage from "./Pages/Admin/Features/AdminCreateFeaturesPage.jsx";
 import AdminUpdateFeaturesPage from "./Pages/Admin/Features/AdminUpdateFeaturesPage.jsx";
 
+import AdminFaqPage from "./Pages/Admin/Faq/AdminFaqPage.jsx";
+import AdminCreateFaqPage from "./Pages/Admin/Faq/AdminCreateFaqPage.jsx";
+import AdminUpdateFaqPage from "./Pages/Admin/Faq/AdminUpdateFaqPage.jsx";
+
+import AdminSettingPage from "./Pages/Admin/Setting/AdminSettingPage.jsx";
+
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -74,6 +81,12 @@ export default function App() {
         <Route path="/admin/features" element={<AdminFeaturesPage />} />
         <Route path="/admin/features/create" element={<AdminCreateFeaturesPage />} />
         <Route path="/admin/features/update/:id" element={<AdminUpdateFeaturesPage />} />
+
+        <Route path="/admin/faq" element={<AdminFaqPage />} />
+        <Route path="/admin/faq/create" element={<AdminCreateFaqPage />} />
+        <Route path="/admin/faq/update/:id" element={<AdminUpdateFaqPage />} />
+
+        <Route path="/admin/setting" element={<AdminSettingPage />} />
 
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />

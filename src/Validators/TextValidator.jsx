@@ -9,6 +9,8 @@ export default function TextValidator(e) {
       else
         return ""
 
+    case "question":
+    case "answer":
     case "shortDescription":
       if (!value || value.length === 0)
         return name + " field is mandatory"

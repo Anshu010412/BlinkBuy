@@ -58,7 +58,7 @@ export default function AdminUpdateFeaturesPage() {
                 if (item)
                     setData({ ...data, ...item })
                 else
-                    navigate("/admin/Features")
+                    navigate("/admin/features")
             }
         })()
     }, [FeaturesStateData.length])

@@ -16,9 +16,9 @@ export default function AdminCreateFeaturesPage() {
         status: true
     })
     let [errorMessage, setErrorMessage] = useState({
-        name: "Name Field is Mendatory",
-        icon: "Icon Field is Mendatory",
-        shortDescription: "Short Description Field is Mendatory"
+        name: "Name Field is Mandatory",
+        icon: "Icon Field is Mandatory",
+        shortDescription: "Short Description Field is Mandatory"
     })
     let [show, setShow] = useState(false)
     let FeaturesStateData = useSelector(state => state.FeaturesStateData)

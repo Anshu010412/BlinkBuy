@@ -85,7 +85,7 @@ export default function AdminFeaturesPage() {
                     return <tr key={item.id}>
                       <td>{item.id}</td>
                       <td>{item.name}</td>
-                      <td><span className='fs-1' dangerouslySetInnerHTML={{ __html: item.icon }} /></td>
+                      <td><span className='fs-3' dangerouslySetInnerHTML={{ __html: item.icon }} /></td>
                       <td>{item.shortDescription}</td>
                       <td>{item.status ? "Active" : "InActive"}</td>
                       <td><Link to={`/admin/features/update/${item.id}`} className='btn btn-primary'><i className='bi bi-pencil-square'></i></Link></td>
