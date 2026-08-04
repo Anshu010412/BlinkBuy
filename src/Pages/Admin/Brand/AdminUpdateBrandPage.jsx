@@ -29,7 +29,8 @@ export default function AdminUpdateBrandPage() {
 
     function getInputData(e) {
         let name = e.target.name
-        let value = name === "image" ? "brand/" + e.target.files[0].name : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value
+        let value = name === "image" ? "brand/" + e.target.files[0].name : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value    //for Dummy Backend
+        // let value = name === "image" ? e.target.files[0] : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value                      //for real backend
         setData({ ...data, [name]: value })
         setErrorMessage({ ...errorMessage, [name]: name === "image" ? ImageValidator(e) : TextValidator(e) })
     }
@@ -47,7 +48,13 @@ export default function AdminUpdateBrandPage() {
                 setShow(true)
                 return
             }
-            dispatch(updateBrand({ id, ...data }))
+            dispatch(updateBrand({ id, ...data }))              //for Dummy Backend
+
+            // let formData = new FormData()
+            // formData.append("name", data.name)               //for real backend
+            // formData.append("image", data.image)             //for real backend
+            // formData.append("status", data.status)           //for real backend
+            // dispatch(createBrand(formData))                  //for real backend
             navigate('/admin/brand')
         }
     }

@@ -29,7 +29,8 @@ export default function AdminCreateSubcategoryPage() {
 
   function getInputData(e) {
     let name = e.target.name
-    let value = name === "image" ? "subcategory/" + e.target.files[0].name : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value
+    let value = name === "image" ? "subcategory/" + e.target.files[0].name : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value  //for Dummy backend
+    // let value = name === "image" ? e.target.files[0] : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value     //for real backend
     setData({ ...data, [name]: value })
     setErrorMessage({ ...errorMessage, [name]: name === "image" ? ImageValidator(e) : TextValidator(e) })
   }
@@ -47,7 +48,14 @@ export default function AdminCreateSubcategoryPage() {
         setShow(true)
         return
       }
-      dispatch(createSubCategory({...data}))
+      dispatch(createSubCategory({ ...data }))  //for Dummy backend
+
+      // let formData = new FormData()
+      // formData.append("name", data.name)               //for real backend
+      // formData.append("image", data.image)             //for real backend
+      // formData.append("status", data.status)           //for real backend
+      // dispatch(createSubCategory(formData))            //for real backend
+
       navigate('/admin/subcategory')
     }
   }

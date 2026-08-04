@@ -29,7 +29,8 @@ export default function AdminUpdateMaincategoryPage() {
 
     function getInputData(e) {
         let name = e.target.name
-        let value = name === "image" ? "maincategory/" + e.target.files[0].name : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value
+        let value = name === "image" ? "maincategory/" + e.target.files[0].name : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value   // FOR DUMMY BACKEND
+        // let value = name === "image" ? e.target.files[0] : name === "status" ? (e.target.value === "1" ? true : false) : e.target.value        // FOR REAL BACKEND
         setData({ ...data, [name]: value })
         setErrorMessage({ ...errorMessage, [name]: name === "image" ? ImageValidator(e) : TextValidator(e) })
     }
@@ -47,7 +48,14 @@ export default function AdminUpdateMaincategoryPage() {
                 setShow(true)
                 return
             }
-            dispatch(updateMainCategory({ id, ...data }))
+            dispatch(updateMainCategory({ id, ...data }))  // FOR DUMMY BACKEND
+
+            // let formData = new formData()
+            // fromData.append("name", data.name)               // FOR REAL BACKEND
+            // fromData.append("image", data.image)             // FOR REAL BACKEND
+            // fromData.append("status", data.status)           // FOR REAL BACKEND
+            // dispatch(updateMainCategory(id, formData))      // FOR REAL BACKEND
+
             navigate('/admin/maincategory')
         }
     }
