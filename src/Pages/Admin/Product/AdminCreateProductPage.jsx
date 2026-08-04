@@ -80,6 +80,7 @@ export default function AdminCreateProductPage() {
     setData({ ...data, [key]: arr })
     setErrorMessage({ ...errorMessage, [key]: arr.length === 0 ? `please select atleast one ${key}` : "" })
   }
+
   function postData(e) {
     e.preventDefault();
     let error = Object.values(errorMessage).find(x => x != "")
@@ -91,24 +92,42 @@ export default function AdminCreateProductPage() {
       let d = parseInt(data.discount)
       let fp = parseInt(bp - bp * d / 100)
       let stockQuantity = parseInt(data.stockQuantity)
-    }
-    dispatch(createProduct({
-      ...data,
-      maincategory: data.maincategory || MainCategoryStateData[0].name,
-      subcategory: data.subcategory || SubCategoryStateData[0].name,
-      brand: data.brand || BrandStateData[0].name,
-      basePrice: bp,
-      discount: d,
-      finalPrice: fp,
-      stockQuantity: stockQuantity,
-      description: description,
-    }))              //for Dummy Backend
 
-    // let formData = new FormData()
-    // formData.append("name", data.name)               //for real backend
-    // formData.append("image", data.image)             //for real backend
-    // formData.append("status", data.status)           //for real backend
-    // dispatch(createProduct(formData))                //for real backend
+      dispatch(createProduct({
+        ...data,
+        maincategory: data.maincategory || MainCategoryStateData[0].name,
+        subcategory: data.subcategory || SubCategoryStateData[0].name,
+        brand: data.brand || BrandStateData[0].name,
+        basePrice: bp,
+        discount: d,
+        finalPrice: fp,
+        stockQuantity: stockQuantity,
+        description: description,
+      }))                                                  //for Dummy Backend
+    }
+
+    // let formData = new FormData()                       //for real backend
+    // formData.append("name", data.name)               
+    // formData.append("maincategory", data.maincategory || MainCategoryStateData[0].name)
+    // formData.append("subcategory",data.subcategory||SubCategoryStateData[0].name)
+    // formData.append("brand",data.brand||BrandStateData[0].name)
+    // data.color.forEach(item => {
+    //     formData.append("color", item)
+    // })
+    // data.size.forEach(item => {
+    //     formData.append("size", item)
+    // })
+    // data.pic.forEach(item => {
+    //     formData.append("pic", item)
+    // })
+    // formData.append("basePrice",bp)
+    // formData.append("discount",d)
+    // formData.append("finalPrice",fp)
+    // formData.append("stock",data.stock)
+    // formData.append("stockQuantity",stockQuantity)
+    // formData.append("description",description)
+    // formData.append("status", data.status)           
+    // dispatch(createProduct(formData))                
 
     navigate('/admin/product')
   }
