@@ -7,7 +7,6 @@ import TextValidators from '../../../Validators/TextValidator'
 
 
 import { getFeatures, updateFeatures } from "../../../Redux/ActionCreators/FeaturesActionCreator"
-import AdminCreateFeaturesPage from './AdminCreateFeaturesPage'
 
 export default function AdminUpdateFeaturesPage() {
     let { id } = useParams()

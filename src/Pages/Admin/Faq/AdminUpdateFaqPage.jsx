@@ -7,7 +7,6 @@ import TextValidators from '../../../Validators/TextValidator'
 
 
 import { getFaq, updateFaq } from "../../../Redux/ActionCreators/FaqActionCreator"
-import AdminCreateFaqPage from './AdminCreateFaqPage'
 
 export default function AdminUpdateFaqPage() {
     let { id } = useParams()

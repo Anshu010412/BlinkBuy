@@ -72,6 +72,16 @@ export default function AdminProductPage() {
                   <tr>
                     <th>Id</th>
                     <th>Name</th>
+                    <th>MainCategory</th>
+                    <th>SubCategory</th>
+                    <th>Brand</th>
+                    <th>Color</th>
+                    <th>Size</th>
+                    <th>Base Price</th>
+                    <th>Discount</th>
+                    <th>Final Price</th>
+                    <th>Stock</th>
+                    <th>Stock Quantity</th>
                     <th>Image</th>
                     <th>Status</th>
                     <th>Edit</th>
@@ -83,10 +93,24 @@ export default function AdminProductPage() {
                     return <tr key={item.id}>
                       <td>{item.id}</td>
                       <td>{item.name}</td>
+                      <td>{item.maincategory}</td>
+                      <td>{item.subcategory}</td>
+                      <td>{item.brand}</td>
+                      <td>{item.color?.join(",")}</td>
+                      <td>{item.size?.join(",")}</td>
+                      <td>&#8377;{item.basePrice}</td>
+                      <td>{item.discount}% OFF</td>
+                      <td>&#8377;{item.finalPrice}</td>
+                      <td>{item.stock ? "In Stock" : "Out of Stock"}</td>
+                      <td>{item.stockQuantity}</td>
                       <td>
-                        <Link to={`${import.meta.env.VITE_APP_IMAGE_SERVER}${item.image}`} target='_blank'>
-                          <img src={`${import.meta.env.VITE_APP_IMAGE_SERVER}${item.image}`} height={60} width={60} alt="Product Image" />
-                        </Link>
+                        <div style={{ width: "350px" }}>
+                          {item.image?.map((image, index) => {
+                            return <Link to={`${import.meta.env.VITE_APP_IMAGE_SERVER}${image}`} target='_blank' key={index}>
+                              <img src={`${import.meta.env.VITE_APP_IMAGE_SERVER}${image}`} className="img-contain-fluid m-1" height={60} width={60} alt="Product Image" />
+                            </Link>
+                          })}
+                        </div>
                       </td>
                       <td>{item.status ? "Active" : "InActive"}</td>
                       <td><Link to={`/admin/product/update/${item.id}`} className='btn btn-primary'><i className='bi bi-pencil-square'></i></Link></td>

@@ -299,10 +299,14 @@ export default function AdminCreateProductPage() {
                   <label>image</label>
                   <input type="file"
                     name='image'
+                    multiple
                     onChange={getInputData}
                     className={`form-control ${show && errorMessage.image ? 'border-danger' : 'border-primary'}`} />
-                  {show && errorMessage.image ? <p className='text-danger'>{errorMessage.image}</p> : null}
+                  {show && errorMessage.image ? errorMessage.image.split("|").map((error, index) => {
+                    return <p className='text-danger' key={index}>{error}</p>
+                  }) : null}
                 </div>
+
                 <div className="col-6 mb-3">
                   <label>Status</label>
                   <select name="status" onChange={getInputData} className='form-select border-primary'>
