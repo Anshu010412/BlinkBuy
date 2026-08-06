@@ -1,5 +1,8 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useSelector, useDispatch } from 'react-redux'
+
+import { getSetting } from '../Redux/ActionCreators/SettingActionCreator'
 
 export default function Navbar() {
     let [settingData, setSettingData] = useState({
@@ -12,7 +15,26 @@ export default function Navbar() {
         instagram: import.meta.env.VITE_APP_INSTAGRAM,
         facebook: import.meta.env.VITE_APP_FACEBOOK,
         linkedln: import.meta.env.VITE_APP_LINKEDLN,
+        twitter: import.meta.env.VITE_APP_TWITTER,
+        youtube: import.meta.env.VITE_APP_YOUTUBE,
     })
+
+    let SettingStateData = useSelector(state => state.SettingStateData)         //for retrieve data from redux store.
+    let dispatch = useDispatch();
+
+    useEffect(() => {
+        (() => {
+            dispatch(getSetting())
+            let item = {}
+            if (SettingStateData.length) {
+                Object.keys(settingData).forEach(key => {
+                    item[key] = SettingStateData[0][key] ? SettingStateData[0][key] : settingData[key]
+                })
+                setSettingData({ ...item })
+            }
+        })()
+    }, [SettingStateData.length])
+
     return (
         <>
             <div className="bg-dark">
@@ -22,7 +44,7 @@ export default function Navbar() {
                             <Link to={settingData.map1} target='_blank' className='btn'><i className='bi bi-geo-alt text-light me-1'></i><span className='d-none d-xl-inline-block text-light'>{settingData.address}</span></Link>
                             <Link to={`mailto:${settingData.email}`} target='_blank' className='btn'><i className='bi bi-envelope text-light me-1'></i><span className='d-none d-xl-inline-block text-light'>{settingData.email}</span></Link>
                             <Link to={`tel:${settingData.phone}`} target='_blank' className='btn'><i className='bi bi-telephone text-light me-1'></i><span className='d-none d-xl-inline-block text-light'>{settingData.phone}</span></Link>
-                            <Link to={`https://wa.me/:${settingData.whatsapp}`} target='_blank' className='btn'><i className='bi bi-whatsapp text-light me-1'></i><span className='d-none d-xl-inline-block text-light'>{settingData.whatsapp}</span></Link>
+                            <Link to={`https://wa.me/${settingData.whatsapp}`} target='_blank' className='btn'><i className='bi bi-whatsapp text-light me-1'></i><span className='d-none d-xl-inline-block text-light'>{settingData.whatsapp}</span></Link>
                         </div>
                         <div className="col-lg-3 col-6">
                             <Link to={settingData.instagram} target='_blank' className='btn'><i className='bi bi-instagram text-light'></i></Link>
@@ -50,7 +72,7 @@ export default function Navbar() {
                                 <NavLink to="/about" className="nav-item nav-link">About</NavLink>
                                 <NavLink to="/shop" className="nav-item nav-link">Shop</NavLink>
                                 <NavLink to="/feature" className="nav-item nav-link">Features</NavLink>
-                                <NavLink to="/faq" className="nav-item nav-link">FAQ</NavLink>
+                                <NavLink to="/faq" className="nav-item nav-link">Faq</NavLink>
                                 <NavLink to="/testimonial" className="nav-item nav-link">Testimonial</NavLink>
                                 <NavLink to="/admin" className="nav-item nav-link">Admin</NavLink>
                                 <NavLink to="/contact" className="nav-item nav-link">Contact-Us</NavLink>

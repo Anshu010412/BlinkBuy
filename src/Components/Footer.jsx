@@ -1,5 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import { useSelector, useDispatch } from 'react-redux'
+
+import { getSetting } from '../Redux/ActionCreators/SettingActionCreator'
 
 export default function Footer() {
   let [settingData, setSettingData] = useState({
@@ -15,6 +18,23 @@ export default function Footer() {
     youtube: import.meta.env.VITE_APP_YOUTUBE,
     twitter: import.meta.env.VITE_APP_TWITTER,
   })
+
+  let SettingStateData = useSelector(state => state.SettingStateData)         //for retrieve data from redux store.
+  let dispatch = useDispatch();
+
+  useEffect(() => {
+    (() => {
+      dispatch(getSetting())
+      let item = {}
+      if (SettingStateData.length) {
+        Object.keys(settingData).forEach(key => {
+          item[key] = SettingStateData[0][key] ? SettingStateData[0][key] : settingData[key]
+        })
+        setSettingData({ ...item })
+      }
+    })()
+  }, [SettingStateData.length])
+
   return (
     <>
       <div className="container-fluid bg-dark text-white-50 footer pt-5">

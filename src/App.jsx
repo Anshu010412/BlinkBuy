@@ -6,6 +6,7 @@ import HomePage from "./Pages/HomePage";
 import AboutPage from "./Pages/AboutPage";
 import FeaturePage from "./Pages/FeaturePage";
 import ShopPage from "./Pages/ShopPage";
+import FaqPage from "./Pages/FaqPage";
 import ProductPage from "./Pages/ProductPage";
 import TestimonialPage from "./Pages/TestimonialPage";
 import ErrorPage from "./Pages/ErrorPage";
@@ -51,6 +52,7 @@ export default function App() {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/feature" element={<FeaturePage />} />
         <Route path="/shop" element={<ShopPage />} />
+        <Route path="/faq" element={<FaqPage />} />
         <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/testimonial" element={<TestimonialPage />} />
         <Route path="/contact" element={<ContactPage />} />

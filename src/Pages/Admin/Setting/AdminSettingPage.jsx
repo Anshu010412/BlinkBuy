@@ -80,7 +80,6 @@ export default function AdminSettingPage() {
       if (SettingStateData.length) {
         setData({ ...data, ...SettingStateData[0] })
         setTimeout(() => {
-          console.log("called")
           syncDocument(createStructuredContent(""), SettingStateData[0].privacyPolicy ?? "", "privacyPolicy");
           syncDocument(createStructuredContent(""), SettingStateData[0].termsAndConditions ?? "", "termsAndConditions");
           syncDocument(createStructuredContent(""), SettingStateData[0].refundPolicy ?? "", "refundPolicy");

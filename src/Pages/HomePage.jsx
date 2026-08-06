@@ -1,12 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
-import 'swiper/css';
+import 'swiper/css';   // Import Swiper styles
 
-// import required modules
-import { Autoplay } from 'swiper/modules';
+
+import { Autoplay } from 'swiper/modules';       // import required modules
 
 import About from '../Components/About'
 import Feature from '../Components/Feature'
@@ -15,8 +14,26 @@ import Service from '../Components/Service'
 import Products from '../Components/Products'
 import Testimonial from '../Components/Testimonial'
 import NewsLetter from '../Components/NewsLetter'
+import Faq from '../Components/Faq'
+
+import { getProduct } from '../Redux/ActionCreators/ProductActionCreator'
+import { getMainCategory } from '../Redux/ActionCreators/MainCategoryActionCreator'
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function HomePage() {
+    let ProductStateData = useSelector(state => state.ProductStateData)
+    let MainCategoryStateData = useSelector(state => state.MainCategoryStateData)
+
+    let dispatch = useDispatch()
+
+    useEffect(() => {
+        (() => dispatch(getProduct()))()
+    }, [])
+
+    useEffect(() => {
+        (() => dispatch(getMainCategory()))()
+    }, [])
+
     const sliderOption = {
         loop: true,
         autoplay: {
@@ -114,7 +131,10 @@ export default function HomePage() {
 
             <About />
             <Feature />
-            <ProductSlider />
+            {MainCategoryStateData.filter(x => x.status && ProductStateData.filter(p => p.maincategory === x.name).length !== 0).map(item => {
+                return <ProductSlider key={item.id} title={item.name} data={ProductStateData.filter(x => x.maincategory === item.name)} />
+            })}
+            <Faq />
             <Service />
             <Products />
             <Testimonial />
