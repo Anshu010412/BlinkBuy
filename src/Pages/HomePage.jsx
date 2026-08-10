@@ -130,13 +130,13 @@ export default function HomePage() {
             </div>
 
             <About />
-            <Feature />
             {MainCategoryStateData.filter(x => x.status && ProductStateData.filter(p => p.maincategory === x.name).length !== 0).map(item => {
                 return <ProductSlider key={item.id} title={item.name} data={ProductStateData.filter(x => x.maincategory === item.name)} />
             })}
+            <Feature />
             <Faq />
             <Service />
-            <Products />
+            <Products data={ProductStateData.filter(x => x.status).slice(0, 20)} />
             <Testimonial />
             <NewsLetter />
         </>

@@ -11,9 +11,9 @@ import ProductPage from "./Pages/ProductPage";
 import TestimonialPage from "./Pages/TestimonialPage";
 import ErrorPage from "./Pages/ErrorPage";
 import ContactPage from "./Pages/ContactPage";
-import RefundPolicy from "./Policy/RefundPolicy";
-import DataPolicy from "./Policy/DataPolicy";
-import PrivacyPolicy from "./Policy/PrivacyPolicy";
+import RefundPolicy from "./Pages/Policy/RefundPolicy";
+import TermsAndCondition from "./Pages/Policy/TermsAndCondition.jsx";
+import PrivacyPolicy from "./Pages/Policy/PrivacyPolicy";
 import AdminHomePage from "./Pages/Admin/AdminHomePage";
 import AdminMaincategoryPage from "./Pages/Admin/Maincategory/AdminMaincategoryPage";
 import AdminCreateMaincategoryPage from "./Pages/Admin/Maincategory/AdminCreateMaincategoryPage";
@@ -59,7 +59,7 @@ export default function App() {
 
         {/* policy routes */}
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/data-policy" element={<DataPolicy />} />
+        <Route path="/termcondition-policy" element={<TermsAndCondition />} />
         <Route path="/refund-policy" element={<RefundPolicy />} />
 
         {/* Admin Routes */}

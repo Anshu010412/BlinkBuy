@@ -71,7 +71,7 @@ export default function Footer() {
               <Link className="btn btn-link text-light" to="/about">About Us</Link>
               <Link className="btn btn-link text-light" to="/contact">Contact Us</Link>
               <Link className="btn btn-link text-light" to="/privacy-policy">Privacy Policy</Link>
-              <Link className="btn btn-link text-light" to="/data-policy">Terms & Condition</Link>
+              <Link className="btn btn-link text-light" to="/termcondition-policy">Terms & Condition</Link>
               <Link className="btn btn-link text-light" to="/refund-policy">Refund Policy</Link>
             </div>
             <div className="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">

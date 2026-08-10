@@ -148,7 +148,9 @@ export default function AdminUpdateProductPage() {
                 let item = ProductStateData.find(x => x.id === id)
                 if (item) {
                     setData({ ...data, ...item, image: [] })
-                    syncDocument(createStructuredContent(""), item?.description ?? "");
+                    setTimeout(() => {
+                        syncDocument(createStructuredContent(""), item?.description ?? "");
+                    }, 500)
                     setOldImages(item.image)
                 }
                 else
