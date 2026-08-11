@@ -14,7 +14,7 @@ export default function SingleProduct({ item }) {
                     <h6 className="lh-base text-light">{item.name}</h6>
                     <h5 className='text-light fs-5'><del>&#8377;{item.basePrice}</del>   &#8377;{item.finalPrice} <sup>{item.discount} % OFF</sup></h5>
                     <div className="d-flex justify-content-center">
-                        <Link className="btn btn-outline-light btn-sm-square border-2 p-2 w-100" to={`product/${item.id}`}>
+                        <Link className="btn btn-outline-light btn-sm-square border-2 p-2 w-100" to={`/product/${item.id}`}>
                             <i className="text-black bi bi-cart-plus"></i>
                             <span className='ms-2'>Add To Cart</span>
                         </Link>

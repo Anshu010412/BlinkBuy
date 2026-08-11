@@ -1,28 +1,32 @@
 import React, { useEffect, useState } from 'react'
 import BreadCrum from '../Components/BreadCrum'
-import SingleProduct from '../Components/SingleProduct'
 
-import { useDispatch, useSelector } from 'react-redux'
+import SingleProduct from '../Components/SingleProduct'
 
 import { getProduct } from '../Redux/ActionCreators/ProductActionCreator'
 import { getMainCategory } from '../Redux/ActionCreators/MainCategoryActionCreator'
 import { getSubCategory } from '../Redux/ActionCreators/SubCategoryActionCreator'
 import { getBrand } from '../Redux/ActionCreators/BrandActionCreator'
+import { useDispatch, useSelector } from 'react-redux'
 
 const colors = ["Black", "White", "Blue", "Red", "Orange", "Gray", "Green", "Pink", "Yellow", "Purple", "Magenta", "N/A"]
 const sizes = ["XXXL", "XXL", "XL", "L", "M", "S", "XS", "NB", "26", "28", "30", "32", "34", "36", "38", "40", "42", "N/A"]
+const selectedOption = () => ({
+  maincategory: [],
+  subcategory: [],
+  brand: [],
+  color: [],
+  size: []
+})
 
 export default function ShopPage() {
   let [data, setData] = useState([])
-  let [selected, setSelected] = useState({
-    maincategory: [],
-    subcategory: [],
-    brand: [],
-    color: [],
-    size: []
-  })
-  let [sortFilter, setSortFilter] = useState("1")
-  let [search, setSearch] = useState("")
+  let [selected, setSelected] = useState(selectedOption)
+
+  let [sortFilter, setSortFilter] = useState("1")      //for item filter
+  let [search, setSearch] = useState("")               //for search item filter
+  let [min, setMin] = useState(-1)                     //for price filter MIN                  
+  let [max, setMax] = useState(-1)                     //for price filter MAX
 
   let MainCategoryStateData = useSelector(state => state.MainCategoryStateData)
   let SubCategoryStateData = useSelector(state => state.SubCategoryStateData)
@@ -45,6 +49,7 @@ export default function ShopPage() {
 
   //This function is make for apply filter in the Shop section.
   function filter(selected) {
+    setSearch("")
     let filteredData = ProductStateData.filter(x =>
       x.status &&
       (selected.maincategory.length === 0 ||
@@ -66,6 +71,9 @@ export default function ShopPage() {
   }
 
   function applySortFilter(data, value) {
+    if (min !== -1 && max !== -1) {
+      data = data.filter(x => x.finalPrice >= min && x.finalPrice <= max)
+    }
     if (value == "1")
       setData(data.sort((x, y) => y.id.localeCompare(x.id)))
     else if (value == "2")
@@ -77,6 +85,7 @@ export default function ShopPage() {
   }
 
   function postSearch() {
+    setSelected(selectedOption)
     let ch = search.toLocaleLowerCase()
     let data = ProductStateData.filter(x => x.status && (
       (x.name.toLocaleLowerCase().includes(ch)) ||
@@ -158,6 +167,43 @@ export default function ShopPage() {
                 </li>
               })}
             </ul>
+
+            <div className="my-3">
+              <form onSubmit={(e) => {
+                e.preventDefault();
+                if (search !== "") {
+                  postSearch()
+                }
+                else {
+                  filter(selected)
+                }
+              }}>
+                <div className="row mb-3">
+                  <div className="col-6">
+                    <label>Min. Amount</label>
+                    <input type="number"
+                      name='min'
+                      onChange={(e) => setMin(e.target.value === "" ? -1 : Number(e.target.value))}
+                      value={min === -1 ? "" : min}
+                      className='form-control'
+                      placeholder='Min. Amount' />
+                  </div>
+                  <div className="col-6">
+                    <label>Max. Amount</label>
+                    <input type="number"
+                      name='max'
+                      onChange={(e) => setMax(e.target.value === "" ? -1 : Number(e.target.value))}
+                      value={max === -1 ? "" : max}
+                      className='form-control'
+                      placeholder='Max. Amount' />
+                  </div>
+                  <div className="col-12">
+                    <button className='btn btn-primary mt-2 w-100' type='submit'>Apply Filter</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+
           </div>
 
           <div className="col-md-9">
@@ -168,8 +214,8 @@ export default function ShopPage() {
                   postSearch()
                 }}>
                   <div className="btn-group w-100">
-                    <input type="search" name='search' className='form-control' onChange={(e) => setSearch(e.target.value)} placeholder='Search Product By Name,Category,Brand,Color,Size, etc..' />
-                    <button onSubmit={postSearch} className='btn btn-primary'>Search</button>
+                    <input type="search" name='search' value={search} className='form-control' onChange={(e) => setSearch(e.target.value)} placeholder='Search Product By Name,Category,Brand,Color,Size, etc..' />
+                    <button className='btn btn-primary'>Search</button>
                   </div>
                 </form>
               </div>
@@ -194,7 +240,7 @@ export default function ShopPage() {
           </div>
 
         </div>
-      </div>
+      </div >
     </>
   )
 }

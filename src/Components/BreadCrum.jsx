@@ -8,7 +8,7 @@ export default function BreadCrum({title}) {
         <div className="container ">
             <div className="row g-3 align-items-center">
                 <div className="col-lg-6 text-center text-lg-start">
-                    <h1 className="display-3 mb-0 animated slideInLeft">{title}</h1>
+                    <h1 className="display-5 mb-0 animated slideInLeft">{title}</h1>
                 </div>
                 <div className="col-lg-6 animated slideInRight">
                     <nav aria-label="breadcrumb">
