@@ -41,6 +41,9 @@ import AdminUpdateFaqPage from "./Pages/Admin/Faq/AdminUpdateFaqPage.jsx";
 
 import AdminSettingPage from "./Pages/Admin/Setting/AdminSettingPage.jsx";
 
+import SignUpPage from './Pages/User/SignUpPage.jsx'
+import LoginPage from './Pages/User/LoginPage.jsx'
+
 
 export default function App() {
   return (
@@ -89,6 +92,10 @@ export default function App() {
         <Route path="/admin/faq/update/:id" element={<AdminUpdateFaqPage />} />
 
         <Route path="/admin/setting" element={<AdminSettingPage />} />
+
+        {/*login Route*/}
+        <Route path="/signup" element={<SignUpPage />} />
+        <Route path="/login" element={<LoginPage />} />
 
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />

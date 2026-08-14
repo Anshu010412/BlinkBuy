@@ -7,6 +7,13 @@ import { getProduct } from '../Redux/ActionCreators/ProductActionCreator'
 import { useDispatch, useSelector } from 'react-redux'
 import { useParams } from 'react-router-dom'
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { EffectCube, Autoplay } from 'swiper/modules';   // import required modules
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/effect-cube';
+
 export default function ProductPage() {
   let { id } = useParams()
 
@@ -39,12 +46,29 @@ export default function ProductPage() {
   }, [ProductStateData.length])
 
   return (
+
     <>
       <BreadCrum title={data.name ?? 'Products'} />
 
       <div className="container my-4">
         <div className="row">
-          <div className="col-md-6"></div>
+          <div className="col-md-6">
+            <Swiper
+              effect={'cube'}
+              grabCursor={true}
+              loop='true'
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }} modules={[EffectCube, Autoplay]}
+              className="mySwiper">
+              {data.image?.map((image, index) => {
+                return <SwiperSlide key={index}>
+                  <img className='w-100 mt-5 p-2' style={{ height: 500, objectFit: "contain" }} src={`${import.meta.env.VITE_APP_IMAGE_SERVER}${image}`} alt='product Image' />
+                </SwiperSlide>
+              })}
+            </Swiper>
+          </div>
           <div className="col-md-6">
             <h5 className='bg-primary text-center text-light p-2'>{data.name}</h5>
             <div className="table-responsive">
@@ -134,7 +158,7 @@ export default function ProductPage() {
         </div>
 
         {relatedData ? <ProductSlider title="Related Products" data={relatedData} /> : null}
-      </div>
+      </div >
       <Service />
     </>
   )

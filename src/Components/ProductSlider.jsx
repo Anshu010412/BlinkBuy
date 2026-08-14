@@ -31,7 +31,7 @@ export default function ProductSlider({ title, data }) {
                     <div className="row g-2">
                         <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
                             <div className="d-flex flex-column justify-content-center bg-primary p-5" style={{ height: "380px" }}>
-                                {title = "Related Products" ?      //for showcase other related items in Products page
+                                {title === "Related Products" ?      //for showcase other related items in Products page
                                     <h1 className="text-white mb-5"> Our Latest
                                         <span className="text-uppercase text-primary bg-light px-2"> {title}</span></h1> :
                                     <>
