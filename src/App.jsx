@@ -43,6 +43,7 @@ import AdminSettingPage from "./Pages/Admin/Setting/AdminSettingPage.jsx";
 
 import SignUpPage from './Pages/User/SignUpPage.jsx'
 import LoginPage from './Pages/User/LoginPage.jsx'
+import ProfilePage from "./Pages/User/ProfilePage.jsx";
 
 
 export default function App() {
@@ -93,9 +94,12 @@ export default function App() {
 
         <Route path="/admin/setting" element={<AdminSettingPage />} />
 
-        {/*login Route*/}
+        {/*User Login,signup Route*/}
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/login" element={<LoginPage />} />
+
+        {/*Buyer Routes */}
+        <Route path="/profile" element={<ProfilePage />} />
 
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />

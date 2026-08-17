@@ -41,7 +41,7 @@ export default function AdminSideBar() {
                     <i className='bi bi-envelope fs-5'></i>
                     <span className='float-end'>Newsletter</span>
                 </Link>
-                <Link to="/admin/contactus" className="list-group-item list-group-item-action active mb-1">
+                <Link to="/admin/contact_us" className="list-group-item list-group-item-action active mb-1">
                     <i className='bi bi-telephone fs-5'></i>
                     <span className='float-end'>Contact Us</span>
                 </Link>

@@ -5,7 +5,7 @@ import SingleProduct from './SingleProduct'
 export default function Products({ data }) {
     return (
         <>
-            <div className="container-fluid bg-light py-5">
+            <div className="container bg-light py-5">
                 <div className="container py-5">
                     <h1 className="mb-5">Our Latest <span className="text-uppercase text-primary bg-light px-2">Products</span>
                     </h1>

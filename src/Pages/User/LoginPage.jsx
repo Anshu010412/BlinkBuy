@@ -75,7 +75,7 @@ export default function LoginPage() {
             </form>
             <div className='d-flex justify-content-between'>
               <Link to="#">Forget Password</Link>
-              <Link to="/signup">Doesn't Have an Account?Login</Link>
+              <Link to="/signup">Doesn't Have an Account?Register</Link>
             </div>
           </div>
         </div>

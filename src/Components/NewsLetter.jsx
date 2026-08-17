@@ -6,7 +6,7 @@ export default function NewsLetter() {
         })
   return (
     <>
-     <div className="container-fluid bg-primary newsletter p-0">
+     <div className="container-fluid bg-primary newsletter p-0 mb-3">
         <div className="container p-0">
             <div className="row g-0 align-items-center">
                 <div className="col-md-5 ps-lg-0 text-start wow fadeIn" data-wow-delay="0.2s">
