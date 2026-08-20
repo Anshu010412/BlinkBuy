@@ -88,14 +88,14 @@ export default function Navbar() {
                                     <div className="nav-item dropdown">
                                         <a href="#!" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">{localStorage.getItem("name")}</a>
                                         <div className="dropdown-menu bg-light mt-2">
-                                            <Link to="/profile?option=Profile" className="dropdown-item">Profile</Link>
+                                            <Link to="/profile?option=Profile" className="dropdown-item"><i className='bi bi-person float-end'></i>Profile</Link>
                                             {localStorage.getItem("role") !== "Buyer" ? <Link to="/admin" className="dropdown-item">Admin Dashboard</Link> : null}
-                                            <Link to="/profile?option=WishList" className="dropdown-item">WishList</Link>
-                                            <Link to="/profile?option=Orders" className="dropdown-item">Orders</Link>
-                                            <Link to="/profile?option=Address" className="dropdown-item">Address</Link>
-                                            <Link to="/cart" className="dropdown-item">Cart</Link>
-                                            <Link to="/checkout" className="dropdown-item">Checkout</Link>
-                                            <button className="dropdown-item" onClick={logout}>LogOut</button>
+                                            <Link to="/profile?option=WishList" className="dropdown-item">WishList <i className='bi bi-heart float-end'></i></Link>
+                                            <Link to="/profile?option=Orders" className="dropdown-item">Orders<i className='bi bi-bag-check float-end'></i></Link>
+                                            <Link to="/profile?option=Address" className="dropdown-item">Address <i className='bi bi-geo-alt float-end'></i></Link>
+                                            <Link to="/cart" className="dropdown-item">Cart <i className='bi bi-cart float-end'></i></Link>
+                                            <Link to="/checkout" className="dropdown-item">Checkout <i className='bi bi-cart-check float-end'></i></Link>
+                                            <button className="dropdown-item" onClick={logout}>LogOut <i className='bi bi-box-arrow-right float-end'></i></button>
                                         </div>
                                     </div> :
                                     <NavLink to="/login" className="nav-item nav-link">Login</NavLink>

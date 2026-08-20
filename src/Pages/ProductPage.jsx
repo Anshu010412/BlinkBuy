@@ -1,32 +1,81 @@
 import React, { useEffect, useState } from 'react'
-import BreadCrum from '../Components/BreadCrum'
-import Service from '../Components/Service'
-import ProductSlider from '../Components/ProductSlider'
-
-import { getProduct } from '../Redux/ActionCreators/ProductActionCreator'
+import { useNavigate, useParams } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { useParams } from 'react-router-dom'
+import Service from '../Components/Service'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCube, Autoplay } from 'swiper/modules';   // import required modules
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-cube';
 
+import BreadCrum from '../Components/BreadCrum'
+import ProductSlider from '../Components/ProductSlider'
+
+import { getProduct } from '../Redux/ActionCreators/ProductActionCreator'
+import { getCart, createCart } from '../Redux/ActionCreators/CartActionCreator'
+import { getWishList, createWishList } from '../Redux/ActionCreators/WishListActionCreator'
+
 export default function ProductPage() {
   let { id } = useParams()
-
-  let [data, setData] = useState({})
-  let [relatedData, setRelatedData] = useState([])
   let [selected, setSelected] = useState({
     color: "",
     size: "",
     quantity: 1
   })
+  let [data, setData] = useState({})
+  let [relatedData, setRelatedData] = useState([])
 
   let ProductStateData = useSelector(state => state.ProductStateData)
+  let CartStateData = useSelector(state => state.CartStateData)
+  let WishListStateData = useSelector(state => state.WishListStateData)
+
   let dispatch = useDispatch()
+  let navigate = useNavigate()
+
+  function addToCart() {
+    let item = CartStateData.find(x => x.user === localStorage.getItem("userid") && x.product === id)
+    if (!item) {
+      item = {
+        user: localStorage.getItem("userid"),
+        product: id,
+        color: selected.color,
+        size: selected.size,
+        quantity: selected.quantity,
+        total: data.finalPrice * selected.quantity,
+
+        //below line of code use only in dummy backend.
+        name: data.name,
+        brand: data.brand,
+        stockQuantity: data.stockQuantity,
+        price: data.finalPrice,
+        image: data.image[0]
+      }
+      dispatch(createCart(item))
+    }
+    navigate("/cart")
+  }
+
+  function addToWishList() {
+    let item = WishListStateData.find(x => x.user === localStorage.getItem("userid") && x.product === id)
+    if (!item) {
+      item = {
+        user: localStorage.getItem("userid"),
+        product: id,
+
+        //below line of code use only in dummy backend.
+        name: data.name,
+        brand: data.brand,
+        color: data.color,
+        size: data.size,
+        stockQuantity: data.stockQuantity,
+        price: data.finalPrice,
+        image: data.image[0]
+      }
+      dispatch(createWishList(item))
+    }
+    navigate("/profile?option=WishList")
+  }
 
   useEffect(() => {
     (() => {
@@ -44,6 +93,14 @@ export default function ProductPage() {
       }
     })()
   }, [ProductStateData.length])
+
+  useEffect(() => {
+    (() => dispatch(getCart()))()
+  }, [CartStateData.length])
+
+  useEffect(() => {
+    (() => dispatch(getWishList()))()
+  }, [WishListStateData.length])
 
   return (
 
@@ -119,16 +176,10 @@ export default function ProductPage() {
                     </td>
                   </tr>
                   <tr>
-                    <th>Description</th>
-                    <td>
-                      <div dangerouslySetInnerHTML={{ __html: data.description }} />
-                    </td>
-                  </tr>
-                  <tr>
                     <td colSpan={2}>
                       <div className="row">
                         <div className="col-4">
-                          <div className="btn-group w-20">
+                          {data.stock ? <div className="btn-group w-20">
                             <button
                               className='btn btn-primary'
                               onClick={() => selected.quantity === 1 ? null : setSelected({ ...selected, quantity: selected.quantity - 1 })}>
@@ -140,15 +191,21 @@ export default function ProductPage() {
                               className='btn btn-primary'>
                               <i className='bi bi-plus'></i>
                             </button>
-                          </div>
+                          </div> : null}
                         </div>
                         <div className="col-8">
                           <div className="btn-group w-100 gap-3">
-                            <button className='btn btn-primary'><i className='bi bi-cart-plus me-2'></i>Add To Cart</button>
-                            <button className='btn btn-success'><i className='bi bi-heart me-2'></i>Add To WishList</button>
+                            {data.stock ? <button onClick={() => addToCart()} className='btn btn-primary'><i className='bi bi-cart-plus me-2'></i>Add To Cart</button> : null}
+                            <button onClick={() => addToWishList()} className='btn btn-success'><i className='bi bi-heart me-2'></i>Add To WishList</button>
                           </div>
                         </div>
                       </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Description</th>
+                    <td>
+                      <div dangerouslySetInnerHTML={{ __html: data.description }} />
                     </td>
                   </tr>
                 </tbody>

@@ -44,6 +44,8 @@ import AdminSettingPage from "./Pages/Admin/Setting/AdminSettingPage.jsx";
 import SignUpPage from './Pages/User/SignUpPage.jsx'
 import LoginPage from './Pages/User/LoginPage.jsx'
 import ProfilePage from "./Pages/User/ProfilePage.jsx";
+import CartPage from "./Pages/User/CartPage.jsx";
+import CheckOutPage from "./Pages/User/CheckOutPage.jsx";
 
 
 export default function App() {
@@ -100,6 +102,8 @@ export default function App() {
 
         {/*Buyer Routes */}
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/checkout" element={<CheckOutPage />} />
 
         {/* Error page route */}
         <Route path="/*" element={<ErrorPage />} />

@@ -3,7 +3,6 @@ import Swal from 'sweetalert2'
 import AdminSideBar from '../../../Components/Admin/AdminSideBar'
 import { Link } from 'react-router-dom'
 
-// import { getBrand, deleteBrand } from '../../../Redux/ActionCreators/BrandActionCreator'
 import { getBrand, deleteBrand } from '../../../Redux/ActionCreators/BrandActionCreator'
 
 import { useDispatch, useSelector } from 'react-redux'

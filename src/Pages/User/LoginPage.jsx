@@ -34,6 +34,7 @@ export default function LoginPage() {
           localStorage.setItem("name", item.name)
           localStorage.setItem("userid", item.id)
           localStorage.setItem("role", item.role)
+
           if (item.role === "Buyer")
             navigate("/profile")
           else
@@ -48,7 +49,7 @@ export default function LoginPage() {
   }
   return (
     <>
-      <Breadcrum title="Create Your Account" />
+      <Breadcrum title="Login-To Your Account" />
 
       <div className="container my-4">
         <div className="row">
