@@ -1,0 +1,3011 @@
+{
+  "maincategory": [
+    {
+      "name": "jeans",
+      "image": "maincategory/female.jpg",
+      "status": true,
+      "id": "QmCJthzyzao"
+    },
+    {
+      "name": "Kids",
+      "image": "maincategory/banner4.jpg",
+      "status": true,
+      "id": "-U4twwfVjWU"
+    },
+    {
+      "name": "Wall Frame",
+      "image": "maincategory/banner5.jpg",
+      "status": true,
+      "id": "M8c3xQLEK0M"
+    },
+    {
+      "id": "y2pgnB32i4E",
+      "name": "Cap",
+      "image": "maincategory/kids.jpg",
+      "status": true
+    },
+    {
+      "name": "Male",
+      "image": "maincategory/male.jpg",
+      "status": true,
+      "id": "50Ovkye5L7s"
+    },
+    {
+      "name": "Female",
+      "image": "maincategory/female.jpg",
+      "status": true,
+      "id": "hqObQwB_91A"
+    }
+  ],
+  "subcategory": [
+    {
+      "name": "Earbuds",
+      "image": "subcategory/istockphoto-1302423218-612x612.jpg",
+      "status": true,
+      "id": "qAuAGKR2l2M"
+    },
+    {
+      "id": "oyl_BJHs5Do",
+      "name": "Jeans",
+      "image": "subcategory/jeans.jpg",
+      "status": true
+    },
+    {
+      "name": "Furniture",
+      "image": "subcategory/pexels-andreaedavis-2829030.jpg",
+      "status": true,
+      "id": "wqSINUdsAU4"
+    },
+    {
+      "name": "Pillow",
+      "image": "subcategory/pexels-designecologist-1248583.jpg",
+      "status": true,
+      "id": "OuWRYH-ShGk"
+    },
+    {
+      "name": "Headphone",
+      "image": "subcategory/pexels-garrettmorrow-1649771.jpg",
+      "status": true,
+      "id": "n9rf7Xl8zFk"
+    },
+    {
+      "name": "Laptop",
+      "image": "subcategory/pexels-life-of-pix-7974.jpg",
+      "status": true,
+      "id": "6-AJU0rj8U4"
+    },
+    {
+      "name": "Phone",
+      "image": "subcategory/pexels-pixabay-163065.jpg",
+      "status": true,
+      "id": "50wEEKEwNgc"
+    },
+    {
+      "name": "Watches",
+      "image": "subcategory/pexels-tdcat-437037.jpg",
+      "status": true,
+      "id": "LFh4lllCaNY"
+    },
+    {
+      "name": "Gym Equipment",
+      "image": "subcategory/pexels-victorfreitas-841130.jpg",
+      "status": true,
+      "id": "p3eqFjgTVUI"
+    },
+    {
+      "name": "Shirt",
+      "image": "subcategory/shirt.jpg",
+      "status": true,
+      "id": "yfNiCJcf86U"
+    },
+    {
+      "id": "oojVmhmTOAo",
+      "name": "Trousers",
+      "image": "subcategory/trouser.jpg",
+      "status": true
+    },
+    {
+      "name": "Tshirt",
+      "image": "subcategory/tshirt.jpg",
+      "status": true,
+      "id": "o2GFb2WGSh0"
+    }
+  ],
+  "brand": [
+    {
+      "id": "2YcLvE25c9s",
+      "name": "Adidas",
+      "image": "brand/adidas.png",
+      "status": true
+    },
+    {
+      "name": "Samsung",
+      "image": "brand/download (1).png",
+      "status": true,
+      "id": "IlW43lr3YOc"
+    },
+    {
+      "name": "Boat",
+      "image": "brand/download (2).png",
+      "status": true,
+      "id": "WrbpuZVlqzw"
+    },
+    {
+      "name": "Dell",
+      "image": "brand/download (3).png",
+      "status": true,
+      "id": "wRG4JAakLqM"
+    },
+    {
+      "name": "Hewlett packard",
+      "image": "brand/download (4).png",
+      "status": true,
+      "id": "wc2X_mCCDbQ"
+    },
+    {
+      "name": "Asus",
+      "image": "brand/download (5).png",
+      "status": true,
+      "id": "xkJmVfdyQo0"
+    },
+    {
+      "name": "Noise",
+      "image": "brand/download (6).png",
+      "status": true,
+      "id": "TJxfxTK7pPc"
+    },
+    {
+      "name": "Realme",
+      "image": "brand/download (7).png",
+      "status": true,
+      "id": "LxAbPL8fOys"
+    },
+    {
+      "name": "Nilkamal",
+      "image": "brand/download (8).png",
+      "status": true,
+      "id": "id-f41tBTiQ"
+    },
+    {
+      "name": "Apple",
+      "image": "brand/download.png",
+      "status": true,
+      "id": "zpVJ6JV9_EI"
+    },
+    {
+      "name": "Gucci",
+      "image": "brand/gucci.png",
+      "status": true,
+      "id": "A1sTsHubOzg"
+    },
+    {
+      "id": "xLUNAHKjGcA",
+      "name": "Cobb",
+      "image": "brand/images (1).png",
+      "status": true
+    },
+    {
+      "name": "Mufti",
+      "image": "brand/mufti.png",
+      "status": true,
+      "id": "DqA3wSCBhPI"
+    },
+    {
+      "name": "Nike",
+      "image": "brand/nike.png",
+      "status": true,
+      "id": "Wc6MNEyVEf4"
+    },
+    {
+      "name": "Puma",
+      "image": "brand/puma.jpg",
+      "status": true,
+      "id": "GMcPki5Pi40"
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "image": "brand/tommy-hilfiger.png",
+      "status": true,
+      "id": "sFfeKNkmEmk"
+    },
+    {
+      "name": "U S POLO",
+      "image": "brand/U.S.-Polo-Assn-Logo.jpg",
+      "status": true,
+      "id": "hyTzjUBWeTs"
+    },
+    {
+      "name": "ZARA",
+      "image": "brand/zara.png",
+      "status": true,
+      "id": "sjIAp4Zln8g"
+    }
+  ],
+  "product": [
+    {
+      "name": "Male Jeans Cobb",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 8900,
+      "discount": 90,
+      "finalPrice": 890,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n</p>\r\n\n\r\n<p data-start=\"47\" data-end=\"378\" class=\"PDq2pG_selectionAnchorContainer\">Upgrade your everyday wardrobe with the <strong data-start=\"87\" data-end=\"106\">Male Jeans Cobb</strong>, designed to deliver the perfect balance of comfort, durability, and modern style. Crafted from premium-quality denim with a soft feel and excellent breathability, these jeans provide all-day comfort whether you're at work, out with friends, or enjoying a weekend outing.</p>\r\n\n\n\n\r\n<p data-start=\"380\" data-end=\"668\">Featuring a contemporary fit with clean stitching and a timeless design, the Cobb Men's Jeans pair effortlessly with T-shirts, polos, hoodies, and casual shirts. The high-quality fabric offers flexibility for easy movement while maintaining its shape even after repeated wear and washing.</p>\r\n\n\n\n\r\n<p data-start=\"670\" data-end=\"915\">Designed with practical front and back pockets, a secure button closure, and a durable zipper fly, these jeans combine functionality with fashion. Their versatile look makes them suitable for casual gatherings, travel, college, or everyday wear.</p>\r\n\n\n\n\r\n<p data-start=\"917\" data-end=\"1077\">Whether you're aiming for a relaxed weekend outfit or a smart casual appearance, the <strong data-start=\"1002\" data-end=\"1021\">Male Jeans Cobb</strong> is a dependable choice that complements every wardrobe.</p>\r\n\n\n\n\r\n<h3 data-section-id=\"pm8yra\" data-start=\"1079\" data-end=\"1099\" id=\"key-features\"><span role=\"text\"><strong data-start=\"1083\" data-end=\"1099\">Key Features</strong></span></h3>\r\n\n\n\n\r\n<ul data-start=\"1100\" data-end=\"1529\">\n<li data-section-id=\"18p2ug5\" data-start=\"1100\" data-end=\"1130\">\nPremium-quality denim fabric\n</li>\n<li data-section-id=\"lwazjq\" data-start=\"1131\" data-end=\"1174\">\nComfortable regular fit for everyday wear\n</li>\n<li data-section-id=\"1tj4pgt\" data-start=\"1175\" data-end=\"1215\">\nSoft, breathable, and durable material\n</li>\n<li data-section-id=\"1km349d\" data-start=\"1216\" data-end=\"1260\">\nStylish modern design with clean finishing\n</li>\n<li data-section-id=\"13iijxi\" data-start=\"1261\" data-end=\"1306\">\nSecure button closure and smooth zipper fly\n</li>\n<li data-section-id=\"fgmw6r\" data-start=\"1307\" data-end=\"1342\">\nFunctional front and back pockets\n</li>\n<li data-section-id=\"zky63o\" data-start=\"1343\" data-end=\"1389\">\nFade-resistant fabric for long-lasting color\n</li>\n<li data-section-id=\"f3gvmu\" data-start=\"1390\" data-end=\"1439\">\nEasy to pair with T-shirts, shirts, and jackets\n</li>\n<li data-section-id=\"1xr0if9\" data-start=\"1440\" data-end=\"1489\">\nSuitable for casual outings, office, and travel\n</li>\n<li data-section-id=\"nrb8od\" data-start=\"1490\" data-end=\"1529\">\nMachine washable and easy to maintain\n</li>\n</ul>\r\n\n\n\n\r\n<h3 data-section-id=\"1crtl6g\" data-start=\"1531\" data-end=\"1556\" id=\"care-instructions\"><span role=\"text\"><strong data-start=\"1535\" data-end=\"1556\">Care Instructions</strong></span></h3>\r\n\n\n\n\r\n<ul data-start=\"1557\" data-end=\"1711\">\n<li data-section-id=\"j89byb\" data-start=\"1557\" data-end=\"1592\">\nMachine wash with similar colors.\n</li>\n<li data-section-id=\"1vv0or3\" data-start=\"1593\" data-end=\"1629\">\nWash inside out to preserve color.\n</li>\n<li data-section-id=\"k1v41m\" data-start=\"1630\" data-end=\"1650\">\nDo not use bleach.\n</li>\n<li data-section-id=\"1589ne9\" data-start=\"1651\" data-end=\"1688\">\nTumble dry on low heat or hang dry.\n</li>\n<li data-section-id=\"1hv9do1\" data-start=\"1689\" data-end=\"1711\">\nWarm iron if needed.\n</li>\n</ul>\r\n\n\n\n\r\n<h3 data-section-id=\"2l0mzs\" data-start=\"1713\" data-end=\"1735\" id=\"specifications\"><span role=\"text\"><strong data-start=\"1717\" data-end=\"1735\">Specifications</strong></span></h3>\r\n\n\n\n\r\n<ul data-start=\"1736\" data-end=\"2037\">\n<li data-section-id=\"8qn8f9\" data-start=\"1736\" data-end=\"1753\">\n<strong data-start=\"1738\" data-end=\"1748\">Brand:</strong> Cobb\n</li>\n<li data-section-id=\"1dl1vls\" data-start=\"1754\" data-end=\"1785\">\n<strong data-start=\"1756\" data-end=\"1773\">Product Type:</strong> Men's Jeans\n</li>\n<li data-section-id=\"lw2iqt\" data-start=\"1786\" data-end=\"1828\">\n<strong data-start=\"1788\" data-end=\"1801\">Material:</strong> Premium Cotton Denim Blend\n</li>\n<li data-section-id=\"yoq8p4\" data-start=\"1829\" data-end=\"1851\">\n<strong data-start=\"1831\" data-end=\"1839\">Fit:</strong> Regular Fit\n</li>\n<li data-section-id=\"1nfhr87\" data-start=\"1852\" data-end=\"1882\">\n<strong data-start=\"1854\" data-end=\"1866\">Closure:</strong> Button &amp; Zipper\n</li>\n<li data-section-id=\"gce2iy\" data-start=\"1883\" data-end=\"1909\">\n<strong data-start=\"1885\" data-end=\"1900\">Waist Rise:</strong> Mid Rise\n</li>\n<li data-section-id=\"1cvfqiv\" data-start=\"1910\" data-end=\"1930\">\n<strong data-start=\"1912\" data-end=\"1924\">Pattern:</strong> Solid\n</li>\n<li data-section-id=\"5ofddi\" data-start=\"1931\" data-end=\"1976\">\n<strong data-start=\"1933\" data-end=\"1946\">Occasion:</strong> Casual, Everyday Wear, Travel\n</li>\n<li data-section-id=\"w95dtu\" data-start=\"1977\" data-end=\"2006\">\n<strong data-start=\"1979\" data-end=\"1993\">Wash Care:</strong> Machine Wash\n</li>\n<li data-section-id=\"e4qgek\" data-start=\"2007\" data-end=\"2037\">\n<strong data-start=\"2009\" data-end=\"2031\">Country of Origin:</strong> India</li></ul>\r\n\n\n\n\r\n<br />",
+      "id": "lLokbJijY9M"
+    },
+    {
+      "name": "Female Jeanse Regular Fir Cobb",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 6789,
+      "discount": 89,
+      "finalPrice": 746,
+      "stock": true,
+      "stockQuantity": 90,
+      "image": [
+        "product/p6.jpg",
+        "product/p9.jpg",
+        "product/p12.jpg",
+        "product/p17.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n</p>\r\n\n\r\n<h1 id=\"female-jeans-slim-fit-cobb\">Female Jeans Slim Fit Cobb</h1>\r\n\n\r\n<p>Elevate your everyday style with <strong>Female Jeans Slim Fit Cobb</strong>, designed for women who love a modern, stylish, and comfortable fit. Crafted from quality denim fabric, these jeans offer a flattering slim-fit silhouette while providing enough flexibility for comfortable movement throughout the day.</p>\r\n\n\r\n<p>The sleek design makes these jeans a versatile addition to your wardrobe. Pair them with a casual <strong>T-shirt, stylish top, shirt, or jacket</strong> to create different looks for college, shopping, casual outings, travel, or weekend plans.</p>\r\n\n\r\n<p>With durable stitching, a comfortable waistband, practical pockets, and a secure button-and-zipper closure, these jeans combine fashion with everyday functionality. The contemporary design complements a wide range of footwear, from sneakers and flats to casual boots.</p>\r\n\n\r\n<h3 id=\"key-features\">Key Features</h3>\r\n\n\r\n<ul><li><p><strong>Slim-fit design</strong> for a stylish and flattering appearance</p></li><li><p>Made from <strong>comfortable and durable denim fabric</strong></p></li><li><p>Modern design suitable for everyday fashion</p></li><li><p>Soft and flexible material for comfortable movement</p></li><li><p>Secure <strong>button and zipper closure</strong></p></li><li><p>Functional front and back pockets</p></li><li><p>Easy to pair with different tops and footwear</p></li><li><p>Suitable for casual outings, shopping, travel, and everyday wear</p></li><li><p>Durable stitching for long-lasting use</p></li><li><p>Easy to wash and maintain</p></li></ul>\r\n\n\r\n<h3 id=\"styling-tips\">Styling Tips</h3>\r\n\n\r\n<p>Create a casual everyday look by pairing these jeans with a <strong>basic T-shirt and sneakers</strong>. For a more fashionable appearance, combine them with a stylish top, denim jacket, and ankle boots. Add simple accessories to complete your look.</p>\r\n\n\r\n<h3 id=\"care-instructions\">Care Instructions</h3>\r\n\n\r\n<ul><li><p>Machine wash with similar colors.</p></li><li><p>Turn the jeans inside out before washing.</p></li><li><p>Avoid using bleach or harsh detergents.</p></li><li><p>Do not expose to excessive heat.</p></li><li><p>Hang dry or tumble dry on low heat.</p></li><li><p>Iron on low temperature when required.</p></li></ul>\r\n\n\r\n<h3 id=\"product-specifications\">Product Specifications</h3>\r\n\n\r\n<ul><li><p><strong>Brand:</strong> Cobb</p></li><li><p><strong>Product Type:</strong> Women's Jeans</p></li><li><p><strong>Fit:</strong> Slim Fit</p></li><li><p><strong>Material:</strong> Denim</p></li><li><p><strong>Pattern:</strong> Solid</p></li><li><p><strong>Closure:</strong> Button &amp; Zipper</p></li><li><p><strong>Rise:</strong> Mid Rise</p></li><li><p><strong>Style:</strong> Casual &amp; Contemporary</p></li><li><p><strong>Occasion:</strong> Casual, Travel, Shopping, Everyday Wear</p></li><li><p><strong>Wash Care:</strong> Machine Wash</p></li></ul>\r\n\n\r\n<br />",
+      "id": "zGYA1vADWiA"
+    },
+    {
+      "name": "Kids Jeans Cobb",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "26",
+        "28",
+        "30"
+      ],
+      "basePrice": 3456,
+      "discount": 56,
+      "finalPrice": 1520,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p4.jpg",
+        "product/p42.jpg",
+        "product/p43.jpg",
+        "product/p60.jpg",
+        "product/p61.jpg",
+        "product/p62.jpg",
+        "product/p63.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n</p>\r\n\n\r\n<h1 id=\"kids-jeans-cobb\">Kids Jeans Cobb</h1>\r\n\n\r\n<p>Give your child a stylish and comfortable everyday look with <strong>Kids Jeans Cobb</strong>. Designed for active kids, these jeans combine a trendy appearance with comfortable denim fabric that allows easy movement throughout the day. The versatile design makes them suitable for school outings, family occasions, playdates, travel, and casual everyday wear.</p>\r\n\n\r\n<p>Made with quality denim and durable stitching, these jeans are designed to handle the energy and activities of growing children. The comfortable fit provides freedom of movement while the classic design makes them easy to pair with T-shirts, shirts, sweatshirts, and jackets.</p>\r\n\n\r\n<p>The practical pockets offer convenient storage for small essentials, while the secure button and zipper closure ensures a comfortable and reliable fit. Whether your child is heading to a family gathering or enjoying a day out with friends, <strong>Kids Jeans Cobb</strong> offers a smart combination of style, comfort, and durability.</p>\r\n\n\r\n<h3 id=\"key-features\">Key Features</h3>\r\n\n\r\n<ul><li><p>Stylish and comfortable design for kids</p></li><li><p>Made from quality and durable denim fabric</p></li><li><p>Comfortable fit for easy movement</p></li><li><p>Soft fabric suitable for everyday wear</p></li><li><p>Secure button and zipper closure</p></li><li><p>Functional front and back pockets</p></li><li><p>Durable stitching for long-lasting use</p></li><li><p>Easy to pair with T-shirts, shirts, and sweatshirts</p></li><li><p>Suitable for casual outings, travel, and everyday activities</p></li><li><p>Easy to wash and maintain</p></li></ul>\r\n\n\r\n<h3 id=\"styling-tips\">Styling Tips</h3>\r\n\n\r\n<p>Pair these jeans with a colorful <strong>T-shirt and sneakers</strong> for a fun casual look. For cooler days, combine them with a sweatshirt, hoodie, or lightweight jacket. A simple shirt and casual shoes can create a smart look for family gatherings and special occasions.</p>\r\n\n\r\n<h3 id=\"care-instructions\">Care Instructions</h3>\r\n\n\r\n<ul><li><p>Machine wash with similar colors.</p></li><li><p>Turn inside out before washing.</p></li><li><p>Use a mild detergent.</p></li><li><p>Avoid bleach and harsh chemicals.</p></li><li><p>Do not expose to excessive heat.</p></li><li><p>Hang dry or tumble dry on low heat.</p></li><li><p>Iron on a low temperature when required.</p></li></ul>\r\n\n\r\n<h3 id=\"product-specifications\">Product Specifications</h3>\r\n\n\r\n<ul><li><p><strong>Brand:</strong> Cobb</p></li><li><p><strong>Product Type:</strong> Kids Jeans</p></li><li><p><strong>Material:</strong> Denim</p></li><li><p><strong>Fit:</strong> Comfortable Regular Fit</p></li><li><p><strong>Pattern:</strong> Solid</p></li><li><p><strong>Closure:</strong> Button &amp; Zipper</p></li><li><p><strong>Style:</strong> Casual &amp; Comfortable</p></li><li><p><strong>Occasion:</strong> Everyday Wear, Travel, Outings</p></li><li><p><strong>Gender:</strong> Kids</p></li><li><p><strong>Wash Care:</strong> Machine Wash</p></li></ul>\r\n\n\r\n<br />",
+      "id": "ysi6UbIIaOc"
+    },
+    {
+      "name": "Female Tshirt Cobb",
+      "maincategory": "Female",
+      "subcategory": "Tshirt",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "Green",
+        "White",
+        "Pink",
+        "Blue",
+        "Yellow",
+        "Red",
+        "Purple",
+        "Orange",
+        "Magenta",
+        "Gray"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "M",
+        "S",
+        "XS"
+      ],
+      "basePrice": 8900,
+      "discount": 90,
+      "finalPrice": 890,
+      "stock": true,
+      "stockQuantity": 90,
+      "image": [
+        "product/p19.jpg",
+        "product/p22.jpg",
+        "product/p23.jpg",
+        "product/p28.jpg",
+        "product/p37.jpg",
+        "product/p39.jpg",
+        "product/p46.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<h1 id=\"female-t-shirt-cobb\">Female T-Shirt Cobb</h1>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p>Refresh your everyday wardrobe with the <strong>Female T-Shirt Cobb</strong>, designed for women who prefer a stylish look with comfortable everyday wear. Made from quality fabric, this T-shirt offers a soft feel, lightweight construction, and comfortable fit, making it ideal for regular use throughout the day.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p>Its versatile design makes it easy to create different outfits for casual occasions. Pair it with <strong>jeans, trousers, shorts, or skirts</strong> for a simple and fashionable look. Whether you're heading to college, meeting friends, shopping, traveling, or relaxing at home, this T-shirt provides a practical combination of comfort and contemporary style.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p>The T-shirt features neat stitching and a clean finish for a polished appearance. Its breathable fabric helps provide comfort during extended wear, while the durable construction makes it suitable for regular washing and everyday use.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<h3 id=\"key-features\">Key Features</h3>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul><li><p>Stylish and versatile women's T-shirt</p></li><li><p>Made from comfortable, quality fabric</p></li><li><p>Soft and lightweight for everyday wear</p></li><li><p>Comfortable fit for easy movement</p></li><li><p>Modern design suitable for casual outfits</p></li><li><p>Breathable fabric for enhanced comfort</p></li><li><p>Durable stitching and quality finishing</p></li><li><p>Easy to pair with jeans, trousers, skirts, and shorts</p></li><li><p>Suitable for college, shopping, travel, and casual outings</p></li><li><p>Easy to wash and maintain</p></li></ul>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<h3 id=\"styling-tips\">Styling Tips</h3>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p>Create a classic casual outfit by pairing the T-shirt with <strong>slim-fit jeans and sneakers</strong>. For a relaxed summer look, combine it with shorts and flats. You can also layer it with a denim jacket or lightweight cardigan for a stylish appearance during cooler weather.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<h3 id=\"care-instructions\">Care Instructions</h3>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul><li><p>Machine wash with similar colors.</p></li><li><p>Follow the care label instructions before washing.</p></li><li><p>Use a mild detergent.</p></li><li><p>Avoid bleach and harsh chemicals.</p></li><li><p>Do not tumble dry at high temperature.</p></li><li><p>Dry in shade when possible.</p></li><li><p>Iron on low or medium temperature.</p></li></ul>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<h3 id=\"product-specifications\">Product Specifications</h3>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul><li><p><strong>Brand:</strong> Cobb</p></li><li><p><strong>Product Type:</strong> Women's T-Shirt</p></li><li><p><strong>Material:</strong> Quality Cotton Blend</p></li><li><p><strong>Fit:</strong> Comfortable Fit</p></li><li><p><strong>Pattern:</strong> Solid</p></li><li><p><strong>Neck:</strong> Round Neck</p></li><li><p><strong>Sleeve:</strong> Short Sleeve</p></li><li><p><strong>Style:</strong> Casual &amp; Contemporary</p></li><li><p><strong>Occasion:</strong> Casual, Travel, Shopping, Everyday Wear</p></li><li><p><strong>Gender:</strong> Female</p></li><li><p><strong>Wash Care:</strong> Machine Wash</p></li></ul>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<br />",
+      "id": "dz0ynUUo2TI"
+    },
+    {
+      "name": "Male Jeans Slim Fit Mufti",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "36",
+        "38",
+        "40",
+        "34",
+        "32"
+      ],
+      "basePrice": 8900,
+      "discount": 90,
+      "finalPrice": 890,
+      "stock": true,
+      "stockQuantity": 89,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p7.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n<p class=\"isSelectedEnd\"><span>Upgrade your everyday wardrobe with the </span><strong><span>Male Jeans Slim Fit Mufti</span></strong><span>, designed for men who appreciate both style and comfort. Crafted from premium-quality stretch denim, these jeans provide a modern slim fit that complements your physique while allowing unrestricted movement. The durable fabric ensures long-lasting wear, making them perfect for daily use, office casuals, weekend outings, or evening gatherings. Featuring a classic five-pocket design, secure button closure, and versatile solid finish, these Mufti jeans pair effortlessly with T-shirts, polos, or shirts. Whether you're dressing up or keeping it casual, these jeans deliver the perfect combination of fashion, comfort, and durability.</span></p><h2><span>Key Features</span></h2><ul data-spread=\"false\"><li><span>Premium quality stretch denim fabric</span></li><li><span>Stylish slim fit for a modern look</span></li><li><span>Soft, breathable, and comfortable material</span></li><li><span>Classic five-pocket design</span></li><li><span>Durable stitching for long-lasting performance</span></li><li><span>Secure button and zipper closure</span></li><li><span>Suitable for casual, office, and party wear</span></li><li><span>Easy to pair with T-shirts and shirts</span></li><li><span>Fade-resistant fabric for lasting color</span></li><li><span>Machine washable and easy to maintain</span></li><li><span>Lightweight with excellent flexibility</span></li><li><span>Available in multiple waist sizes</span></li></ul>\n<br /></p>",
+      "id": "QyAePrKPiGc"
+    },
+    {
+      "name": "Female Tshirt Regular Fit",
+      "maincategory": "Female",
+      "subcategory": "Tshirt",
+      "brand": "Adidas",
+      "color": [
+        "Black",
+        "Pink",
+        "White",
+        "Yellow",
+        "Blue",
+        "Megenta",
+        "Red",
+        "Purple"
+      ],
+      "size": [
+        "XXL",
+        "XL",
+        "L",
+        "MD",
+        "SM"
+      ],
+      "basePrice": 8900,
+      "discount": 90,
+      "finalPrice": 890,
+      "stock": true,
+      "stockQuantity": 90,
+      "image": [
+        "product/p22.jpg",
+        "product/p23.jpg",
+        "product/p28.jpg",
+        "product/p39.jpg",
+        "product/p55.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n</p>\r\n\n\n\n\n\n\r\n<p class=\"isSelectedEnd\"><span>Refresh your casual wardrobe with the </span><strong><span>Female T-Shirt Regular Fit Adidas</span></strong><span>, designed to deliver everyday comfort with a sporty, modern look. Made from soft, breathable cotton-blend fabric, this T-shirt offers a comfortable regular fit that's perfect for daily wear, workouts, travel, or casual outings. The lightweight material keeps you feeling fresh throughout the day, while the premium stitching ensures long-lasting durability. Pair it effortlessly with jeans, shorts, joggers, or leggings for a stylish and versatile outfit suitable for every occasion.</span></p>\r\n\n\n\n\n\n\r\n<h2><span>Key Features</span></h2>\r\n\n\n\n\n\n\r\n<ul data-spread=\"false\"><li><span>Premium cotton-blend fabric</span></li><li><span>Comfortable regular fit design</span></li><li><span>Soft, breathable, and lightweight material</span></li><li><span>Classic round neck style</span></li><li><span>Short sleeves for all-day comfort</span></li><li><span>Durable stitching for extended wear</span></li><li><span>Perfect for casual, gym, and travel use</span></li><li><span>Easy to pair with jeans, leggings, or shorts</span></li><li><span>Fade-resistant fabric for lasting color</span></li><li><span>Machine washable and easy to maintain</span></li><li><span>Comfortable for all-day wear</span></li><li><span>Available in multiple sizes and colors</span></li></ul>\r\n\n\n\n\n\n\n\n\r\n<br />",
+      "id": "c3UabaqVQ00"
+    },
+    {
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "basePrice": 8000,
+      "discount": 70,
+      "finalPrice": 2400,
+      "stock": true,
+      "stockQuantity": 46,
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p3.jpg",
+        "product/p4.jpg",
+        "product/p5.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n<p data-start=\"33\" data-end=\"424\">Upgrade your everyday style with Mufti’s Slim Fit Male Jeans, designed for the modern man who values both comfort and fashion. Crafted with premium-quality denim, these jeans offer a sleek, tailored fit that enhances your silhouette while ensuring all-day ease. Perfect for casual outings or smart-casual looks, Mufti brings together durability, style, and versatility in one timeless piece.</p>\n<p data-start=\"426\" data-end=\"443\"><strong data-start=\"426\" data-end=\"443\">Key Features:</strong></p>\n<ul data-start=\"444\" data-end=\"807\">\n<li data-section-id=\"qdsxsj\" data-start=\"444\" data-end=\"493\">\nSlim fit design for a modern and stylish look\n</li>\n<li data-section-id=\"1vo6z4i\" data-start=\"494\" data-end=\"541\">\nPremium quality denim fabric for durability\n</li>\n<li data-section-id=\"i2ayjt\" data-start=\"542\" data-end=\"582\">\nComfortable stretch for all-day wear\n</li>\n<li data-section-id=\"l185fw\" data-start=\"583\" data-end=\"628\">\nClassic 5-pocket styling for practicality\n</li>\n<li data-section-id=\"14uvu8j\" data-start=\"629\" data-end=\"666\">\nMid-rise waist for a balanced fit\n</li>\n<li data-section-id=\"9ytcsw\" data-start=\"667\" data-end=\"717\">\nEasy to pair with shirts, t-shirts, or jackets\n</li>\n<li data-section-id=\"1yy59km\" data-start=\"718\" data-end=\"764\">\nIdeal for casual and semi-formal occasions\n</li>\n<li data-section-id=\"1pe6oqn\" data-start=\"765\" data-end=\"807\">\nStrong stitching and long-lasting finish</li></ul>\n<br /></p>",
+      "id": "psWa-1V6K6Y"
+    },
+    {
+      "name": "Female Jeans Regular Fit Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "basePrice": 7899,
+      "discount": 86,
+      "finalPrice": 1105,
+      "stock": true,
+      "stockQuantity": 47,
+      "color": [
+        "White",
+        "Black",
+        "Blue",
+        "Pink"
+      ],
+      "size": [
+        "32",
+        "34",
+        "38",
+        "36"
+      ],
+      "image": [
+        "product/p9.jpg",
+        "product/p17.jpg",
+        "product/p19.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n</p>\r\n<p data-start=\"38\" data-end=\"428\">Step into effortless comfort and timeless style with Mufti’s Regular Fit Female Jeans. Designed for everyday wear, these jeans offer a relaxed yet flattering fit that suits all body types. Made from high-quality denim, they provide durability along with a soft, comfortable feel. Whether you're heading out for a casual day or styling a smart look, these jeans deliver versatility and ease.</p>\r\n\n\r\n<p data-start=\"430\" data-end=\"447\"><strong data-start=\"430\" data-end=\"447\">Key Features:</strong></p>\r\n\n\r\n<ul>\n<li data-section-id=\"bu4l6v\" data-start=\"448\" data-end=\"505\">\nRegular fit design for a comfortable and relaxed feel\n</li>\n<li data-section-id=\"bya073\" data-start=\"506\" data-end=\"560\">\nPremium quality denim fabric for long-lasting wear</li><li>Soft and breathable material for all-day comfort\n\n</li><li></li><li data-section-id=\"6o4068\" data-start=\"614\" data-end=\"650\">\nMid-rise waist for a natural fit\n</li><li></li><li data-section-id=\"t04ops\" data-start=\"651\" data-end=\"695\">\nClassic 5-pocket styling for convenience\n</li><li></li><li data-section-id=\"1nhn6sr\" data-start=\"696\" data-end=\"743\">\nEasy to style with tops, shirts, or jackets\n</li><li></li><li data-section-id=\"4aseqt\" data-start=\"744\" data-end=\"790\">\nSuitable for daily wear and casual outings\n</li><li></li><li data-section-id=\"1ydop3t\" data-start=\"791\" data-end=\"839\">\nDurable stitching with a clean, elegant finish\n</li></ul>\r\n\n\r\n<div class=\"z-0 flex min-h-[46px] justify-start\"><br /></div>\r\n<div class=\"mt-3 w-full empty:hidden\"><div class=\"text-center\"><br /></div></div>\r\n<div aria-hidden=\"true\" class=\"pointer-events-none -mt-px h-px translate-y-[calc(var(--scroll-root-safe-area-inset-bottom)-14*var(--spacing))]\"><br /></div>\r\n\n\r\n<br />",
+      "id": "Bx_O7EawGtk"
+    },
+    {
+      "name": "Kids Jeans Mufti",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "basePrice": 7800,
+      "discount": 90,
+      "finalPrice": 780,
+      "stock": true,
+      "stockQuantity": 48,
+      "color": [
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "24",
+        "26",
+        "28",
+        "30"
+      ],
+      "image": [
+        "product/p4.jpg",
+        "product/p42.jpg",
+        "product/p43.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n</p>\r\n<section class=\"text-token-text-primary w-full focus:outline-none [--shadow-height:45px] has-data-writing-block:pointer-events-none has-data-writing-block:-mt-(--shadow-height) has-data-writing-block:pt-(--shadow-height) [&amp;:has([data-writing-block])&gt;*]:pointer-events-auto [content-visibility:auto] supports-[content-visibility:auto]:[contain-intrinsic-size:auto_100lvh] R6Vx5W_threadScrollVars scroll-mb-[calc(var(--scroll-root-safe-area-inset-bottom,0px)+var(--thread-response-height))] scroll-mt-[calc(var(--header-height)+min(200px,max(70px,20svh)))]\" dir=\"auto\" data-turn-id=\"request-69ddf5d0-cd58-83e8-af4e-3be04d1c4606-3\" data-testid=\"conversation-turn-34\" data-scroll-anchor=\"false\" data-turn=\"assistant\"><div class=\"text-base my-auto mx-auto pb-10 [--thread-content-margin:var(--thread-content-margin-xs,calc(var(--spacing)*4))] @w-sm/main:[--thread-content-margin:var(--thread-content-margin-sm,calc(var(--spacing)*6))] @w-lg/main:[--thread-content-margin:var(--thread-content-margin-lg,calc(var(--spacing)*16))] px-(--thread-content-margin)\"><div class=\"[--thread-content-max-width:40rem] @w-lg/main:[--thread-content-max-width:48rem] mx-auto max-w-(--thread-content-max-width) flex-1 group/turn-messages focus-visible:outline-hidden relative flex w-full min-w-0 flex-col agent-turn\"><div class=\"flex max-w-full flex-col gap-4 grow\"><div data-message-author-role=\"assistant\" data-message-id=\"5c271285-393f-4d1b-9a6d-91b8f7448d6f\" dir=\"auto\" data-message-model-slug=\"gpt-5-3\" class=\"min-h-8 text-message relative flex w-full flex-col items-end gap-2 text-start break-words whitespace-normal outline-none keyboard-focused:focus-ring [.text-message+&amp;]:mt-1\" data-turn-start-message=\"true\" tabindex=\"0\"><div class=\"flex w-full flex-col gap-1 empty:hidden\"><div class=\"markdown prose dark:prose-invert w-full wrap-break-word dark markdown-new-styling\"><p data-start=\"24\" data-end=\"381\">Keep your little ones stylish and comfortable with Mufti Kids Jeans, designed for active days and playful moments. Made from high-quality, soft denim, these jeans provide durability without compromising on comfort. With a trendy design and easy fit, they are perfect for everyday wear, school, or outings, ensuring kids stay comfortable while looking great.</p>\n<p data-start=\"383\" data-end=\"400\"><strong data-start=\"383\" data-end=\"400\">Key Features:</strong></p>\n<ul data-start=\"401\" data-end=\"768\">\n<li data-section-id=\"1sze572\" data-start=\"401\" data-end=\"456\">\nComfortable fit designed for kids’ active lifestyle\n</li>\n<li data-section-id=\"nsblze\" data-start=\"457\" data-end=\"495\">\nPremium quality, soft denim fabric\n</li>\n<li data-section-id=\"i42sh1\" data-start=\"496\" data-end=\"541\">\nStretchable material for ease of movement\n</li>\n<li data-section-id=\"9pkecn\" data-start=\"542\" data-end=\"585\">\nDurable stitching for long-lasting wear\n</li>\n<li data-section-id=\"o5b5ey\" data-start=\"586\" data-end=\"629\">\nEasy-to-wear design with secure closure\n</li>\n<li data-section-id=\"bl90cp\" data-start=\"630\" data-end=\"673\">\nClassic pockets for added functionality\n</li>\n<li data-section-id=\"zmuvfm\" data-start=\"674\" data-end=\"724\">\nSuitable for daily wear and outdoor activities\n</li>\n<li data-section-id=\"1wc4co8\" data-start=\"725\" data-end=\"768\">\nStylish look perfect for casual occasions\n</li>\n</ul></div></div></div></div><div class=\"z-0 flex min-h-[46px] justify-start\"><br /></div><div class=\"mt-3 w-full empty:hidden\"><div class=\"text-center\"><br /></div></div></div></div></section>\r\n<div aria-hidden=\"true\" class=\"pointer-events-none -mt-px h-px translate-y-[calc(var(--scroll-root-safe-area-inset-bottom)-14*var(--spacing))]\"><br /></div>\r\n\n\r\n<br />",
+      "id": "xLFSkytX6NQ"
+    },
+    {
+      "name": "Male Tshirt Cobb",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Cobb",
+      "basePrice": 8900,
+      "discount": 90,
+      "finalPrice": 890,
+      "stock": true,
+      "stockQuantity": 48,
+      "color": [
+        "White",
+        "Black",
+        "Blue",
+        "Pink",
+        "Gray",
+        "Red",
+        "Violet"
+      ],
+      "size": [
+        "XL",
+        "L",
+        "MD",
+        "SM"
+      ],
+      "image": [
+        "product/p3.jpg",
+        "product/p51.jpg",
+        "product/p52.jpg"
+      ],
+      "status": true,
+      "description": "<p><br /></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<div class=\"flex w-full flex-col gap-1 empty:hidden\"><div class=\"markdown prose dark:prose-invert w-full wrap-break-word dark markdown-new-styling\"><p data-start=\"27\" data-end=\"383\">Refresh your wardrobe with the stylish and comfortable Cobb Female T-Shirt, designed for everyday elegance. Made from soft, breathable fabric, this t-shirt offers a flattering fit that feels great all day long. Whether you're heading out casually or pairing it with layered outfits, Cobb delivers a perfect blend of comfort, simplicity, and modern fashion.</p>\n<p data-start=\"385\" data-end=\"402\"><strong data-start=\"385\" data-end=\"402\">Key Features:</strong></p>\n<ul data-start=\"403\" data-end=\"778\">\n<li data-section-id=\"6k9ion\" data-start=\"403\" data-end=\"453\">\nSoft and breathable fabric for all-day comfort\n</li>\n<li data-section-id=\"1x6a77q\" data-start=\"454\" data-end=\"502\">\nStylish and flattering fit for a modern look\n</li>\n<li data-section-id=\"1vezcmz\" data-start=\"503\" data-end=\"548\">\nLightweight material ideal for daily wear\n</li>\n<li data-section-id=\"6pcig5\" data-start=\"549\" data-end=\"591\">\nDurable stitching for long-lasting use\n</li>\n<li data-section-id=\"1pjmnpa\" data-start=\"592\" data-end=\"638\">\nEasy to pair with jeans, skirts, or shorts\n</li>\n<li data-section-id=\"169k44u\" data-start=\"639\" data-end=\"691\">\nSuitable for casual outings and everyday styling\n</li>\n<li data-section-id=\"czp5zj\" data-start=\"692\" data-end=\"734\">\nSkin-friendly fabric for extra comfort\n</li>\n<li data-section-id=\"yusk51\" data-start=\"735\" data-end=\"778\">\nAvailable in versatile colors and designs\n</li>\n</ul></div></div>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<div class=\"z-0 flex min-h-[46px] justify-start\"><br /></div>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<div class=\"mt-3 w-full empty:hidden\"><div class=\"text-center\"><br /></div></div>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<div aria-hidden=\"true\" class=\"pointer-events-none -mt-px h-px translate-y-[calc(var(--scroll-root-safe-area-inset-bottom)-14*var(--spacing))]\"><br /></div>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<br />",
+      "id": "8ztYHqjT9ns"
+    },
+    {
+      "id": "8378",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "26",
+        "38",
+        "36",
+        "34",
+        "40",
+        "28",
+        "30",
+        "32"
+      ],
+      "basePrice": 4450,
+      "discount": 50,
+      "finalPrice": 2225,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p7.jpg",
+        "product/p13.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\nUpgrade your everyday style with the \nMufti Slim Fit Jeans for Men, designed for a modern, confident look. Crafted from premium-quality denim, these jeans offer a perfect balance of comfort, durability, and stretch. The slim fit cut enhances your silhouette without feeling restrictive, making it ideal for both casual outings and smart-casual occasions.</p>\r\n<p></p>\r\n\n\r\n<p data-start=\"459\" data-end=\"712\">Featuring a classic five-pocket design, sturdy stitching, and a sleek finish, these jeans deliver both functionality and fashion. The breathable fabric ensures all-day comfort, while the tailored fit pairs effortlessly with shirts, t-shirts, or jackets.</p>\r\n\n\r\n<p data-start=\"714\" data-end=\"835\">Whether you're heading to work, college, or a weekend outing, Mufti Slim Fit Jeans add effortless style to your wardrobe.</p>\r\n\n\r\n<p data-start=\"837\" data-end=\"854\"><strong data-start=\"837\" data-end=\"854\">Key Features:</strong></p>\r\n<ul><li>\nPremium stretchable denim</li><li>Modern slim fit design</li><li>Durable and long-lasting fabric</li><li>Comfortable for all-day wear</li><li>Perfect for casual and semi-formal styling</li></ul>\r\n<br />\r\n\n\r\n<br />"
+    },
+    {
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34"
+      ],
+      "basePrice": 3460,
+      "discount": 50,
+      "finalPrice": 1730,
+      "stock": true,
+      "stockQuantity": 20,
+      "image": [
+        "product/p6.jpg",
+        "product/p9.jpg",
+        "product/p12.jpg",
+        "product/p17.jpg",
+        "product/p32.jpg"
+      ],
+      "status": true,
+      "id": "4162",
+      "description": "<p>\n\n</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p data-start=\"38\" data-end=\"337\">Refresh your wardrobe with the stylish and comfortable <strong data-start=\"93\" data-end=\"124\">Mufti Female Slim Fit Jeans</strong>. Designed to flatter your silhouette, these jeans offer a perfect blend of fashion and comfort. Crafted from premium stretchable denim, they provide a snug yet flexible fit that moves with you throughout the day.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p data-start=\"339\" data-end=\"592\">The sleek slim-fit design enhances your natural shape, making it ideal for both casual and semi-formal occasions. Featuring a classic five-pocket style, durable stitching, and a modern finish, these jeans pair effortlessly with tops, shirts, or jackets.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p data-start=\"594\" data-end=\"737\">Whether you're heading to work, college, or a weekend outing, Mufti Female Jeans deliver confidence, comfort, and timeless style in every wear.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p data-start=\"739\" data-end=\"756\"><strong data-start=\"739\" data-end=\"756\">Key Features:</strong></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul data-start=\"757\" data-end=\"915\"><li>\nHigh-quality stretch denim</li><li>Flattering slim fit cut</li><li>Soft, breathable fabric</li><li>Durable and long-lasting</li>\n<li data-start=\"873\" data-end=\"915\">\n\nPerfect for everyday and occasion wear\n<br /></li></ul>"
+    },
+    {
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "basePrice": 4450,
+      "discount": 70,
+      "finalPrice": 1335,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p44.jpg"
+      ],
+      "status": true,
+      "id": "d7df",
+      "description": "<p>\n\n</p>\r\n<p data-start=\"57\" data-end=\"450\">Upgrade your everyday style with <strong data-start=\"90\" data-end=\"123\">Mufti Men’s Regular Fit Jeans</strong>, designed for comfort, durability, and timeless appeal. Crafted from high-quality denim fabric, these jeans offer a soft feel with long-lasting strength, making them perfect for daily wear. The regular fit provides a comfortable silhouette that is neither too tight nor too loose, allowing ease of movement throughout the day.</p>\r\n\n\r\n<p data-start=\"452\" data-end=\"782\">Featuring a classic five-pocket design, sturdy stitching, and a reliable button-zip closure, these Mufti jeans blend practicality with modern style. Whether paired with a casual t-shirt or a smart shirt, they are ideal for office wear, outings, or weekend looks. A must-have wardrobe essential for men who value comfort and style.</p>\r\n\n\r\n<br />"
+    },
+    {
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "28",
+        "26",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 6788,
+      "discount": 90,
+      "finalPrice": 678,
+      "stock": true,
+      "stockQuantity": 20,
+      "image": [
+        "product/p6.jpg",
+        "product/p9.jpg",
+        "product/p12.jpg",
+        "product/p17.jpg",
+        "product/p19.jpg"
+      ],
+      "status": false,
+      "id": "d441",
+      "description": "<p>\n\nEnhance your everyday wardrobe with&nbsp; Mufti Women’s Regular Fit Jeans, designed to offer the perfect balance of comfort and style. Made from premium-quality denim, these jeans feel soft on the skin while providing durability for long-lasting wear. The regular fit ensures a flattering shape with enough room for all-day comfort.</p>\r\n\n\n\n\r\n<p><br /></p>\r\n\n\n\n\n\n\r\n<p data-start=\"391\" data-end=\"657\">Featuring a classic button closure, smooth stitching, and functional pockets, these jeans are ideal for both casual outings and daily wear. Easy to style with tops, shirts, or kurtis, Mufti women’s jeans are a versatile essential for a confident and effortless look.</p>\r\n\n\n\n\n\n\r\n<br />"
+    },
+    {
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "color": [
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "basePrice": 4449,
+      "discount": 70,
+      "finalPrice": 1334,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p7.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true,
+      "id": "2f7a",
+      "description": "<span style=\"font-weight: bold;\">This is Sample Product for <span style=\"text-decoration-line: underline; font-style: italic;\">Testing Purpose</span></span>"
+    },
+    {
+      "name": "Women’s Slim Fit Denim Jeans",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "basePrice": 2343,
+      "discount": 40,
+      "finalPrice": 1405,
+      "stock": true,
+      "stockQuantity": 48,
+      "image": [
+        "product/p6.jpg",
+        "product/p9.jpg",
+        "product/p12.jpg"
+      ],
+      "status": true,
+      "id": "b84f",
+      "description": "<p>\n\n</p>\r\n<p data-start=\"179\" data-end=\"649\">Step into effortless style with the <strong data-start=\"234\" data-end=\"266\">Mufti Women’s Slim Fit Jeans</strong>, crafted for the modern woman who values both comfort and confidence. Designed with precision, these jeans offer a sleek silhouette that enhances your natural shape while allowing unrestricted movement. The premium stretchable denim fabric ensures a perfect fit, while the soft texture provides day-long comfort — whether you’re at work, out shopping, or catching up with friends.</p>\r\n\n\r\n<p data-start=\"651\" data-end=\"1021\">Featuring a mid-rise waist and classic five-pocket styling, these jeans combine Mufti’s signature design with versatile elegance. Pair them with a trendy top, casual tee, or formal shirt — they’re perfect for any occasion. With durable stitching, fade-resistant wash, and timeless appeal, these jeans are a must-have wardrobe essential for every fashion-forward woman.</p>\r\n\n\r\n<p data-start=\"1023\" data-end=\"1038\"><strong data-start=\"1023\" data-end=\"1036\">Features:</strong></p>\r\n\n\r\n<ul><li><span style=\"font-weight: bold;\">\nSlim fit design for a modern, flattering look</span></li><li><span style=\"font-style: italic;\">Premium stretchable denim for superior comfort</span></li><li><span style=\"text-decoration-line: underline;\">Mid-rise waist with button and zip closure</span></li><li>Classic five-pocket style with durable stitching</li><li>Available in multiple washes and sizes</li><li>Perfect for both casual and semi-formal occasions</li></ul>\r\n<br />\r\n\n\r\n<br />"
+    },
+    {
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "32",
+        "34",
+        "36",
+        "38",
+        "40"
+      ],
+      "basePrice": 4450,
+      "discount": 70,
+      "finalPrice": 1335,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p1.jpg",
+        "product/p11.jpg",
+        "product/p41.jpg",
+        "product/p49.jpg",
+        "product/p50.jpg",
+        "product/p54.jpg"
+      ],
+      "status": true,
+      "id": "51e4",
+      "description": "This is Sample Product"
+    },
+    {
+      "name": "Female Jeans Slim Fit",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 3460,
+      "discount": 90,
+      "finalPrice": 346,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p6.jpg",
+        "product/p9.jpg",
+        "product/p12.jpg"
+      ],
+      "status": true,
+      "id": "25d8",
+      "description": "<p>\n\n</p>\r\n\n\n\n\r\n<p data-start=\"164\" data-end=\"564\">Step into effortless style with CartStudio’s<span style=\"font-weight: bold; background-color: rgb(255, 255, 255);\"> <span style=\"color: rgb(0, 0, 0);\">premium women’s jean</span><span style=\"text-decoration-line: underline; font-style: italic; color: rgb(0, 0, 0);\">s</span></span> — designed for comfort, confidence, and everyday wear. Crafted from high-quality stretchable denim, these jeans perfectly hug your curves while allowing full flexibility. Whether it’s a casual day out or a night with friends, our versatile fits — from skinny to high-rise — keep you fashion-forward all day long.</p>\r\n\n\n\n\r\n<ul><li data-start=\"164\" data-end=\"564\"><span style=\"font-weight: bold;\">Soft, breathable, and stretchable fabric</span></li><li data-start=\"164\" data-end=\"564\"><span style=\"font-weight: bold;\">Available in multiple washes and fits</span></li><li data-start=\"164\" data-end=\"564\"><span style=\"font-weight: bold;\">Durable stitching for long-lasting wear</span></li></ul>\r\n\n\n\n\n\n\n\r\n<p data-start=\"715\" data-end=\"751\">Perfect blend of comfort and trend</p>\r\n\n\n\n\n\n\n\n\r\n<p data-start=\"753\" data-end=\"831\"><strong data-start=\"753\" data-end=\"767\">Style Tip:</strong> Pair with a crop top or casual tee for a chic, everyday look.</p>\r\n\n\n\n\n\n\r\n<br />"
+    },
+    {
+      "name": "Kids Jeans Mufti",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "28"
+      ],
+      "basePrice": 5678,
+      "discount": 90,
+      "finalPrice": 567,
+      "stock": true,
+      "stockQuantity": 20,
+      "image": [
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p64.jpg",
+        "product/p66.jpg"
+      ],
+      "status": true,
+      "id": "64fd",
+      "description": "<p>\n\n</p>\r\n<p data-start=\"160\" data-end=\"537\">Let your little ones move with comfort and style in <strong data-start=\"231\" data-end=\"251\">Mufti Kids Jeans</strong> — designed for active days and endless fun. Made from soft, stretchable denim, these jeans offer a perfect blend of durability and flexibility, keeping your child comfortable all day long. Whether it’s school, playtime, or family outings, Mufti ensures a trendy look with a snug fit.</p>\r\n\n\r\n<p data-start=\"539\" data-end=\"554\"><strong data-start=\"539\" data-end=\"552\"></strong></p>\r\n<ul data-start=\"555\" data-end=\"741\"><li><span style=\"font-weight: bold;\">\nPremium quality soft denim fabric</span></li><li><span style=\"font-weight: bold;\">Stretchable and easy to wear</span></li><li><span style=\"font-weight: bold;\">Stylish washes and modern fit</span></li><li><span style=\"font-weight: bold;\">Durable stitching for long-lasting use</span></li><li><span style=\"font-weight: bold;\">Designed for both comfort and play</span></li>\n</ul>\r\n\n\r\n<p data-start=\"743\" data-end=\"853\"><strong data-start=\"743\" data-end=\"757\">Style Tip:</strong> Pair with a Mufti graphic tee or casual shirt for a cool, everyday outfit your kid will love.</p>\r\n\n\r\n<br />"
+    },
+    {
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "basePrice": 4450,
+      "discount": 70,
+      "finalPrice": 1335,
+      "stock": true,
+      "stockQuantity": 48,
+      "color": [
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "24",
+        "26",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36",
+        "38",
+        "40",
+        "N/A"
+      ],
+      "image": [
+        "product/p25.jpg",
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p49.jpg"
+      ],
+      "status": true,
+      "description": "With a dark indigo wash and minimal fading, these jeans are incRedibly versatile and can be easily paiRed with anything from a basic t-shirt to a formal shirt or jacket. The high-quality stitching and robust construction ensure long-lasting wear, making them a reliable choice for your day-to-day adventures.\n\n\n\n\r\n<p data-start=\"1330\" data-end=\"1485\">Whether you're dressing up or keeping it casual, <strong data-start=\"1379\" data-end=\"1405\">Mufti’s Slim Fit Jeans</strong> are your go-to option for a smart, confident look that never goes out of style.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<h3 data-section-id=\"1a6pia8\" data-start=\"1492\" data-end=\"1517\"></h3>\r\n\n\n\n\r\n<h5><strong data-start=\"1496\" data-end=\"1517\">Product Features:</strong></h5>\r\n\n\n\n\n\n\n\n\n\n\r\n<ul data-start=\"1519\" data-end=\"1899\"><li><strong data-start=\"1521\" data-end=\"1531\">Brand:</strong> Mufti</li><li><strong data-start=\"1542\" data-end=\"1555\">Fit Type:</strong> Slim Fit</li><li><strong data-start=\"1569\" data-end=\"1582\">Material:</strong> Stretchable Cotton Denim</li><li><strong data-start=\"1612\" data-end=\"1627\">Waist Rise:</strong> Mid-rise</li><li><strong data-start=\"1641\" data-end=\"1653\">Closure:</strong> Button &amp; Zipper</li><li><strong data-start=\"1674\" data-end=\"1684\">Color:</strong> Dark Indigo with subtle fading</li><li><strong data-start=\"1720\" data-end=\"1732\">Pockets:</strong> Classic 5-pocket design</li><li><strong data-start=\"1761\" data-end=\"1771\">Style:</strong> Casual / Semi-Formal</li><li><strong data-start=\"1797\" data-end=\"1809\">Comfort:</strong> Stretch fabric for ease of movement</li><li><strong data-start=\"1850\" data-end=\"1864\">Wash Care:</strong> Machine wash cold, do not bleach</li></ul>",
+      "id": "09c7"
+    },
+    {
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 9000,
+      "discount": 90,
+      "finalPrice": 900,
+      "stock": true,
+      "stockQuantity": 20,
+      "image": [
+        "product/p6.jpg",
+        "product/p9.jpg",
+        "product/p12.jpg",
+        "product/p17.jpg",
+        "product/p19.jpg"
+      ],
+      "status": true,
+      "id": "b694",
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ligula eros, congue et dui vel, varius ultrices dui. Cras vitae elit dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra,&nbsp;</span></p>\r\n\n\n\n\r\n<p><br /></p>\r\n\n\r\n<ul><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">per inceptos himenaeos.<span style=\"text-decoration-line: underline; font-style: italic;\"> Donec tincidunt mi sem, eget condimentum</span> purus aliquet quis.</span></li><li><span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255); font-weight: bold;\">Aliquam iaculis lectus sit amet diam tristique, rutrum laoreet lectus pulvinar.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Sed varius sapien id sagittis placerat. Duis facilisis libero eget mi volutpat porttitor.&nbsp;</span></li><li><span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 0);\">Praesent porttitor eu lectus vel laoreet. Integer in suscipit mi.&nbsp;</span></li></ul>\r\n\nVivamus id elementum dolor, a convallis velit. Vivamus gravida gravida nisl non eleifend. Mauris sed turpis vel augue cursus ornare in vel augue. Maecenas iaculis nec ex sed dapibus. Vestibulum eget interdum elit. Nulla rutrum purus a nisi blandit, ut ornare ipsum lacinia."
+    },
+    {
+      "id": "c538",
+      "name": "Male Jeans Mufti",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 7800,
+      "discount": 90,
+      "finalPrice": 780,
+      "stock": true,
+      "stockQuantity": 49,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p25.jpg",
+        "product/p26.jpg"
+      ],
+      "description": "<p style=\" color: rgb(65, 65, 65); font-size: 14px; line-height: 1.6\"><span style=\" font-style: italic; font-weight: bold\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi finibus euismod ipsum. Etiam viverra non mauris non ultrices. Maecenas faucibus dolor a elementum mattis. Nullam sit amet efficitur diam. Mauris porta enim sed lacus ornare molestie. Sed vitae eros augue. Praesent sed erat est. Quisque consectetur fringilla interdum. Fusce non dui viverra,&nbsp;</span></p>\r\n<p style=\" color: rgb(65, 65, 65); font-size: 14px; line-height: 1.6\"></p>\r\n<ul><li>lacinia libero ac, lobortis eros.&nbsp;</li><li><span style=\" font-weight: bold\">Aliquam ac nisl quis purus varius gravida at vel ante.&nbsp;</span></li><li>Aliquam dapibus blandit leo, id sollicitudin nulla tempor maximus.&nbsp;</li><li>Donec id dolor porta, varius velit at, bibendum augue.&nbsp;</li><li>Nulla malesuada eleifend ipsum tempus convallis.&nbsp;</li><li>Proin est diam, sollicitudin et enim a, ornare malesuada dolor.</li></ul>",
+      "status": true
+    },
+    {
+      "id": "a034",
+      "name": "Male Jeans Mufti",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4590,
+      "discount": 80,
+      "finalPrice": 918,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p11.jpg",
+        "product/p25.jpg",
+        "product/p26.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras condimentum elementum lectus, non facilisis dui. Integer vestibulum ligula quis magna venenatis, non imperdiet dolor viverra. Duis neque mauris, mollis ac dui ac, laoreet molestie purus. Donec consequat tellus ac eleifend sollicitudin. Sed magna neque, elementum vel placerat vitae, rutrum nec ex. Proin vel finibus lectus, a sagittis purus. Praesent a odio at nisl consectetur tempus. Praesent id mauris dolor.</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Nunc fermentum consequat risus sed ornare.&nbsp;</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Ut euismod sagittis leo. Sed vulputate urna sit amet volutpat dignissim.</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Donec a lobortis tortor. Duis eleifend porttitor consectetur.&nbsp;</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Aliquam eget nibh non nisl finibus ultricies.&nbsp;</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Nullam dapibus quam nec lacus maximus, consectetur semper nisl dignissim.</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Aenean consectetur at arcu non aliquet.&nbsp;</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;</li><li style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">&nbsp;Proin vitae ornare augue. In consectetur vel nisl a lobortis.</li></ul>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<br />"
+    },
+    {
+      "name": "Male Jeans Tommy Filfiger",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfiger",
+      "basePrice": 3460,
+      "discount": 50,
+      "finalPrice": 1730,
+      "stock": true,
+      "stockQuantity": 48,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p11.jpg",
+        "product/p44.jpg"
+      ],
+      "status": true,
+      "id": "b2fb",
+      "description": "Test Product"
+    },
+    {
+      "id": "5994",
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 5678,
+      "discount": 80,
+      "finalPrice": 1135,
+      "stock": true,
+      "stockQuantity": 15,
+      "description": "Test Product",
+      "status": true,
+      "image": [
+        "product/p12.jpg",
+        "product/p17.jpg",
+        "product/p19.jpg",
+        "product/p33.jpg",
+        "product/p38.jpg",
+        "product/p40.jpg",
+        "product/p47.jpg",
+        "product/p53.jpg",
+        "product/p55.jpg",
+        "product/p73.jpg"
+      ]
+    },
+    {
+      "id": "7ae1",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4450,
+      "discount": 50,
+      "finalPrice": 2225,
+      "stock": true,
+      "stockQuantity": 49,
+      "status": true,
+      "image": [
+        "product/p1.jpg",
+        "product/p50.jpg",
+        "product/p3.jpg",
+        "product/p4.jpg"
+      ],
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, <span style=\"font-weight: bold;\">consectetur adipiscing elit</span>. Sed non mauris vehicula, laoreet turpis vitae, bibendum lorem.&nbsp;</span></p>\r\n\n\n\n\n\n\n\n\n\n\r\n<p><br /></p>\r\n\n\n\n\n\n\n\n\r\n<ul><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Vivamus ante urna, accumsan a sem vitae, ultricies posuere nulla. In odio ex, ornare eleifend sem vitae, molestie condimentum justo.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Aliquam erat volutpat. Fusce dui massa, egestas at mauris a, tristique aliquam ante. Suspendisse et mi quam.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Aliquam nunc purus, pulvinar eget erat in, porta viverra dui.</span></li><li><span style=\"font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255); font-weight: bold; color: rgb(51, 102, 255);\">&nbsp;Praesent porta tellus eget ipsum condimentum consequat ut tempus nulla.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Ut vitae diam sed purus facilisis egestas. Morbi dapibus convallis sapien, mollis interdum velit auctor nec.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Nunc mauris augue, sollicitudin id nulla eget, euismod convallis nisi. Quisque sed ipsum tellus. Aliquam congue facilisis maximus.</span></li></ul>"
+    },
+    {
+      "id": "13fa",
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4450,
+      "discount": 50,
+      "finalPrice": 2225,
+      "stock": true,
+      "stockQuantity": 47,
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Praesent turpis odio, pulvinar eu turpis ut, vestibulum consequat turpis. Pellentesque et auctor augue. Ut dictum quam eu sem vehicula rutrum. Donec blandit eu quam id lobortis. Duis ac volutpat orci. Nulla sed accumsan ipsum, sit amet tristique eros. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce et quam in ligula ultricies sodales. Nulla tortor urna, lacinia et elementum vitae, pharetra ac leo. Donec vitae libero convallis, tempor est ac, fringilla lectus. Donec eget interdum urna, sit amet blandit justo. Pellentesque justo urna, ultrices quis tortor quis, condimentum suscipit mauris. Phasellus commodo, ex vel luctus tristique, turpis urna efficitur urna, tincidunt ullamcorper arcu lorem ut lorem. Aenean scelerisque faucibus nunc iaculis luctus.</span>\n<br /></p>",
+      "status": true,
+      "image": [
+        "product/p1.jpg"
+      ]
+    },
+    {
+      "id": "9517",
+      "name": "Male Shirt Green Check",
+      "maincategory": "Male",
+      "subcategory": "Trouser",
+      "brand": "Tommy Hilfiger",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 3460,
+      "discount": 70,
+      "finalPrice": 1038,
+      "stock": true,
+      "stockQuantity": 38,
+      "description": "Phasellus consequat malesuada consequat. Duis lacinia aliquet risus, et feugiat dolor porta vitae. Fusce sodales nunc purus, vel sodales diam convallis at. Nam consectetur eu sapien eget iaculis. Vestibulum nec ligula id massa consectetur posuere in ut lectus. Nullam eleifend venenatis mattis. Cras nec iaculis lacus. Quisque ornare ultricies mauris a pellentesque. Nulla volutpat in ipsum eu laoreet. Vestibulum a felis ligula. Fusce non consectetur ante. Curabitur consectetur, est a aliquet blandit, nunc quam euismod mi, a porttitor metus augue sit amet tellus. Sed iaculis mauris at volutpat interdum. In faucibus tincidunt orci. Nulla tincidunt turpis neque, rutrum faucibus dui sollicitudin quis. Suspendisse vulputate diam sit amet lorem commodo, et iaculis risus mollis.",
+      "status": true,
+      "image": [
+        "product/p25.jpg",
+        "product/p26.jpg"
+      ]
+    },
+    {
+      "id": "321a",
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 2343,
+      "discount": 50,
+      "finalPrice": 1171,
+      "stock": true,
+      "stockQuantity": 50,
+      "status": true,
+      "image": [
+        "product/p12.jpg",
+        "product/p32.jpg",
+        "product/p47.jpg",
+        "product/p53.jpg",
+        "product/p55.jpg"
+      ],
+      "description": "<p>\n\n</p>\r\n\n\n\n\n\n\n\n\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rutrum mollis lacus at elementum. Nullam eget augue blandit, hendrerit justo ut, feugiat nisi. Etiam luctus sed nibh vitae fringilla. Morbi nunc nun<span style=\"font-weight: bold;\">c, lacinia id erat vitae, </span>vulputate ullamcorper ligula. Aenean tortor eros, porttitor vitae egestas ac, eleifend nec arcu. Nullam sit amet erat scelerisque, dictum diam vitae, tempus tortor. In blandit libero nec neque ornare, eu congue nisl dictum.</p>\r\n\n\n\n\n\n\n\n\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\"><br /></p>\r\n\n\n\n\n\n\n\n\r\n<ul style=\"list-style: square;\"><li>Maecenas venenatis tem<span style=\"background-color: rgb(255, 255, 255);\">por est, eu molestie diam efficitur vel. Curabitur sit amet faucibus ex.&nbsp;</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Suspendisse laoreet sem quis mi semper lacinia. Maecenas eleifend magna at blandit rhoncus.&nbsp;</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Sed tristique neque at sem blandit, vel vestibulum nibh hendrerit. Sed vestibulum faucibus justo</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">quis varius. Donec ullamcorper metus magna, eu pellentesque justo vehicula eget. Etiam</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">malesuada, elit at consectetur tristique, leo nulla blandit ante, ac rutrum magna magna sit amet nisl.</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Pellentesque iaculis faucibus ipsum sit amet aliquam. Curabitur leo dolor, consequat sed rhoncus efficitur,&nbsp;</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">varius sed lorem. Phasellus laoreet sollicitudin var</span>ius. Proin sagittis quam sit amet suscipit ullamcorper.&nbsp;</li></ul>\r\n\n\n\n\nMorbi eu ex a nunc viverra efficitur nec vel lectus. Vivamus pellentesque, diam a fringilla accumsan, metus magna mattis est, mattis eleifend ipsum velit vel dui. Integer dignissim, urna non faucibus porttitor, eros turpis porta urna, at cursus ex tellus ac tellus. Proin id ex tincidunt, congue enim a, lacinia lacus.\n\n\n\n\r\n<p><br /></p>\r\n\n\n\n\n\n\n\n\n\n\r\n<br />"
+    },
+    {
+      "id": "1d1d",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4597,
+      "discount": 50,
+      "finalPrice": 2298,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in porttitor urna. Sed ac orci id metus egestas rutrum. Nunc placerat sapien vel leo mollis tempus. Cras ut lacus quis massa aliquet venenatis. Donec eget porta ligula. Quisque dolor enim, commodo sit amet tempor vel, interdum nec orci. Vestibulum nulla ex, rutrum porttitor consectetur sed, tincidunt ac justo. Sed scelerisque eu ante et semper. Suspendisse ac felis consequat, dignissim est at, pharetra dui. Maecenas lectus dolor, feugiat in tristique ac, pretium a diam.",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p10.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "419b",
+      "name": "Male Tshirt Black Cobb",
+      "maincategory": "Male",
+      "subcategory": "Tshir",
+      "brand": "Cobb",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 4500,
+      "discount": 90,
+      "finalPrice": 450,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p3.jpg",
+        "product/p51.jpg",
+        "product/p52.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in porttitor urna. Sed ac orci id metus egestas rutrum. Nunc placerat sapien vel leo mollis tempus. Cras ut lacus quis massa aliquet venenatis.&nbsp;</span></p>\r\n<p><ul><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Donec eget porta ligula. Quisque dolor enim, commodo sit amet tempor vel,</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">interdum nec orci. Vestibulum nulla ex, rutrum porttitor consectetur sed,</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">tincidunt ac justo. Sed scelerisque eu ante et semper. Suspendisse ac felis consequat,</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">dignissim est at, pharetra dui. Maecenas lectus dolor, feugiat in tristique ac,</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">pretium a diam.</span></li></ul></p>"
+    },
+    {
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 3566,
+      "discount": 50,
+      "finalPrice": 1783,
+      "stock": false,
+      "stockQuantity": 0,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in porttitor urna. Sed ac orci id metus egestas rutrum. Nunc placerat sapien vel leo mollis tempus. Cras ut lacus quis massa aliquet venenatis. Donec eget porta ligula. Quisque dolor enim, commodo sit amet tempor vel, interdum nec orci. Vestibulum nulla ex, rutrum porttitor consectetur sed, tincidunt ac justo. Sed scelerisque eu ante et semper. Suspendisse ac felis consequat, dignissim est at, pharetra dui. Maecenas lectus dolor, feugiat in tristique ac, pretium a diam.</span>\n</p>",
+      "id": "fafc"
+    },
+    {
+      "id": "b686",
+      "name": "Kids Trouser Tommy Hilfiger",
+      "maincategory": "Kids",
+      "subcategory": "Trouser",
+      "brand": "Tommy Hilfiger",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 45800,
+      "discount": 80,
+      "finalPrice": 9160,
+      "stock": true,
+      "stockQuantity": 37,
+      "image": [
+        "product/p63.jpg",
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p64.jpg",
+        "product/p66.jpg"
+      ],
+      "status": true,
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam rhoncus purus mi, a rutrum sem egestas et. Duis a tristique odio. Duis facilisis eros in ultricies volutpat. Proin vel mattis nibh. Morbi vitae vestibulum ante, nec rhoncus dolor. Maecenas consectetur eu tellus et bibendum. Sed placerat lectus at mi posuere, eget tincidunt lorem fringilla. Mauris nec ligula sem. Morbi at purus fermentum, facilisis leo sed, bibendum odio. Etiam tristique orci elit, non commodo quam fermentum vitae. Praesent ex metus, fringilla eget arcu vitae, venenatis facilisis mi. Duis ultricies velit porta, tempor turpis vitae, sagittis sapien. Donec feugiat nulla eu turpis hendrerit, pretium feugiat felis ornare. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>\n<br /></p>"
+    },
+    {
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 45800,
+      "discount": 95,
+      "finalPrice": 2290,
+      "stock": true,
+      "stockQuantity": 61,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p11.jpg",
+        "product/p49.jpg"
+      ],
+      "status": true,
+      "id": "f6cc",
+      "description": "<p>\n\n</p>\r\n\n\n\n\n\n\n\n\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at vulputate orci. Nam gravida urna in dictum dictum. Vivamus tincidunt, erat tristique facilisis scelerisque, nisl tellus laoreet purus, et ultricies libero odio in metus. Donec mattis arcu viverra fringilla tincidunt. Pellentesque ornare felis turpis, sed suscipit metus pulvinar vel. Sed facilisis porttitor libero sollicitudin rhoncus. Aenean sed congue sem. Aenean et sem sed massa mollis vulputate. Curabitur aliquet turpis at aliquam aliquam. Suspendisse luctus, justo a dapibus blandit, urna ligula cursus lorem, a lacinia massa neque a leo. Curabitur eget venenatis urna, eget rhoncus neque. Morbi vulputate vitae odio at faucibus. Nulla porta sem in dui finibus, id efficitur enim eleifend. Vivamus faucibus iaculis accumsan.</p>\r\n\n\n\n\n\n\n\n\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Maecenas elementum pulvinar mauris at dictum. Morbi a lacinia ipsum, ut commodo augue. Phasellus nec tortor eu eros ullamcorper dignissim. Nam nec orci eu eros viverra tempor quis interdum nunc. Vivamus ultrices, risus at congue venenatis, enim risus pharetra metus, id molestie massa ligula et neque. Etiam et augue interdum, lacinia mauris vestibulum, tempor dui. Quisque auctor eu elit ut viverra. Proin scelerisque dolor metus, ut dapibus orci consequat venenatis.</p>\r\n\n\n\n\n\n\n\n\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Cras sit amet arcu venenatis, scelerisque neque eu, tempus turpis. Vivamus porta eros eu nisl suscipit, eleifend vehicula nunc fermentum. Suspendisse molestie, eros quis ullamcorper congue, mauris magna condimentum turpis, a hendrerit orci felis eu nisl. Nulla mi erat, accumsan in est non, rhoncus tincidunt lectus. Quisque augue leo, molestie et lacus et, rutrum efficitur nunc. Fusce et lacus euismod, rhoncus risus et, dignissim orci. Nunc ullamcorper sem dui, egestas lacinia augue eleifend sit amet. Vestibulum ac metus turpis. Nulla a volutpat diam. Nam accumsan id eros et commodo. Nulla facilisi.</p>\r\n\n\n\n\n\n\n\n\n\n\r\n<br />"
+    },
+    {
+      "id": "6342",
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4000,
+      "discount": 75,
+      "finalPrice": 1000,
+      "stock": false,
+      "stockQuantity": 0,
+      "description": "<p>&nbsp;<span style=\"background-color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\"><span style=\"font-weight: bold;\">Lorem ipsum dolor sit amet</span>, consectetur adipiscing elit. Nunc posuere neque et lorem ullamcorper ullamcorper. Vestibulum vehicula ex lectus. Maecenas a consectetur ligula. Pellentesque non quam sem. Aenean euismod augue efficitur justo blandit, non tempus felis imperdiet. Sed nulla tellus, ornare eget ligula vel, dictum eleifend mi. Suspendisse pharetra porta erat.te placerat mauris, auctor cursus leo lorem sit amet leo. Aliquam erat volutpat. Phasellus vel tristique risus, vel lacinia massa.</span></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p><span style=\"background-color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\"><br /></span></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p><span style=\"background-color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;, Arial, sans-serif; text-align: justify;\"></span></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul><li><span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Nam suscipit, elit id hendrerit vehicula, ipsum ante placerat mauris, auctor cursus leo lorem sit amet leo. Aliquam erat volutpat. Phasellus vel tristique risus, vel lacinia</span></li><li><span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">\n\n<span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\"><span>&nbsp;</span>In mi urna, convallis vel leo aliquet, pretium tempus quam. Nunc rhoncus pulvinar lacus, consectetur elementum mi porttitor sed. Nam suscipit, elit id hendrerit vehicula, ipsum an</span></span></li><li><span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\"><span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">\n\n<span style=\"color: rgb(65, 65, 65); font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">ta erat.te placerat mauris, auctor cursus leo lorem sit<span>&nbsp;</span></span>\n<br /></span></span></li></ul>",
+      "image": [
+        "product/p2.jpg",
+        "product/p11.jpg",
+        "product/p16.jpg",
+        "product/p44.jpg",
+        "product/p49.jpg"
+      ],
+      "status": true
+    },
+    {
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "basePrice": 9850,
+      "discount": 65,
+      "finalPrice": 3447,
+      "stock": false,
+      "stockQuantity": 0,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p10.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true,
+      "id": "16b4",
+      "description": "Test Product"
+    },
+    {
+      "id": "6f20",
+      "name": "Male Tshirt Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 8500,
+      "discount": 85,
+      "finalPrice": 1275,
+      "stockQuantity": 15,
+      "stock": true,
+      "description": "<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Vestibulum non porta nisl. Morbi ut purus tempor sapien bibendum dictum at et orci. Donec commodo nisi ut ante sollicitudin, a placerat dolor ullamcorper. Etiam viverra ligula convallis nulla efficitur, vitae aliquam sem finibus. In quis posuere mauris. Etiam pretium porta semper. In sagittis tincidunt metus nec malesuada. Aenean sit amet lectus vitae nibh vestibulum elementum at nec neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu gravida urna. Suspendisse nec auctor augue. Integer commodo ante non enim ultrices viverra. In pharetra vehicula posuere. Sed lacinia auctor est ut condimentum. Donec vestibulum accumsan orci nec iaculis.</p>\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Fusce eget ullamcorper diam, vel molestie velit. Nunc dui augue, vestibulum at mauris ac, tempor iaculis dui. Ut imperdiet non elit sed auctor. Curabitur ullamcorper, magna eget placerat pretium, turpis leo ultrices odio, vitae condimentum ex libero id neque. Sed hendrerit sit amet elit id finibus. Donec sed dolor eget orci consectetur ornare. Vivamus interdum venenatis porta. Donec blandit tincidunt ligula, sit amet malesuada leo pellentesque nec.</p>\r\n<p style=\"margin: 0px 0px 15px; text-align: justify; font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255)\">Aliquam vitae arcu bibendum, mattis turpis eget, posuere mauris. Praesent vel elit sed arcu interdum lacinia. Aliquam erat volutpat. Phasellus at faucibus nibh. Aenean in porta lectus. Maecenas mattis auctor egestas. Suspendisse ac nisl finibus, condimentum turpis eget, venenatis massa. Vestibulum sed cursus quam. Sed sed eleifend elit, in cursus enim.</p>",
+      "image": [
+        "product/p3.jpg",
+        "product/p51.jpg",
+        "product/p52.jpg",
+        "product/p10.jpg",
+        "product/p54.jpg"
+      ],
+      "status": false
+    },
+    {
+      "id": "b6cc",
+      "name": "Kids Jeans Adidas",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "basePrice": 7560,
+      "discount": 75,
+      "finalPrice": 1890,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": true,
+      "description": "Test",
+      "stockQuantity": 39,
+      "image": [
+        "product/p4.jpg",
+        "product/p42.jpg",
+        "product/p43.jpg",
+        "product/p58.jpg",
+        "product/p60.jpg",
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p64.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "2c86",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 6500,
+      "discount": 85,
+      "finalPrice": 975,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p><strong><em><ins>Test</ins></em></strong></p>\n",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p5.jpg",
+        "product/p7.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "1",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 9850,
+      "discount": 65,
+      "finalPrice": 3447,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p><span style=\"color: rgb(230,126,35);\"><strong><em><ins>This is Sample Product</ins></em></strong></span></p>",
+      "image": [
+        "product/p16.jpg",
+        "product/p25.jpg",
+        "product/p26.jpg",
+        "product/p38.jpg",
+        "product/p40.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4500,
+      "discount": 50,
+      "finalPrice": 2250,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is a Sample Product</p>\n",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p5.jpg",
+        "product/p7.jpg",
+        "product/p16.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Male Jeans Black",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfiger",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 6500,
+      "discount": 65,
+      "finalPrice": 2275,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p5.jpg",
+        "product/p7.jpg",
+        "product/p13.jpg",
+        "product/p15.jpg",
+        "product/p16.jpg"
+      ],
+      "status": true
+    },
+    {
+      "name": "Male Jeans Blue",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": [
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 48700,
+      "discount": 87,
+      "finalPrice": 6331,
+      "stock": true,
+      "stockQuantity": 49,
+      "image": [
+        "product/p25.jpg",
+        "product/p26.jpg",
+        "product/p38.jpg",
+        "product/p40.jpg",
+        "product/p41.jpg",
+        "product/p49.jpg"
+      ],
+      "status": true,
+      "id": "4",
+      "description": "<p>This is Sample Product</p>"
+    },
+    {
+      "id": "5",
+      "name": "Male Tshirt Polo",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Polo",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 4500,
+      "discount": 80,
+      "finalPrice": 900,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p15.jpg",
+        "product/p24.jpg",
+        "product/p44.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "6",
+      "name": "Male Shirt Nike",
+      "maincategory": "Male",
+      "subcategory": "Shirt",
+      "brand": "Nike",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 4500,
+      "discount": 90,
+      "finalPrice": 450,
+      "stock": true,
+      "stockQuantity": 44,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p25.jpg",
+        "product/p26.jpg",
+        "product/p38.jpg",
+        "product/p40.jpg",
+        "product/p41.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "7",
+      "name": "Male Tshirt Black Adidas",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 15000,
+      "discount": 80,
+      "finalPrice": 3000,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p3.jpg",
+        "product/p51.jpg",
+        "product/p52.jpg",
+        "product/p54.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "8",
+      "name": "Male Trouser Polo",
+      "maincategory": "Male",
+      "subcategory": "Trouser",
+      "brand": "Polo",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 8500,
+      "discount": 85,
+      "finalPrice": 1275,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p49.jpg",
+        "product/p50.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "9",
+      "name": "Female Jeans Slim Fit",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "stock": true,
+      "stockQuantity": 49,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p32.jpg",
+        "product/p47.jpg",
+        "product/p53.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "10",
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 8580,
+      "discount": 80,
+      "finalPrice": 1716,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p9.jpg",
+        "product/p12.jpg",
+        "product/p19.jpg",
+        "product/p32.jpg",
+        "product/p53.jpg",
+        "product/p55.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "11",
+      "name": "Female Tshirt Adidas",
+      "maincategory": "Female",
+      "subcategory": "Tshirt",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p8.jpg",
+        "product/p9.jpg",
+        "product/p19.jpg",
+        "product/p22.jpg",
+        "product/p23.jpg",
+        "product/p28.jpg",
+        "product/p39.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "12",
+      "name": "Female Tshirt White Mufti",
+      "maincategory": "Female",
+      "subcategory": "Tshirt",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 2500,
+      "discount": 85,
+      "finalPrice": 375,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p6.jpg",
+        "product/p8.jpg",
+        "product/p9.jpg",
+        "product/p22.jpg",
+        "product/p23.jpg",
+        "product/p28.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "13",
+      "name": "Female Shirt Gucci",
+      "maincategory": "Female",
+      "subcategory": "Shirt",
+      "brand": "Gucci",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 8585,
+      "discount": 25,
+      "finalPrice": 6438,
+      "stock": true,
+      "stockQuantity": 47,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p70.jpg",
+        "product/p71.jpg",
+        "product/p72.jpg"
+      ],
+      "status": true
+    },
+    {
+      "name": "Kids Jeans Tommy Hilfiger",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Tommy Hilfiger",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Lavender"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 5000,
+      "discount": 50,
+      "finalPrice": 2500,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p58.jpg",
+        "product/p59.jpg",
+        "product/p60.jpg",
+        "product/p61.jpg"
+      ],
+      "status": true,
+      "id": "14",
+      "description": "<p>This is Sample Product</p>"
+    },
+    {
+      "id": "15",
+      "name": "Male Tshirt Cobb",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Cobb",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p3.jpg",
+        "product/p15.jpg",
+        "product/p16.jpg",
+        "product/p24.jpg",
+        "product/p51.jpg",
+        "product/p52.jpg",
+        "product/p54.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "16",
+      "name": "Male Tshirt Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Tshirt",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "basePrice": 8585,
+      "discount": 85,
+      "finalPrice": 1287,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p3.jpg",
+        "product/p10.jpg",
+        "product/p24.jpg",
+        "product/p54.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "17",
+      "name": "Male Jeans Ripped",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 9850,
+      "discount": 50,
+      "finalPrice": 4925,
+      "stock": true,
+      "stockQuantity": 49,
+      "description": "<p>This is Sample Product</p>\n",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p5.jpg",
+        "product/p11.jpg",
+        "product/p13.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "18",
+      "name": "Male Jeans Slim  Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 7800,
+      "discount": 78,
+      "finalPrice": 1716,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<h3>Product details</h3>\n<p style=\"text-align:left;\"><strong>Material type  </strong> Cotton</p>\n<p><strong>Style   </strong> Classic</p>\n<p><strong>Closure type </strong> Button</p>\n<p><strong>Occasion type</strong> Casual</p>\n<p><strong>Care instructions</strong> Machine Wash</p>\n<p style=\"text-align:left;\"><strong>Fit type  </strong> Regular</p>\n<h3>About this item</h3>\n<ul>\n<li>Fabric Care Description :: 100% Cotton, Machine wash</li>\n<li>Fit Type :: Regular Fit</li>\n<li>Rise Type :: Mid Rise</li>\n<li>Closure Type :: Button &amp; Zip</li>\n<li>Stretchability :: Non stretchable</li>\n</ul>\n<h3>Additional Information</h3>\n<p></p>\n<p></p>\n<p>Manufacturer</p>\n<p>Raymond Uco Denim Pvt Ltd D1 &amp; D2, Apparel Park,,Bangalore,561203,IN, Raymond Uco Denim Pvt Ltd</p>\n",
+      "image": [
+        "product/p11.jpg",
+        "product/p16.jpg",
+        "product/p41.jpg",
+        "product/p49.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "19",
+      "name": "Male jeans Adidas",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "stock": true,
+      "stockQuantity": 45,
+      "description": "<p>These <strong>Adidas </strong>jeans are a must-have for any man looking for a classic, versatile pair. Made from a soft, stretchy cotton fabric, they are designed to be comfortable and breathable.</p>\n<p>The mid-Blue wash gives them a one-of-a-kind look that will keep them fashion-forward. Add on a denim jacket and sneakers for a classic combination.</p>\n",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p5.jpg",
+        "product/p7.jpg",
+        "product/p44.jpg",
+        "product/p49.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "a483",
+      "name": "Kids Jeans Cobb",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p>&nbsp;Lorem ipsum dolor sit a<strong>met consectetur adipisicing elit.</strong> Quo ad assumenda deleniti dolorum pariatur! Ex fugit dolor possimus ut facere. At porro eveniet delectus animi, maxime aliquam ad fugit ab possimus voluptatum minus totam doloremque quo nulla reiciendis, ducimus, temporibus et ut aliquid. <em>Dolore accusantium harum s</em>uscipit minus dignissimos eaque corrupti placeat error enim, sed et non veniam, atque provident voluptas. Quo odio quod voluptate commodi dolores corrupti<code> nihil maxime delectus eveniet? Nihil, quasi vel. Culpa, doloremque, blanditiis porro ad corporis illo vel non ducimus, nulla commodi aperiam enim maio</code>res nobis quo a unde alias tempore nam earum tenetur reprehenderit.</p>\n",
+      "image": [
+        "product/p42.jpg",
+        "product/p43.jpg",
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p64.jpg",
+        "product/p65.jpg",
+        "product/p66.jpg",
+        "product/p67.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "f496",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "basePrice": 9850,
+      "discount": 95,
+      "finalPrice": 492,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": true,
+      "description": "",
+      "stockQuantity": 42,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p10.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "cd2b",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "basePrice": 9850,
+      "discount": 95,
+      "finalPrice": 492,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": true,
+      "description": "<p>Test Product</p>",
+      "stockQuantity": 20,
+      "image": [
+        "product/p10.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "d500",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p11.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "8293",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "basePrice": 4500,
+      "discount": 45,
+      "finalPrice": 2475,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": true,
+      "stockQuantity": 49,
+      "description": "<p>Test <span style=\"font-weight: bold; text-decoration-line: underline; font-style: italic; background-color: rgb(153, 51, 0); color: rgb(255, 255, 255);\">Product</span></p>",
+      "image": [
+        "product/p2.jpg",
+        "product/p5.jpg",
+        "product/p11.jpg",
+        "product/p44.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "ba89",
+      "name": "Kids Tshirt Slim Fit",
+      "maincategory": "Kids",
+      "subcategory": "Tshirt",
+      "brand": "Cobb",
+      "basePrice": 1500,
+      "discount": 70,
+      "finalPrice": 450,
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "stock": true,
+      "stockQuantity": 8,
+      "description": "<p>Test <span style=\"font-weight: bold; text-decoration-line: underline; font-style: italic; background-color: rgb(153, 51, 0); color: rgb(255, 255, 255);\">Product</span></p>",
+      "image": [
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p66.jpg",
+        "product/p67.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "b9f3",
+      "name": "Male Jeans Regular Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Cobb",
+      "basePrice": 4500,
+      "discount": 75,
+      "finalPrice": 1125,
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stock": true,
+      "description": "<p>Hello World</p>\r\n<p>This is Sample Product</p>",
+      "stockQuantity": 19,
+      "image": [
+        "product/p1.jpg"
+      ],
+      "status": true
+    },
+    {
+      "name": "Female Jeans Regular Fit",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 7500,
+      "discount": 95,
+      "finalPrice": 375,
+      "stock": true,
+      "stockQuantity": 40,
+      "image": [
+        "product/p12.jpg",
+        "product/p47.jpg",
+        "product/p53.jpg",
+        "product/p55.jpg"
+      ],
+      "status": true,
+      "id": "a6b7",
+      "description": "<p>Hello World</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p>This is Sample Product</p>"
+    },
+    {
+      "name": "Kids Jeans Regular Fit",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 3500,
+      "discount": 50,
+      "finalPrice": 1750,
+      "stock": true,
+      "stockQuantity": 38,
+      "image": [
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p64.jpg",
+        "product/p66.jpg"
+      ],
+      "status": true,
+      "id": "f90a",
+      "description": "<p>Hello World</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p>This is Sample Product</p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p><a href=\"https://www.ducatindia.com\" target=\"_blank\">Ducat</a><br /></p>"
+    },
+    {
+      "id": "b86b",
+      "name": "Male Jeans Slim Fit",
+      "maincategory": "Male",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 5000,
+      "discount": 50,
+      "finalPrice": 2500,
+      "stock": true,
+      "stockQuantity": 50,
+      "description": "<p><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec magna justo, pulvinar a tincidunt non, interdum in elit. Donec ornare est nec vestibulum mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean dolor tortor, laoreet et efficitur facilisis, iaculis quis lorem. Phasellus congue elit non purus semper cursus. Proin justo orci, luctus nec porta non, pulvinar elementum ipsum. Mauris id metus lectus. Nunc ac bibendum urna, quis pharetra quam.</span></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\"><br /></span></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<p><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\"></span></p>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<ul><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Aenean facilisis massa aliquet leo mollis, eu ultricies erat tincidunt.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Quisque nec est aliquet, rutrum urna eu, gravida dui.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Vivamus egestas dolor eu tortor bibendum, quis sodales metus dictum.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Morbi tristique eu sapien vel feugiat. Quisque et iaculis nisl. Praesent ante lorem, pellentesque vel sodales sed, ullamcorper sit amet odio.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Integer vestibulum metus scelerisque massa mollis, id iaculis erat porta.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Donec placerat vel orci in aliquam. Aenean convallis tincidunt consequat.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Cras et nunc vitae enim egestas sodales vitae a magna. Etiam quis felis in est feugiat hendrerit.</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Nunc placerat viverra arcu, vel interdum dolor pharetra vel. Quisque vehicula at felis molestie ornare.&nbsp;</span></li><li><span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Nulla tincidunt imperdiet nisl vitae maximus. Vivamus ut tortor nisl. Aliquam ac lacus sed enim tempor posuere.</span></li></ul>\r\n\n\n\n\n\n\n\n\n\n\n\n\n\n\r\n<br />",
+      "image": [
+        "product/p1.jpg",
+        "product/p2.jpg",
+        "product/p25.jpg",
+        "product/p26.jpg",
+        "product/p16.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "a44f",
+      "name": "Female Jeans Mufti",
+      "maincategory": "Female",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 7899,
+      "discount": 90,
+      "finalPrice": 789,
+      "stock": true,
+      "stockQuantity": 16,
+      "description": "This is Test Product",
+      "image": [
+        "product/p12.jpg",
+        "product/p17.jpg",
+        "product/p19.jpg",
+        "product/p38.jpg",
+        "product/p40.jpg"
+      ],
+      "status": true
+    },
+    {
+      "id": "7820",
+      "name": "Kids Jeans Mufti",
+      "maincategory": "Kids",
+      "subcategory": "Jeans",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "basePrice": 2500,
+      "discount": 90,
+      "finalPrice": 250,
+      "stock": true,
+      "stockQuantity": 46,
+      "description": "<p>\n\n<span style=\" font-family: &quot;Open Sans&quot;, Arial, sans-serif; font-size: 14px; text-align: justify; background-color: rgb(255, 255, 255)\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pellentesque odio sem, sed convallis augue facilisis ac. Etiam dictum odio non diam maximus, id consequat lectus egestas. Nunc metus ligula, pellentesque ut dui tempor, egestas feugiat est. Suspendisse eu turpis aliquet, placerat metus non, vulputate est. Maecenas et venenatis urna. Pellentesque cursus hendrerit vehicula. Praesent sapien tellus, rhoncus quis blandit sed, fermentum tempor eros. Vestibulum id nulla nisi. Quisque tempus nulla vitae enim condimentum, ac efficitur augue euismod. Sed pretium blandit lacus nec tincidunt. Sed quam quam, elementum id mollis at, scelerisque sed lorem. Quisque et eros lectus. Phasellus tellus metus, auctor sit amet eros sed, tristique fermentum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</span>\n<br /></p>",
+      "image": [
+        "product/p56.jpg",
+        "product/p57.jpg"
+      ],
+      "status": true
+    },
+    {
+      "name": "Kids Tshirt",
+      "maincategory": "Kids",
+      "subcategory": "Tshirt",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Navy",
+        "Gray",
+        "Blue",
+        "Orange"
+      ],
+      "size": [
+        "XS",
+        "SM",
+        "M",
+        "L",
+        "XL"
+      ],
+      "basePrice": 4450,
+      "discount": 50,
+      "finalPrice": 2225,
+      "stock": true,
+      "stockQuantity": 50,
+      "image": [
+        "product/p62.jpg",
+        "product/p63.jpg",
+        "product/p64.jpg",
+        "product/p67.jpg",
+        "product/p4.jpg"
+      ],
+      "status": true,
+      "id": "65fb",
+      "description": "<p>\n\n</p>\r\n\n\n\n\r\n<p data-start=\"65\" data-end=\"405\">Let your little one stay active and stylish with the <strong data-start=\"118\" data-end=\"140\">Mufti Kids T-Shirt</strong>, designed for comfort and durability. Made from soft, breathable cotton fabric, this t-shirt feels gentle on the skin and keeps kids comfortable all day long. The lightweight material allows easy movement, making it perfect for school, playtime, or casual outings.</p>\r\n\n\n\n\n\n\r\n<p data-start=\"407\" data-end=\"635\">Featuring a trendy design and a perfect regular fit, this Mufti t-shirt pairs effortlessly with jeans, shorts, or joggers. The high-quality stitching and fade-resistant fabric ensure long-lasting wear even after multiple washes.</p>\r\n\n\n\n\n\n\r\n<p data-start=\"637\" data-end=\"654\"><strong data-start=\"637\" data-end=\"654\">Key Features:</strong></p>\r\n\n\n\n\n\n\r\n<ul data-start=\"655\" data-end=\"829\">\n<li data-start=\"655\" data-end=\"692\">\n<p data-start=\"657\" data-end=\"692\">Soft and breathable cotton fabric</p>\n</li>\n<li data-start=\"693\" data-end=\"720\">\n<p data-start=\"695\" data-end=\"720\">Comfortable regular fit</p>\n</li>\n<li data-start=\"721\" data-end=\"754\">\n<p data-start=\"723\" data-end=\"754\">Skin-friendly and lightweight</p>\n</li>\n<li data-start=\"755\" data-end=\"799\">\n<p data-start=\"757\" data-end=\"799\">Durable stitching and long-lasting color</p>\n</li>\n<li data-start=\"800\" data-end=\"829\">\n<p data-start=\"802\" data-end=\"829\">Perfect for everyday wear</p></li></ul>\r\n\n\n\n\n\n\r\n<br />"
+    }
+  ],
+  "features": [
+    {
+      "name": "Fast Delivery",
+      "icon": "<i class=\"bi bi-truck\"></i>",
+      "shortDescription": "Enjoy lightning-fast delivery with our efficient shipping network. Every order is processed quickly and packed securely to ensure it reaches your doorstep safely. Real-time tracking lets you monitor your package, giving you complete confidence and convenience throughout the entire delivery experience.",
+      "status": true,
+      "id": "uiLVUPLh-Ac"
+    },
+    {
+      "name": "Secure Payment",
+      "icon": "<i class=\"bi bi-shield-lock\"></i>",
+      "shortDescription": "Shop confidently with our advanced payment security system. We support multiple trusted payment methods protected by encrypted transactions. Your personal and financial information remains private, allowing you to complete every purchase safely without worrying about fraud or unauthorized access.",
+      "status": true,
+      "id": "YHW5bDf7F4I"
+    },
+    {
+      "name": "24/7 Customer Support",
+      "icon": "<i class=\"bi bi-headset\"></i>",
+      "shortDescription": "Our dedicated customer support team is available around the clock to answer questions, resolve issues, and provide assistance whenever you need it. Whether it's product information, order updates, or returns, we're always ready to help with prompt and friendly service.",
+      "status": true,
+      "id": "hyRTtONgT9s"
+    },
+    {
+      "name": "Premium Quality",
+      "icon": "<i class=\"bi bi-award\"></i>",
+      "shortDescription": "We carefully select every product to ensure exceptional quality and durability. Each item undergoes strict quality checks before reaching customers. Experience premium craftsmanship, reliable performance, and products designed to meet high standards while providing excellent value for your investment.",
+      "status": true,
+      "id": "SL7KudXIpCw"
+    },
+    {
+      "name": "Easy Returns",
+      "icon": "<i class=\"bi bi-arrow-repeat\"></i>",
+      "shortDescription": "Customer satisfaction comes first with our simple return policy. If a product doesn't meet your expectations, you can request an easy return within the eligible period. Our streamlined process makes exchanges and refunds quick, transparent, and completely hassle-free for every customer.",
+      "status": true,
+      "id": "vBHjcAWthog"
+    },
+    {
+      "name": "Best Deals",
+      "icon": "<i class=\"bi bi-tags\"></i>",
+      "shortDescription": "Save more with exciting discounts, seasonal offers, and exclusive promotions available throughout the year. Discover competitive prices across thousands of products while enjoying unbeatable value. We regularly introduce special deals so you can shop smarter without compromising on quality",
+      "status": true,
+      "id": "x5xoIu8_scY"
+    },
+    {
+      "name": "Verified Products",
+      "icon": "<i class=\"bi bi-patch-check\"></i>",
+      "shortDescription": "Every product listed on our platform is verified for authenticity and quality. We partner with trusted brands and reliable suppliers to ensure genuine merchandise. Shop confidently knowing you receive original products backed by dependable quality and customer satisfaction",
+      "status": true,
+      "id": "ysK-vAt5L44"
+    },
+    {
+      "name": "Eco Friendly",
+      "icon": "<i class=\"bi bi-tree\"></i>",
+      "shortDescription": "We're committed to protecting the environment by promoting sustainable products and responsible packaging. Our eco-friendly initiatives reduce waste while supporting greener choices for customers. Together, we can make shopping more environmentally conscious without sacrificing quality, convenience, or affordability.",
+      "status": true,
+      "id": "y_b03x2wyUc"
+    },
+    {
+      "name": "Wishlist Support",
+      "icon": "<i class=\"bi bi-heart\"></i> ",
+      "shortDescription": "Create personalized wishlists to save your favorite products for future purchases. Easily organize items, compare options, and receive updates when prices change or products become available. Shopping becomes more convenient by keeping everything you love in one accessible place.",
+      "status": true,
+      "id": "epMbo8uMcUU"
+    },
+    {
+      "name": "Global Shipping",
+      "icon": "<i class=\"bi bi-globe\"></i>",
+      "shortDescription": "We deliver products to customers across multiple countries with reliable international shipping services. Secure packaging, trusted logistics partners, and transparent tracking ensure your order reaches its destination safely, making worldwide shopping simple, efficient, and dependable for everyone.",
+      "status": true,
+      "id": "vqTseFmVl6o"
+    },
+    {
+      "name": "Smart Search",
+      "icon": "<i class=\"bi bi-search\"></i>",
+      "shortDescription": "Find exactly what you're looking for using our intelligent search system. Advanced filters, accurate suggestions, and quick results help you browse products effortlessly. Spend less time searching and more time discovering items that perfectly match your preferences and needs.",
+      "status": true,
+      "id": "xGR_E-eLfYY"
+    },
+    {
+      "name": "Instant Notifications",
+      "icon": "<i class=\"bi bi-bell\"></i>",
+      "shortDescription": "Stay informed with instant notifications about order updates, exclusive offers, restocked products, and important announcements. Receive timely alerts so you never miss exciting opportunities or essential information, ensuring a seamless shopping experience from purchase to delivery.",
+      "status": true,
+      "id": "fcHeAnPcHvE"
+    }
+  ],
+  "faq": [
+    {
+      "question": "What makes your products different from others?",
+      "answer": "Our products are carefully selected to deliver outstanding quality, durability, and value. Every item is sourced from trusted manufacturers and undergoes strict quality checks before being listed. We focus on customer satisfaction by offering reliable products that combine modern design, excellent performance, and affordable pricing for everyday needs.",
+      "status": true,
+      "id": "TrlM6fkcxXY"
+    },
+    {
+      "question": "How long does shipping usually take?",
+      "answer": "Shipping time depends on your delivery location and the selected shipping method. Most domestic orders are delivered within 3 to 7 business days, while international deliveries may take 7 to 15 business days. Customers receive a tracking number once the order is shipped for real-time delivery updates.",
+      "status": true,
+      "id": "FUsHwltp9kw"
+    },
+    {
+      "question": "Which payment methods do you accept?",
+      "answer": "We accept multiple secure payment options, including credit cards, debit cards, UPI, net banking, digital wallets, and cash on delivery where available. All online transactions are encrypted using industry-standard security protocols, ensuring your financial information remains protected throughout the payment process.",
+      "status": true,
+      "id": "0s_UQwkNY_o"
+    },
+    {
+      "question": "4. Can I return or exchange a product?",
+      "answer": "Yes, eligible products can be returned or exchanged within the specified return period. Items should be unused, undamaged, and returned in their original packaging with all accessories included. Once the returned product passes inspection, your refund or replacement request will be processed as quickly as possible.",
+      "status": true,
+      "id": "NXAABfkhB0M"
+    },
+    {
+      "question": "How can I track my order?",
+      "answer": "After your order is confirmed and shipped, you will receive an email or SMS containing a tracking ID and courier details. Simply use the tracking number on the shipping partner's website to view your package's current location and estimated delivery date at any time.",
+      "status": true,
+      "id": "9_JunSRLb4s"
+    },
+    {
+      "question": "Do you offer customer support after purchase?",
+      "answer": "Absolutely. Our customer support team is available to assist you before, during, and after your purchase. Whether you have questions about installation, warranty, returns, or product usage, our experienced representatives are ready to provide prompt and helpful assistance through multiple communication channels.\n",
+      "status": true,
+      "id": "2Tnkw19WHro"
+    },
+    {
+      "question": "Are my personal details and payment information safe?",
+      "answer": "Yes. We prioritize your privacy by using advanced encryption technology and secure payment gateways to protect your personal and financial information. Your data is handled according to strict privacy standards and is never shared with unauthorized third parties, ensuring a safe shopping experience.",
+      "status": true,
+      "id": "OnYrfSXsL5M"
+    },
+    {
+      "question": "Do you provide discounts and promotional offers?",
+      "answer": "Yes, we regularly introduce exciting discounts, seasonal sales, festival offers, and exclusive promotional campaigns for our customers. You can subscribe to our newsletter or follow our social media channels to stay informed about the latest deals, limited-time offers, and special member-only discounts.",
+      "status": true,
+      "id": "eGjSr7dAzoU"
+    }
+  ],
+  "setting": [
+    {
+      "siteName": "BlinkBuy",
+      "map1": "",
+      "map2": "",
+      "address": "",
+      "email": "codework0112@gmail.com",
+      "phone": "9560703906",
+      "whatsapp": "9560703906",
+      "facebook": "",
+      "twitter": "",
+      "instagram": "",
+      "linkedin": "",
+      "youtube": "",
+      "id": "vpgedEtZNW0",
+      "privacyPolicy": "<p><strong>Last Updated: August 10, 2026</strong></p>\r\n\n\r\n<p>At <strong>BlinkBuy</strong>, your privacy is important to us. This Privacy Policy explains how we collect, use, store, and protect your information when you visit our website, create an account, browse products, place orders, or use any of our services.</p>\r\n\n\r\n<p>By using BlinkBuy, you agree to the practices described in this Privacy Policy.</p>\r\n\n\r\n<h2 id=\"1-information-we-collect\">1. Information We Collect</h2>\r\n\n\r\n<p>When you use our website, we may collect information that you provide directly to us, including:</p>\r\n\n\r\n<ul><li><p>Full name</p></li><li><p>Email address</p></li><li><p>Phone number</p></li><li><p>Billing and shipping address</p></li><li><p>Account login information</p></li><li><p>Order and purchase history</p></li><li><p>Product reviews and feedback</p></li><li><p>Information provided when contacting customer support</p></li></ul>\r\n\n\r\n<p>We may also automatically collect certain technical information, such as your IP address, browser type, device information, pages visited, and general website usage information.</p>\r\n\n\r\n<h2 id=\"2-how-we-use-your-information\">2. How We Use Your Information</h2>\r\n\n\r\n<p>BlinkBuy may use your information to:</p>\r\n\n\r\n<ul><li><p>Create and manage your account</p></li><li><p>Process and confirm your orders</p></li><li><p>Deliver products to your provided address</p></li><li><p>Process payments through available payment services</p></li><li><p>Provide customer support</p></li><li><p>Send order confirmations and delivery updates</p></li><li><p>Improve our website, products, and services</p></li><li><p>Prevent fraud, unauthorized access, and other misuse</p></li><li><p>Maintain website security</p></li><li><p>Comply with applicable legal requirements</p></li></ul>\r\n\n\r\n<p>We use your information only for legitimate business and service-related purposes.</p>\r\n\n\r\n<h2 id=\"3-payment-information\">3. Payment Information</h2>\r\n\n\r\n<p>When you make a payment through BlinkBuy, payment information may be processed by third-party payment providers. Depending on the payment method and service provider, BlinkBuy may not directly store your complete debit card, credit card, or banking credentials.</p>\r\n\n\r\n<p>Payment providers may have their own privacy policies and security practices. We recommend reviewing their policies before completing a transaction.</p>\r\n\n\r\n<h2 id=\"4-cookies\">4. Cookies</h2>\r\n\n\r\n<p>BlinkBuy may use cookies and similar technologies to improve your browsing experience.</p>\r\n\n\r\n<p>Cookies may help us:</p>\r\n\n\r\n<ul><li><p>Keep you logged into your account</p></li><li><p>Remember shopping preferences</p></li><li><p>Maintain your shopping cart</p></li><li><p>Understand how visitors use our website</p></li><li><p>Improve website performance and functionality</p></li></ul>\r\n\n\r\n<p>You can manage or disable cookies through your browser settings. However, disabling certain cookies may affect some website features.</p>\r\n\n\r\n<h2 id=\"5-how-we-share-your-information\">5. How We Share Your Information</h2>\r\n\n\r\n<p>BlinkBuy does not sell your personal information simply because you use our website.</p>\r\n\n\r\n<p>We may share necessary information with trusted service providers who help us operate our business, including:</p>\r\n\n\r\n<ul><li><p>Payment processing providers</p></li><li><p>Delivery and shipping partners</p></li><li><p>Website hosting providers</p></li><li><p>Technology and analytics providers</p></li><li><p>Customer support services</p></li></ul>\r\n\n\r\n<p>We may also disclose information when required by law or when necessary to protect BlinkBuy, our customers, or our services from fraud, security threats, or unauthorized activity.</p>\r\n\n\r\n<h2 id=\"6-data-security\">6. Data Security</h2>\r\n\n\r\n<p>We take reasonable steps to protect your personal information from unauthorized access, misuse, alteration, loss, or disclosure.</p>\r\n\n\r\n<p>However, no website, online service, or method of electronic transmission can be guaranteed to be completely secure. Therefore, while we work to protect your information, we cannot guarantee absolute security.</p>\r\n\n\r\n<h2 id=\"7-data-retention\">7. Data Retention</h2>\r\n\n\r\n<p>We retain personal information only for as long as reasonably necessary to provide our services, process transactions, maintain business records, resolve disputes, prevent fraud, and meet applicable legal requirements.</p>\r\n\n\r\n<p>When information is no longer required, we may securely delete or anonymize it where appropriate.</p>\r\n\n\r\n<h2 id=\"8-your-privacy-rights\">8. Your Privacy Rights</h2>\r\n\n\r\n<p>Depending on applicable law, you may have certain rights regarding your personal information.</p>\r\n\n\r\n<p>These may include the right to:</p>\r\n\n\r\n<ul><li><p>Request access to your personal information</p></li><li><p>Request correction of inaccurate information</p></li><li><p>Request deletion of certain information</p></li><li><p>Ask about how your information is being used</p></li><li><p>Withdraw certain permissions where applicable</p></li></ul>\r\n\n\r\n<p>To make a privacy-related request, please contact the BlinkBuy support team using the contact information available on our website.</p>\r\n\n\r\n<h2 id=\"9-third-party-links\">9. Third-Party Links</h2>\r\n\n\r\n<p>Our website may contain links to third-party websites, services, or payment platforms. These websites operate independently from BlinkBuy and may have their own privacy policies.</p>\r\n\n\r\n<p>BlinkBuy is not responsible for the privacy practices, content, or security of third-party websites. We recommend reading their privacy policies before providing them with personal information.</p>\r\n\n\r\n<h2 id=\"10-childrens-privacy\">10. Children's Privacy</h2>\r\n\n\r\n<p>BlinkBuy does not intentionally collect personal information from children in circumstances where such collection is prohibited by applicable law.</p>\r\n\n\r\n<p>If you believe that a child has provided personal information to us improperly, please contact us so that we can take appropriate action.</p>\r\n\n\r\n<h2 id=\"11-changes-to-this-privacy-policy\">11. Changes to This Privacy Policy</h2>\r\n\n\r\n<p>BlinkBuy may update this Privacy Policy from time to time to reflect changes in our services, technology, security practices, or applicable legal requirements.</p>\r\n\n\r\n<p>When we make changes, we will update the <strong>Last Updated</strong> date displayed at the top of this page. We encourage you to review this page periodically to stay informed about how we protect your information.</p>\r\n\n\r\n<h2 id=\"12-contact-us\">12. Contact Us</h2>\r\n\n\r\n<p>If you have questions, concerns, or requests regarding this Privacy Policy or the way BlinkBuy handles your information, please contact our customer support team through the contact details provided on our website.</p>\r\n\n\r\n<p><strong>Thank you for trusting BlinkBuy with your information.</strong></p>",
+      "termsAndConditions": "<p><strong>Last Updated: August 10, 2026</strong></p>\r\n\n\r\n<p>Welcome to <strong>BlinkBuy</strong>. By accessing or using the BlinkBuy website, you agree to comply with the following Terms &amp; Conditions. Please read these terms carefully before using our website or purchasing any product from us.</p>\r\n\n\r\n<h2 id=\"1-acceptance-of-terms\">1. Acceptance of Terms</h2>\r\n\n\r\n<p>By accessing, browsing, registering an account, or purchasing products through BlinkBuy, you acknowledge that you have read, understood, and agreed to these Terms &amp; Conditions. If you do not agree with any part of these terms, please discontinue using our website.</p>\r\n\n\r\n<h2 id=\"2-about-blinkbuy\">2. About BlinkBuy</h2>\r\n\n\r\n<p>BlinkBuy is an online shopping platform that allows customers to browse products, add items to their cart, place orders, make payments, and receive products at their selected delivery address.</p>\r\n\n\r\n<p>We continuously work to provide a simple, convenient, and reliable online shopping experience.</p>\r\n\n\r\n<h2 id=\"3-user-account\">3. User Account</h2>\r\n\n\r\n<p>Customers may create an account to access certain features of our website. You are responsible for providing accurate and updated information while creating your account.</p>\r\n\n\r\n<p>You are also responsible for keeping your account credentials, including your password, secure. Please notify BlinkBuy immediately if you believe your account has been accessed without authorization.</p>\r\n\n\r\n<h2 id=\"4-product-information\">4. Product Information</h2>\r\n\n\r\n<p>We make reasonable efforts to provide accurate product names, descriptions, images, specifications, prices, and availability.</p>\r\n\n\r\n<p>However, product colors, packaging, appearance, or other details may vary slightly from the images displayed on the website.</p>\r\n\n\r\n<p>BlinkBuy reserves the right to correct errors, update product information, change prices, or modify product availability at any time.</p>\r\n\n\r\n<h2 id=\"5-product-pricing\">5. Product Pricing</h2>\r\n\n\r\n<p>All product prices displayed on BlinkBuy are subject to change without prior notice.</p>\r\n\n\r\n<p>The final amount payable may include product prices, applicable taxes, delivery charges, discounts, or other applicable fees. The total amount will be displayed during checkout before the order is placed.</p>\r\n\n\r\n<h2 id=\"6-orders\">6. Orders</h2>\r\n\n\r\n<p>When you place an order through BlinkBuy, you agree to provide accurate delivery and contact information.</p>\r\n\n\r\n<p>After successfully placing an order, you may receive an order confirmation. BlinkBuy reserves the right to cancel an order in circumstances such as product unavailability, incorrect pricing, payment failure, technical errors, suspected fraudulent activity, or other legitimate reasons.</p>\r\n\n\r\n<p>If an order is cancelled after payment has been received, an eligible refund will be processed according to our Refund Policy.</p>\r\n\n\r\n<h2 id=\"7-payment\">7. Payment</h2>\r\n\n\r\n<p>BlinkBuy may provide multiple payment methods depending on availability.</p>\r\n\n\r\n<p>Customers agree to provide valid payment information when making a purchase. Payments may be processed through third-party payment providers. BlinkBuy is not responsible for delays or failures caused by external payment services.</p>\r\n\n\r\n<h2 id=\"8-shipping-and-delivery\">8. Shipping and Delivery</h2>\r\n\n\r\n<p>BlinkBuy aims to deliver products within the estimated delivery period displayed during checkout.</p>\r\n\n\r\n<p>Delivery times may vary depending on the customer's location, product availability, courier services, weather conditions, public holidays, or other circumstances beyond our reasonable control.</p>\r\n\n\r\n<p>Customers are responsible for providing a correct and complete delivery address.</p>\r\n\n\r\n<h2 id=\"9-cancellation-returns-and-refunds\">9. Cancellation, Returns and Refunds</h2>\r\n\n\r\n<p>Customers may be able to cancel an order depending on its current status.</p>\r\n\n\r\n<p>Returns, replacements, and refunds are subject to BlinkBuy's <strong>Refund &amp; Return Policy</strong>. Customers should review the applicable policy before requesting a return or refund.</p>\r\n\n\r\n<p>Certain products may have specific return conditions or may not be eligible for return due to their nature.</p>\r\n\n\r\n<h2 id=\"10-user-responsibilities\">10. User Responsibilities</h2>\r\n\n\r\n<p>Users agree not to:</p>\r\n\n\r\n<ul><li><p>Use BlinkBuy for unlawful or fraudulent activities.</p></li><li><p>Provide false or misleading information.</p></li><li><p>Create accounts using another person's identity.</p></li><li><p>Attempt to gain unauthorized access to our website or systems.</p></li><li><p>Interfere with website functionality or security.</p></li><li><p>Copy, reproduce, or misuse BlinkBuy content without permission.</p></li><li><p>Use automated systems to collect website data without authorization.</p></li></ul>\r\n\n\r\n<h2 id=\"11-intellectual-property\">11. Intellectual Property</h2>\r\n\n\r\n<p>All content available on BlinkBuy, including logos, brand names, designs, text, graphics, images, icons, software, and website layout, is owned by or licensed to BlinkBuy unless otherwise stated.</p>\r\n\n\r\n<p>You may not reproduce, distribute, modify, publish, or commercially use our content without prior written permission.</p>\r\n\n\r\n<h2 id=\"12-website-availability\">12. Website Availability</h2>\r\n\n\r\n<p>We aim to keep BlinkBuy available and functioning properly. However, we do not guarantee that the website will always operate without interruptions, errors, delays, or technical issues.</p>\r\n\n\r\n<p>The website may occasionally be unavailable due to maintenance, updates, technical problems, security issues, or circumstances beyond our control.</p>\r\n\n\r\n<h2 id=\"13-third-party-services\">13. Third-Party Services</h2>\r\n\n\r\n<p>BlinkBuy may use third-party services such as payment gateways, delivery partners, analytics services, hosting providers, or external links.</p>\r\n\n\r\n<p>Third-party services may have their own terms and privacy policies. BlinkBuy is not responsible for the policies, availability, or actions of independent third-party services.</p>\r\n\n\r\n<h2 id=\"14-limitation-of-liability\">14. Limitation of Liability</h2>\r\n\n\r\n<p>BlinkBuy will make reasonable efforts to provide accurate information and reliable services. However, to the extent permitted by applicable law, BlinkBuy shall not be responsible for losses resulting from website interruptions, delivery delays, third-party services, inaccurate information provided by customers, or circumstances outside our reasonable control.</p>\r\n\n\r\n<h2 id=\"15-account-suspension-or-termination\">15. Account Suspension or Termination</h2>\r\n\n\r\n<p>BlinkBuy reserves the right to suspend or terminate an account where we reasonably believe that the user has violated these Terms &amp; Conditions, engaged in fraudulent activity, misused our services, or created security or legal risks.</p>\r\n\n\r\n<h2 id=\"16-changes-to-terms\">16. Changes to Terms</h2>\r\n\n\r\n<p>BlinkBuy may update these Terms &amp; Conditions from time to time. Changes will be published on this page along with the updated date.</p>\r\n\n\r\n<p>By continuing to use BlinkBuy after changes are published, you acknowledge the updated terms.</p>\r\n\n\r\n<h2 id=\"17-contact-us\">17. Contact Us</h2>\r\n\n\r\n<p>If you have any questions, concerns, or complaints regarding these Terms &amp; Conditions, please contact the BlinkBuy support team through the contact information available on our website.</p>\r\n\n\r\n<p><strong>Thank you for choosing BlinkBuy.</strong></p>",
+      "refundPolicy": "<p><strong>Last Updated: August 10, 2026</strong></p>\r\n\n\r\n<p>At <strong>BlinkBuy</strong>, we want every customer to have a smooth and satisfying shopping experience. If you are not satisfied with your purchase or experience an issue with your order, you may be eligible for a return, replacement, or refund according to the conditions mentioned below.</p>\r\n\n\r\n<h2 id=\"1-refund-eligibility\">1. Refund Eligibility</h2>\r\n\n\r\n<p>A refund may be requested in the following situations:</p>\r\n\n\r\n<ul><li><p>You received a damaged or defective product.</p></li><li><p>You received the wrong product.</p></li><li><p>Your order is missing an item.</p></li><li><p>The product received does not match the product description in a significant way.</p></li><li><p>Your order was cancelled and payment was already completed.</p></li><li><p>A refund is otherwise required under applicable law.</p></li></ul>\r\n\n\r\n<p>Refund eligibility may vary depending on the product category, seller conditions, and reason for the request.</p>\r\n\n\r\n<h2 id=\"2-refund-request\">2. Refund Request</h2>\r\n\n\r\n<p>To request a refund, contact BlinkBuy customer support with your <strong>order number, registered contact information, reason for the refund, and relevant photographs or other supporting information</strong> when applicable.</p>\r\n\n\r\n<p>Refund requests should be submitted within the return or refund period displayed on the applicable product page or order details.</p>\r\n\n\r\n<h2 id=\"3-product-condition\">3. Product Condition</h2>\r\n\n\r\n<p>For eligible returns, products should generally be returned in their original condition with original packaging, tags, accessories, manuals, and other included items. Products that have been used, damaged after delivery, altered, or returned without required components may not qualify for a refund, subject to applicable law.</p>\r\n\n\r\n<h2 id=\"4-damaged-or-defective-products\">4. Damaged or Defective Products</h2>\r\n\n\r\n<p>If your product arrives damaged or defective, please contact us as soon as reasonably possible after delivery. We may request photographs or videos showing the condition of the product to help verify the issue.</p>\r\n\n\r\n<p>After verification, BlinkBuy may offer a replacement, repair, refund, or another appropriate resolution depending on the product and circumstances.</p>\r\n\n\r\n<h2 id=\"5-order-cancellation-refunds\">5. Order Cancellation Refunds</h2>\r\n\n\r\n<p>If an eligible order is cancelled after payment has been completed, BlinkBuy will initiate the applicable refund. Cancellation eligibility depends on the current status of the order. Orders that have already been shipped or delivered may need to follow the applicable return process instead.</p>\r\n\n\r\n<h2 id=\"6-refund-processing\">6. Refund Processing</h2>\r\n\n\r\n<p>Once your return is received and inspected, we will notify you regarding the approval or rejection of your refund request.</p>\r\n\n\r\n<p>If approved, the refund will be initiated through the applicable original payment method or another appropriate method where necessary. The time taken for the amount to appear in your account may vary depending on your bank, card issuer, payment gateway, or financial institution.</p>\r\n\n\r\n<h2 id=\"7-shipping-and-delivery-charges\">7. Shipping and Delivery Charges</h2>\r\n\n\r\n<p>Refunds for shipping or delivery charges depend on the reason for the return and applicable terms. Where the return is caused by a damaged, defective, incorrect, or missing product attributable to BlinkBuy or the applicable seller, eligible shipping charges may be considered for reimbursement.</p>\r\n\n\r\n<h2 id=\"8-non-refundable-products\">8. Non-Refundable Products</h2>\r\n\n\r\n<p>Certain products may not be eligible for return or refund because of their nature, hygiene requirements, customization, digital delivery, product condition, or other applicable restrictions. Any specific restrictions will be communicated on the relevant product page or during the purchasing process.</p>\r\n\n\r\n<h2 id=\"9-refunds-for-promotional-orders\">9. Refunds for Promotional Orders</h2>\r\n\n\r\n<p>If a product was purchased using a discount, coupon, promotional offer, cashback, or other special pricing arrangement, the refund amount may be calculated according to the terms of that particular offer.</p>\r\n\n\r\n<h2 id=\"10-fraudulent-or-abusive-refund-requests\">10. Fraudulent or Abusive Refund Requests</h2>\r\n\n\r\n<p>BlinkBuy reserves the right to investigate suspicious, fraudulent, or abusive refund activity. Where permitted by applicable law, we may restrict or reject refund requests associated with misuse of our refund policy.</p>\r\n\n\r\n<h2 id=\"11-contact-us\">11. Contact Us</h2>\r\n\n\r\n<p>If you have questions about a refund, return, replacement, or cancellation, please contact our customer support team through the <strong>Contact Us</strong> section of the BlinkBuy website.</p>\r\n\n\r\n<p>Please keep your order number and purchase details available so that we can assist you efficiently.</p>\r\n\n\r\n<p><strong>BlinkBuy</strong><br /><em>Making Online Shopping Simple, Convenient &amp; Reliable</em></p>"
+    }
+  ],
+  "cart": [
+    {
+      "user": "KEIErZEZOqo",
+      "product": "ysi6UbIIaOc",
+      "color": "Black",
+      "size": "26",
+      "quantity": 1,
+      "total": 1520,
+      "name": "Kids Jeans Cobb",
+      "brand": "Cobb",
+      "stockQuantity": 50,
+      "price": 1520,
+      "image": "product/p4.jpg",
+      "id": "csP87fUoNts"
+    }
+  ],
+  "wishlist": [
+    {
+      "user": "KEIErZEZOqo",
+      "product": "ysi6UbIIaOc",
+      "name": "Kids Jeans Cobb",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "26",
+        "28",
+        "30"
+      ],
+      "stockQuantity": 50,
+      "price": 1520,
+      "image": "product/p4.jpg",
+      "id": "JOgMp1vIDtM"
+    },
+    {
+      "user": "KEIErZEZOqo",
+      "product": "lLokbJijY9M",
+      "name": "Male Jeans Cobb",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "Blue"
+      ],
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stockQuantity": 50,
+      "price": 890,
+      "image": "product/p1.jpg",
+      "id": "kgFdB_U4HDU"
+    },
+    {
+      "user": "KEIErZEZOqo",
+      "product": "QyAePrKPiGc",
+      "name": "Male Jeans Slim Fit Mufti",
+      "brand": "Mufti",
+      "color": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "36",
+        "38",
+        "40",
+        "34",
+        "32"
+      ],
+      "stockQuantity": 89,
+      "price": 890,
+      "image": "product/p1.jpg",
+      "id": "gmXh8OUp7Bc"
+    },
+    {
+      "user": "KEIErZEZOqo",
+      "product": "11",
+      "name": "Female Tshirt Adidas",
+      "brand": "Adidas",
+      "color": [
+        "White",
+        "Blue",
+        "Black",
+        "Green",
+        "Red",
+        "Purple",
+        "Pink"
+      ],
+      "size": [
+        "xxxl",
+        "xxl",
+        "xl",
+        "lg",
+        "sm",
+        "md",
+        "xs"
+      ],
+      "stockQuantity": 50,
+      "price": 2475,
+      "image": "product/p8.jpg",
+      "id": "fZXX98OP-Ho"
+    },
+    {
+      "user": "KEIErZEZOqo",
+      "product": "a44f",
+      "name": "Female Jeans Mufti",
+      "brand": "Mufti",
+      "color": [
+        "White",
+        "Blue",
+        "Black"
+      ],
+      "size": [
+        "26",
+        "24",
+        "28",
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stockQuantity": 16,
+      "price": 789,
+      "image": "product/p12.jpg",
+      "id": "x1A1ifHkIiw"
+    },
+    {
+      "user": "KEIErZEZOqo",
+      "product": "zGYA1vADWiA",
+      "name": "Female Jeanse Regular Fir Cobb",
+      "brand": "Cobb",
+      "color": [
+        "Black",
+        "White",
+        "Blue"
+      ],
+      "size": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "stockQuantity": 90,
+      "price": 746,
+      "image": "product/p6.jpg",
+      "id": "cAJLkhNz2eQ"
+    }
+  ],
+  "checkout": [],
+  "newsletter": [],
+  "testimonial": [],
+  "contactus": [],
+  "user": [
+    {
+      "name": "Anish Kumar",
+      "username": "anshu02",
+      "email": "anshu01@gmail.com",
+      "phone": "9939442697",
+      "password": "Anshu@01",
+      "role": "Buyer",
+      "status": true,
+      "id": "KEIErZEZOqo"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
