@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TextValidator from '../../Validators/TextValidator'
+import { toast } from 'react-toastify';
+
 
 export default function UpdateProfile({ setSearchParams }) {
   let [data, setData] = useState({
@@ -23,61 +25,121 @@ export default function UpdateProfile({ setSearchParams }) {
   }
 
   async function postData(e) {
-    e.preventDefault()
-    let error = Object.values(errorMessage).find(x => x !== "")
+    e.preventDefault();
+
+    let error = Object.values(errorMessage).find((x) => x !== "");
+
+    // Validation error
     if (error) {
-      setShow(true)
+      setShow(true);
       return;
     }
-    else {
-      var response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/user`)
-      response = await response.json()
-      let item = response.find(x => x.id !== data.id && (x.username.toLocaleLowerCase() === data.username.toLocaleLowerCase() ||
-        x.email.toLocaleLowerCase() === data.email.toLocaleLowerCase()))
+
+    try {
+      // Check existing users
+      let response = await fetch(
+        `${import.meta.env.VITE_APP_BACKEND_SERVER}/user`
+      );
+
+      response = await response.json();
+
+      let item = response.find(
+        (x) =>
+          x.id !== data.id &&
+          (x.username.toLowerCase() === data.username.toLowerCase() ||
+            x.email.toLowerCase() === data.email.toLowerCase())
+      );
+
+      // Username/email already exists
       if (item) {
-        setShow(true)
+        setShow(true);
+
         setErrorMessage({
           ...errorMessage,
-          username: item.username.toLocaleLowerCase() === data.username.toLocaleLowerCase() ? "Username Already Taken" : "",
-          email: item.email.toLocaleLowerCase() === data.email.toLocaleLowerCase() ? "Email Already Exists" : " "
-        })
-        return
+          username:
+            item.username.toLowerCase() ===
+              data.username.toLowerCase()
+              ? "Username Already Taken"
+              : "",
+          email:
+            item.email.toLowerCase() === data.email.toLowerCase()
+              ? "Email Already Exists"
+              : "",
+        });
 
+        return;
       }
-      //Make Sure Remove Above Line In case of Real Backend.
 
-      var response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/user/${data.id}`, {
-        method: "PUT",
-        headers: {
-          "content-type": "application/json"
-        },
-        body: JSON.stringify({ ...data })
-      })
-      response = await response.json()   //use the below line in future real backend. 
-      setSearchParams({ option: "Profile" })
+      // Update user
+      response = await fetch(
+        `${import.meta.env.VITE_APP_BACKEND_SERVER}/user/${data.id}`,
+        {
+          method: "PUT",
+          headers: {
+            "content-type": "application/json",
+          },
+          body: JSON.stringify({
+            ...data,
+          }),
+        }
+      );
+
+      response = await response.json();
+
+      // SUCCESS TOAST
+      toast.success("Profile Updated Successfully!", {
+        className: "custom-success-toast"
+      });
+
+      // Navigate after showing toast
+      setSearchParams({ option: "Profile" });
+    } catch (error) {
+      console.error(error);
+
+      toast.error("Something Went Wrong!", {
+        className: "custom-error-toast",
+      });
     }
   }
 
   useEffect(() => {
     (async () => {
-      let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/user/${localStorage.getItem("userid")}`, {
-        method: "GET",
-        headers: {
-          "content-type": "application/json"
+      try {
+        let response = await fetch(
+          `${import.meta.env.VITE_APP_BACKEND_SERVER}/user/${localStorage.getItem(
+            "userid"
+          )}`,
+          {
+            method: "GET",
+            headers: {
+              "content-type": "application/json",
+            },
+          }
+        );
+
+        response = await response.json();
+
+        if (response) {
+          setData({
+            ...data, ...response,
+          });
+        } else {
+          toast.error("Something Went Wrong!", {
+            className: "custom-error-toast",
+          });
         }
-      })
-      response = await response.json()
-      if (response) {
-        setData({ ...data, ...response })
+      } catch (error) {
+        console.error(error);
+        toast.error("Something Went Wrong!", {
+          className: "custom-error-toast",
+        });
       }
-      else {
-        alert("Something Went Wrong")
-      }
-    })()
-  }, [])
+    })();
+  }, []);
 
   return (
     <>
+
       <form onSubmit={postData} autoComplete="off">
         <div className="row">
           <div className="col-md-6 mb-3">

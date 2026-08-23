@@ -27,11 +27,11 @@ export default function ProfilePage() {
                 <div className="row">
                     <div className="col-md-3">
                         <ul className="list-group">
-                            <li className={`list-group-item ${option === "Profile" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Profile" })}>Profile</li>
-                            <li className={`list-group-item ${option === "Update Profile" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Update Profile" })}>Update Profile</li>
-                            <li className={`list-group-item ${option === "WishList" ? "active" : ''}`} onClick={() => setSearchParams({ option: "WishList" })}>WishList</li>
-                            <li className={`list-group-item ${option === "Orders" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Orders" })}>Order</li>
-                            <li className={`list-group-item ${option === "Address" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Address" })}>Address</li>
+                            <li className={`list-group-item ${option === "Profile" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Profile" })}>Profile <i className='bi bi-person float-end'></i></li>
+                            <li className={`list-group-item ${option === "Update Profile" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Update Profile" })}>Update Profile <i className='bi bi-pencil float-end'></i></li>
+                            <li className={`list-group-item ${option === "WishList" ? "active" : ''}`} onClick={() => setSearchParams({ option: "WishList" })}>WishList <i className='bi bi-heart float-end'></i></li>
+                            <li className={`list-group-item ${option === "Orders" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Orders" })}>Order <i className="bi bi-bag-check float-end"></i></li>
+                            <li className={`list-group-item ${option === "Address" ? "active" : ''}`} onClick={() => setSearchParams({ option: "Address" })}>Address <i className="bi bi-house float-end"></i></li>
                         </ul>
                     </div>
                     <div className="col-md-9">

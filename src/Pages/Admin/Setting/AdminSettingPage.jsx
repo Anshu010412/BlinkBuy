@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from "react-toastify";
 
 import RichTextEditor from '../../../Rte/RichTextEditor';   //these line is for rich text editor
 import { createStructuredContent } from '../../../Rte/richTextEditorBridge';   //these line is for rich text editor
@@ -55,7 +55,9 @@ export default function AdminSettingPage() {
     else
       dispatch(createSetting({ ...item }))
 
-    toast("Setting Data Has Been Updated!!!");
+    toast.success("Setting Data Has Been Updated!", {
+      className: "custom-success-toast",
+    });
   }
 
   //these two function is for rich text editor
@@ -90,8 +92,6 @@ export default function AdminSettingPage() {
 
   return (
     <>
-      <ToastContainer />
-
       <div className="container-fluid my-3">
         <div className="row">
           <div className="col-lg-3">

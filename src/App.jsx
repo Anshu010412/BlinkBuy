@@ -1,5 +1,9 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import HomePage from "./Pages/HomePage";
@@ -50,65 +54,73 @@ import CheckOutPage from "./Pages/User/CheckOutPage.jsx";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
-        {/* navbar routes */}
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/feature" element={<FeaturePage />} />
-        <Route path="/shop" element={<ShopPage />} />
-        <Route path="/faq" element={<FaqPage />} />
-        <Route path="/product/:id" element={<ProductPage />} />
-        <Route path="/testimonial" element={<TestimonialPage />} />
-        <Route path="/contact" element={<ContactPage />} />
+    <>
+      <ToastContainer
+        position="top-right"
+        autoClose={3000}
+        closeOnClick
+        pauseOnHover
+      />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          {/* navbar routes */}
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/feature" element={<FeaturePage />} />
+          <Route path="/shop" element={<ShopPage />} />
+          <Route path="/faq" element={<FaqPage />} />
+          <Route path="/product/:id" element={<ProductPage />} />
+          <Route path="/testimonial" element={<TestimonialPage />} />
+          <Route path="/contact" element={<ContactPage />} />
 
-        {/* policy routes */}
-        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-        <Route path="/termcondition-policy" element={<TermsAndCondition />} />
-        <Route path="/refund-policy" element={<RefundPolicy />} />
+          {/* policy routes */}
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/termcondition-policy" element={<TermsAndCondition />} />
+          <Route path="/refund-policy" element={<RefundPolicy />} />
 
-        {/* Admin Routes */}
-        <Route path="/admin" element={<AdminHomePage />} />
-        <Route path="/admin/maincategory" element={<AdminMaincategoryPage />} />
-        <Route path="/admin/maincategory/create" element={<AdminCreateMaincategoryPage />} />
-        <Route path="/admin/maincategory/update/:id" element={<AdminUpdateMaincategoryPage />} />
+          {/* Admin Routes */}
+          <Route path="/admin" element={<AdminHomePage />} />
+          <Route path="/admin/maincategory" element={<AdminMaincategoryPage />} />
+          <Route path="/admin/maincategory/create" element={<AdminCreateMaincategoryPage />} />
+          <Route path="/admin/maincategory/update/:id" element={<AdminUpdateMaincategoryPage />} />
 
-        <Route path="/admin/subcategory" element={<AdminSubcategoryPage />} />
-        <Route path="/admin/subcategory/create" element={<AdminCreateSubcategoryPage />} />
-        <Route path="/admin/subcategory/update/:id" element={<AdminUpdateSubcategoryPage />} />
+          <Route path="/admin/subcategory" element={<AdminSubcategoryPage />} />
+          <Route path="/admin/subcategory/create" element={<AdminCreateSubcategoryPage />} />
+          <Route path="/admin/subcategory/update/:id" element={<AdminUpdateSubcategoryPage />} />
 
-        <Route path="/admin/brand" element={<AdminBrandPage />} />
-        <Route path="/admin/brand/create" element={<AdminCreateBrandPage />} />
-        <Route path="/admin/brand/update/:id" element={<AdminUpdateBrandPage />} />
+          <Route path="/admin/brand" element={<AdminBrandPage />} />
+          <Route path="/admin/brand/create" element={<AdminCreateBrandPage />} />
+          <Route path="/admin/brand/update/:id" element={<AdminUpdateBrandPage />} />
 
-        <Route path="/admin/product" element={<AdminProductPage />} />
-        <Route path="/admin/product/create" element={<AdminCreateProductPage />} />
-        <Route path="/admin/product/update/:id" element={<AdminUpdateProductPage />} />
+          <Route path="/admin/product" element={<AdminProductPage />} />
+          <Route path="/admin/product/create" element={<AdminCreateProductPage />} />
+          <Route path="/admin/product/update/:id" element={<AdminUpdateProductPage />} />
 
-        <Route path="/admin/features" element={<AdminFeaturesPage />} />
-        <Route path="/admin/features/create" element={<AdminCreateFeaturesPage />} />
-        <Route path="/admin/features/update/:id" element={<AdminUpdateFeaturesPage />} />
+          <Route path="/admin/features" element={<AdminFeaturesPage />} />
+          <Route path="/admin/features/create" element={<AdminCreateFeaturesPage />} />
+          <Route path="/admin/features/update/:id" element={<AdminUpdateFeaturesPage />} />
 
-        <Route path="/admin/faq" element={<AdminFaqPage />} />
-        <Route path="/admin/faq/create" element={<AdminCreateFaqPage />} />
-        <Route path="/admin/faq/update/:id" element={<AdminUpdateFaqPage />} />
+          <Route path="/admin/faq" element={<AdminFaqPage />} />
+          <Route path="/admin/faq/create" element={<AdminCreateFaqPage />} />
+          <Route path="/admin/faq/update/:id" element={<AdminUpdateFaqPage />} />
 
-        <Route path="/admin/setting" element={<AdminSettingPage />} />
+          <Route path="/admin/setting" element={<AdminSettingPage />} />
 
-        {/*User Login,signup Route*/}
-        <Route path="/signup" element={<SignUpPage />} />
-        <Route path="/login" element={<LoginPage />} />
+          {/*User Login,signup Route*/}
+          <Route path="/signup" element={<SignUpPage />} />
+          <Route path="/login" element={<LoginPage />} />
 
-        {/*Buyer Routes */}
-        <Route path="/profile" element={<ProfilePage />} />
-        <Route path="/cart" element={<CartPage />} />
-        <Route path="/checkout" element={<CheckOutPage />} />
+          {/*Buyer Routes */}
+          <Route path="/profile" element={<ProfilePage />} />
+          <Route path="/cart" element={<CartPage />} />
+          <Route path="/checkout" element={<CheckOutPage />} />
 
-        {/* Error page route */}
-        <Route path="/*" element={<ErrorPage />} />
-      </Routes>
-      <Footer />
-    </BrowserRouter>
+          {/* Error page route */}
+          <Route path="/*" element={<ErrorPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    </>
   );
 }
