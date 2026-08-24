@@ -53,6 +53,9 @@ export default function CartPage() {
 
     function updateRecord(id, option) {
         let item = data.find(x => x.id === id)
+
+        if (!item) return
+
         if ((option === "Dec" && item.quantity === 1) || (option === "Inc" && item.stockQuantity === item.quantity))
             return
         if (option === "Dec") {
@@ -141,7 +144,10 @@ export default function CartPage() {
                                                     {item.brand}
                                                 </div>
                                             </td>
-                                            <td>{item.stockQuantity ? `${item.stockQuantity} Left in Stock` : "Out Of Stock"}</td>
+                                            <td>{item.stockQuantity - item.quantity > 0
+                                                ? `${item.stockQuantity - item.quantity} Left in Stock`
+                                                : "Out Of Stock"
+                                            }</td>
                                             <td>&#8377;{item.price}</td>
                                             <td>
                                                 <div style={{ width: 130 }}>

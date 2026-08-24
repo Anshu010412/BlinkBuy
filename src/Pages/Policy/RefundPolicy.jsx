@@ -29,7 +29,7 @@ export default function RefundPolicy() {
   return (
     <>
       <BreadCrum title="Refund-Policy" />
-      <div className="container-fluid my-3">
+      <div className="container my-3">
         <div dangerouslySetInnerHTML={{ __html: settingData.refundPolicy }} />
       </div >
     </>

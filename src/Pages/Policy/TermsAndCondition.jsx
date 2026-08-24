@@ -29,7 +29,7 @@ export default function TermsAndCondition() {
   return (
     <>
       <BreadCrum title="Term And Condition" />
-      <div className="container-fluid my-3">
+      <div className="container my-3">
         <div dangerouslySetInnerHTML={{ __html: settingData.termsAndConditions }} />
       </div >
     </>

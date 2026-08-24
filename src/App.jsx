@@ -50,6 +50,7 @@ import LoginPage from './Pages/User/LoginPage.jsx'
 import ProfilePage from "./Pages/User/ProfilePage.jsx";
 import CartPage from "./Pages/User/CartPage.jsx";
 import CheckOutPage from "./Pages/User/CheckOutPage.jsx";
+import OrderConfirmationPage from "./Pages/User/OrderConfirmationPage.jsx";
 
 
 export default function App() {
@@ -115,6 +116,7 @@ export default function App() {
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/checkout" element={<CheckOutPage />} />
+          <Route path="/order-confirmation" element={<OrderConfirmationPage />} />
 
           {/* Error page route */}
           <Route path="/*" element={<ErrorPage />} />
