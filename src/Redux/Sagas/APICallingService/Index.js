@@ -1,13 +1,17 @@
 //if form data does not contain any files  fields
 export async function createRecord(collection, payload) {
     try {
-        let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}`, {
-            method: "POST",
-            headers: {
-                "Content-type": "application.json"
-            },
-            body: JSON.stringify(payload)
-        })
+        let response = await fetch(
+            `${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}`,
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(payload)
+            }
+        )
+
         response = await response.json()
         return response
     } catch (error) {
@@ -55,7 +59,7 @@ export async function updateRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}/${payload.id}`, {
             method: "PUT",
             headers: {
-                "Content-type": "application.json"
+                "Content-type": "application/json"
             },
             body: JSON.stringify(payload)
         })
@@ -73,7 +77,7 @@ export async function updateMultipartRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}/${payload.get("id")}`, {
             method: "PUT",
             headers: {
-                "Content-type": "application.json"
+                "Content-type": "application/json"
             },
             body: payload
         })
@@ -91,7 +95,7 @@ export async function deleteRecord(collection, payload) {
         let response = await fetch(`${import.meta.env.VITE_APP_BACKEND_SERVER}/${collection}/${payload.id}`, {
             method: "DELETE",
             headers: {
-                "Content-type": "application.json"
+                "Content-type": "application/json"
             }
         })
         response = await response.json()

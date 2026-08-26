@@ -45,12 +45,19 @@ import AdminUpdateFaqPage from "./Pages/Admin/Faq/AdminUpdateFaqPage.jsx";
 
 import AdminSettingPage from "./Pages/Admin/Setting/AdminSettingPage.jsx";
 
+import AdminNewsLetterPage from "./Pages/Admin/NewsLetter/AdminNewsLetterPage.jsx";
+
 import SignUpPage from './Pages/User/SignUpPage.jsx'
 import LoginPage from './Pages/User/LoginPage.jsx'
 import ProfilePage from "./Pages/User/ProfilePage.jsx";
 import CartPage from "./Pages/User/CartPage.jsx";
 import CheckOutPage from "./Pages/User/CheckOutPage.jsx";
 import OrderConfirmationPage from "./Pages/User/OrderConfirmationPage.jsx";
+import AdminContact_UsPage from "./Pages/Admin/Contact_Us/AdminContact_UsPage.jsx";
+import AdminContact_UsShowPage from "./Pages/Admin/Contact_Us/AdminContact_UsShowPage.jsx";
+import AdminCheckOutPage from "./Pages/Admin/CheckOut/AdminCheckOutPage.jsx";
+import AdminCheckOutShowPage from "./Pages/Admin/CheckOut/AdminCheckOutShowPage.jsx";
+
 
 
 export default function App() {
@@ -107,6 +114,14 @@ export default function App() {
           <Route path="/admin/faq/update/:id" element={<AdminUpdateFaqPage />} />
 
           <Route path="/admin/setting" element={<AdminSettingPage />} />
+
+          <Route path="/admin/newsletter" element={<AdminNewsLetterPage />} />
+
+          <Route path="/admin/contact_us" element={<AdminContact_UsPage />} />
+          <Route path="/admin/contact_us/show/:id" element={<AdminContact_UsShowPage />} />
+
+          <Route path="/admin/checkout" element={<AdminCheckOutPage />} />
+          <Route path="/admin/checkout/show/:id" element={<AdminCheckOutShowPage />} />
 
           {/*User Login,signup Route*/}
           <Route path="/signup" element={<SignUpPage />} />
