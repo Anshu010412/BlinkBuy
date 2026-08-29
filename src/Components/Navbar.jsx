@@ -3,6 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { useSelector, useDispatch } from 'react-redux'
 
 import { getSetting } from '../Redux/ActionCreators/SettingActionCreator'
+import { toast } from 'react-toastify'
 
 export default function Navbar() {
     let [settingData, setSettingData] = useState({
@@ -27,6 +28,7 @@ export default function Navbar() {
     function logout() {
         localStorage.clear()
         navigate("/login")
+        toast.success("Logout Successfully")
     }
 
     useEffect(() => {
@@ -81,7 +83,6 @@ export default function Navbar() {
                                 <NavLink to="/feature" className="nav-item nav-link">Features</NavLink>
                                 <NavLink to="/faq" className="nav-item nav-link">Faq</NavLink>
                                 <NavLink to="/testimonial" className="nav-item nav-link">Testimonial</NavLink>
-                                <NavLink to="/admin" className="nav-item nav-link">Admin</NavLink>
                                 <NavLink to="/contact" className="nav-item nav-link">Contact-Us</NavLink>
 
                                 {localStorage.getItem("login") ?

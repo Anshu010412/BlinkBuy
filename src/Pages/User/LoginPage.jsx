@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import Breadcrum from '../../Components/Breadcrum'
+import Breadcrum from '../../Components/BreadCrum'
+import { toast } from 'react-toastify'
 
 export default function LoginPage() {
   let [data, setData] = useState({
@@ -34,9 +35,10 @@ export default function LoginPage() {
           localStorage.setItem("name", item.name)
           localStorage.setItem("userid", item.id)
           localStorage.setItem("role", item.role)
-
-          if (item.role === "Buyer")
+          if (item.role === "Buyer") {
             navigate("/profile")
+            toast.success("Logged In")
+          }
           else
             navigate("/admin")
         }

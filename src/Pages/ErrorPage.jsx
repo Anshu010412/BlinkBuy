@@ -1,8 +1,26 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BreadCrum from '../Components/BreadCrum'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 export default function ErrorPage() {
+  let navigate = useNavigate()
+
+  useEffect(() => {
+    (() => {
+      setTimeout(() => {
+        if (localStorage.getItem("login")) {
+          if (window.location.pathname === "/profile") {
+            navigate(0)
+          }
+          else if (window.location.pathname === "/admin" && localStorage.getItem("role") != "Buyer") {
+            navigate(0)
+          }
+        }
+      }, 500)
+    })()
+  }, [])
+
+
   return (
     <>
       <BreadCrum title="Error 404!" />
